@@ -2,8 +2,60 @@
   "metadata": {
     "version": "1.0",
     "created": "2024-12-21",
-    "last_updated": null,
+    "last_updated": "2025-12-29",
     "status": "in_progress"
   },
-  "pillars": []
+  "pillars": [
+    {
+      "id": "1",
+      "title": "Clinical Science and Perioperative Care",
+      "definition": "All bedside knowledge and actions directly involved in assessing patients, delivering anesthesia, managing airways, providing sedation, regional, postoperative care, and responding to emergencies.",
+      "inclusion_tests": [
+        "Is this about science, physiology, pharmacology, or patient care decisions?",
+        "Is this something a clinician does to or for the patient?",
+        "Is this about airways, ventilation, hemodynamics, drug administration, or special populations?"
+      ],
+      "exclusion_tests": [
+        "Workforce models, compensation, scope laws, hospital politics, wellbeing → Other Pillars",
+        "Role definitions, scope boundaries, training requirements → Pillar 2",
+        "Systems, equipment maintenance, OR operations, IT, infrastructure → Pillar 3",
+        "Legal requirements, compliance, malpractice, regulation → Pillar 4",
+        "Compensation mechanics, billing, contracts, subsidies, economics → Pillar 5",
+        "Education science, research methods, evidence generation → Pillar 6",
+        "Career paths, leadership, job markets, workforce dynamics → Pillar 7",
+        "Wellbeing, burnout, identity as lived experience, culture → Pillar 8"
+      ],
+      "sub_pillars": [
+        {
+          "id": "1.1",
+          "title": "Foundational Sciences for Anesthesia Practice",
+          "definition": "The scientific foundation underpinning all clinical anesthesia practice, including human physiology and pathophysiology, pharmacology and pharmacokinetics, applied anatomy, and the chemistry and physics relevant to anesthesia delivery. This sub-pillar encompasses the basic science knowledge required for understanding drug behavior, physiologic responses, and disease processes that inform clinical decision-making.",
+          "branches": []
+        },
+        {
+          "id": "1.2",
+          "title": "Clinical Equipment, Monitoring, and Technology",
+          "definition": "The clinical application, operation, and interpretation of anesthesia delivery systems, patient monitoring devices, airway equipment, and point-of-care technology at the bedside. This sub-pillar covers equipment use, troubleshooting, and output interpretation—distinct from procurement, maintenance, and IT infrastructure (Pillar 3).",
+          "branches": []
+        },
+        {
+          "id": "1.3",
+          "title": "Perioperative Care and Anesthesia Techniques",
+          "definition": "The continuum of patient care from preoperative assessment through intraoperative management to postoperative recovery, encompassing all anesthesia delivery methods and modalities. Includes general anesthesia, regional anesthesia, monitored anesthesia care, airway management, enhanced recovery protocols, multimodal analgesia, patient safety practices, and crisis management.",
+          "branches": []
+        },
+        {
+          "id": "1.4",
+          "title": "Specialty Anesthesia and Special Populations",
+          "definition": "Population-specific and procedure-specific anesthesia care requiring specialized knowledge beyond general principles. Covers pediatric, obstetric, cardiac, neuroanesthesia, geriatric, trauma, and other subspecialty domains, as well as distinct care environments including ambulatory surgery centers and non-operating room anesthesia (NORA) locations.",
+          "branches": []
+        }
+      ],
+      "statistics": {
+        "sub_pillars": 4,
+        "branches": 0,
+        "topic_domains": 0
+      }
+    }
+  ]
 }

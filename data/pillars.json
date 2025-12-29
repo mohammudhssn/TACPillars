@@ -258,35 +258,190 @@
               "title": "Anesthesia Delivery Systems",
               "definition": "Clinical operation, function checking, and troubleshooting of anesthesia machines, vaporizers, breathing circuits, and mechanical ventilators. Encompasses the practical knowledge required to safely deliver anesthetic gases and provide ventilatory support.",
               "lens": "Mastering the primary tools of anesthetic gas and ventilation delivery",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.2.1-1",
+                  "title": "Anesthesia Machine Components and Function",
+                  "definition": "Gas supply systems, flowmeters, pressure regulators, fail-safe mechanisms, and integrated workstation components. Understanding how the anesthesia machine receives, processes, and delivers fresh gas to the patient."
+                },
+                {
+                  "id": "1.2.1-2",
+                  "title": "Breathing Circuits and Gas Delivery",
+                  "definition": "Circle system design, carbon dioxide absorption, Mapleson circuits, and fresh gas flow requirements. Clinical selection and operation of circuits for different patient populations and clinical scenarios."
+                },
+                {
+                  "id": "1.2.1-3",
+                  "title": "Vaporizer Operation and Clinical Use",
+                  "definition": "Variable bypass and measured flow vaporizer operation, filling procedures, agent-specific considerations, and troubleshooting. Safe clinical use of modern vaporizers including desflurane heating systems."
+                },
+                {
+                  "id": "1.2.1-4",
+                  "title": "Mechanical Ventilation Modes and Settings",
+                  "definition": "Volume-controlled, pressure-controlled, and pressure-support ventilation modes available on anesthesia machines. Setting tidal volume, respiratory rate, PEEP, I:E ratio, and interpreting ventilator graphics."
+                },
+                {
+                  "id": "1.2.1-5",
+                  "title": "Machine Checkout and Safety Systems",
+                  "definition": "Pre-use checkout procedures, automated self-tests, leak testing, and verification of backup systems. Understanding oxygen failure protection, hypoxic guard systems, and pipeline-cylinder crossover."
+                },
+                {
+                  "id": "1.2.1-6",
+                  "title": "Waste Gas Scavenging and Low-Flow Techniques",
+                  "definition": "Scavenging system components, occupational exposure limits, and environmental considerations. Clinical application of low-flow and minimal-flow anesthesia techniques for efficiency and reduced pollution."
+                }
+              ]
             },
             {
               "id": "1.2.2",
               "title": "Physiologic Monitoring and Waveform Interpretation",
               "definition": "Standard ASA monitors including pulse oximetry, capnography, ECG, and non-invasive blood pressure, plus waveform analysis, artifact recognition, and alarm management. The foundation of continuous patient assessment during anesthesia.",
               "lens": "Continuous vigilance through monitoring data interpretation",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.2.2-1",
+                  "title": "Pulse Oximetry Technology and Limitations",
+                  "definition": "Principles of spectrophotometric oxygen saturation measurement, probe placement, motion artifact, and conditions affecting accuracy. Recognizing limitations including dyshemoglobinemias, low perfusion, and nail polish interference."
+                },
+                {
+                  "id": "1.2.2-2",
+                  "title": "Capnography and Waveform Analysis",
+                  "definition": "End-tidal CO2 measurement principles, normal and abnormal capnogram morphology, and clinical interpretation. Using capnography for ventilation assessment, circuit integrity, and early detection of clinical changes."
+                },
+                {
+                  "id": "1.2.2-3",
+                  "title": "Electrocardiographic Monitoring",
+                  "definition": "Lead placement, rhythm recognition, ST-segment monitoring, and artifact identification during anesthesia. Detecting ischemia, arrhythmias, and electrolyte abnormalities through continuous ECG surveillance."
+                },
+                {
+                  "id": "1.2.2-4",
+                  "title": "Non-Invasive Blood Pressure Monitoring",
+                  "definition": "Oscillometric measurement principles, cuff sizing, measurement intervals, and sources of error. Understanding limitations in hypotension, arrhythmias, and when to transition to invasive monitoring."
+                },
+                {
+                  "id": "1.2.2-5",
+                  "title": "Temperature Monitoring Methods",
+                  "definition": "Core versus peripheral temperature measurement sites, probe types, and accuracy considerations. Clinical selection of monitoring sites for different procedures and patient populations."
+                },
+                {
+                  "id": "1.2.2-6",
+                  "title": "Depth of Anesthesia Monitoring",
+                  "definition": "Processed EEG technologies including BIS, entropy, and patient state index. Clinical application for titrating anesthetics, reducing awareness risk, and optimizing emergence."
+                },
+                {
+                  "id": "1.2.2-7",
+                  "title": "Alarm Management and Clinical Integration",
+                  "definition": "Setting appropriate alarm limits, managing alarm fatigue, and prioritizing responses to multiple alarms. Integrating multiparameter data for comprehensive patient assessment."
+                }
+              ]
             },
             {
               "id": "1.2.3",
               "title": "Advanced Hemodynamic and Neuromuscular Monitoring",
               "definition": "Invasive pressure monitoring, cardiac output measurement, quantitative neuromuscular blockade assessment, and advanced physiologic parameters. Extends beyond standard monitoring for complex cases requiring precise hemodynamic or paralysis management.",
               "lens": "Precision monitoring for high-acuity patient management",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.2.3-1",
+                  "title": "Arterial Line Monitoring and Waveform Analysis",
+                  "definition": "Arterial catheter placement indications, transducer setup, zeroing and leveling, and waveform interpretation. Recognizing overdamping, underdamping, and pathologic waveform variations."
+                },
+                {
+                  "id": "1.2.3-2",
+                  "title": "Central Venous Pressure Monitoring",
+                  "definition": "Central venous catheter placement for pressure monitoring, waveform components, and clinical interpretation. Understanding CVP limitations and appropriate clinical applications."
+                },
+                {
+                  "id": "1.2.3-3",
+                  "title": "Cardiac Output Monitoring Technologies",
+                  "definition": "Thermodilution, pulse contour analysis, esophageal Doppler, and non-invasive cardiac output methods. Selecting appropriate technology and interpreting results for goal-directed therapy."
+                },
+                {
+                  "id": "1.2.3-4",
+                  "title": "Dynamic Fluid Responsiveness Parameters",
+                  "definition": "Stroke volume variation, pulse pressure variation, and passive leg raise testing. Using dynamic parameters to guide fluid resuscitation and predict volume responsiveness."
+                },
+                {
+                  "id": "1.2.3-5",
+                  "title": "Quantitative Neuromuscular Monitoring",
+                  "definition": "Train-of-four monitoring, post-tetanic count, acceleromyography and electromyography devices. Meeting current guidelines for objective neuromuscular assessment before extubation (TOF ratio ≥0.9)."
+                },
+                {
+                  "id": "1.2.3-6",
+                  "title": "Transesophageal Echocardiography Basics",
+                  "definition": "Basic TEE probe insertion, standard views, and fundamental assessments for the non-cardiologist. Using TEE for intraoperative volume assessment, ventricular function, and valve evaluation."
+                }
+              ]
             },
             {
               "id": "1.2.4",
               "title": "Airway Management Equipment",
               "definition": "Direct and video laryngoscopes, supraglottic airways, endotracheal tubes, difficult airway adjuncts, and rescue devices. Clinical selection, use, and troubleshooting of the tools required for airway control.",
               "lens": "Equipment mastery for airway security across all scenarios",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.2.4-1",
+                  "title": "Direct Laryngoscopy Equipment",
+                  "definition": "Macintosh and Miller blade designs, handle types, sizing considerations, and optimization techniques. Proper assembly, light verification, and troubleshooting of direct laryngoscopy equipment."
+                },
+                {
+                  "id": "1.2.4-2",
+                  "title": "Video Laryngoscopy Systems",
+                  "definition": "Channeled versus non-channeled video laryngoscopes, device-specific techniques, and clinical selection. GlideScope, C-MAC, McGrath, and other platforms with their advantages and limitations."
+                },
+                {
+                  "id": "1.2.4-3",
+                  "title": "Supraglottic Airway Devices",
+                  "definition": "LMA designs (classic, ProSeal, Supreme, i-gel), sizing, insertion techniques, and clinical applications. Understanding seal pressures, gastric access, and appropriate patient selection."
+                },
+                {
+                  "id": "1.2.4-4",
+                  "title": "Endotracheal Tubes and Specialty Airways",
+                  "definition": "Standard ETT design, cuff management, sizing for adults and children, and specialty tubes (RAE, reinforced, double-lumen, laser-safe). Selection and management for specific surgical requirements."
+                },
+                {
+                  "id": "1.2.4-5",
+                  "title": "Difficult Airway Adjuncts and Rescue Devices",
+                  "definition": "Bougies, stylets, airway exchange catheters, and optical stylets. Equipment for cannot-intubate-cannot-oxygenate scenarios including cricothyrotomy kits and jet ventilation systems."
+                },
+                {
+                  "id": "1.2.4-6",
+                  "title": "Flexible Bronchoscopy Equipment",
+                  "definition": "Fiberoptic and video bronchoscope operation, setup, and maintenance. Equipment preparation for awake and asleep intubation, double-lumen tube positioning, and airway examination."
+                }
+              ]
             },
             {
               "id": "1.2.5",
               "title": "Point-of-Care Diagnostic Technology",
               "definition": "Bedside ultrasound (POCUS), blood gas analyzers, coagulation testing, glucose monitoring, and rapid diagnostic devices. Real-time diagnostic capabilities that inform immediate clinical decisions.",
               "lens": "Immediate diagnostic information for time-critical decisions",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.2.5-1",
+                  "title": "Point-of-Care Ultrasound Fundamentals",
+                  "definition": "Basic ultrasound physics for clinical use, probe selection, image optimization, and machine operation. Foundation for vascular access, nerve identification, and focused diagnostic assessments."
+                },
+                {
+                  "id": "1.2.5-2",
+                  "title": "Arterial Blood Gas Analysis",
+                  "definition": "Blood gas analyzer operation, sample handling, and result interpretation. Understanding pH, gas tensions, base excess, lactate, and electrolyte values for clinical decision-making."
+                },
+                {
+                  "id": "1.2.5-3",
+                  "title": "Viscoelastic Coagulation Testing",
+                  "definition": "TEG and ROTEM technology, test parameters, and result interpretation. Using point-of-care coagulation analysis to guide transfusion and coagulation factor replacement."
+                },
+                {
+                  "id": "1.2.5-4",
+                  "title": "Point-of-Care Hemoglobin and Glucose Monitoring",
+                  "definition": "Non-invasive and minimally invasive hemoglobin measurement devices and glucose meters. Understanding accuracy limitations and clinical application for intraoperative management."
+                },
+                {
+                  "id": "1.2.5-5",
+                  "title": "Focused Cardiac and Pulmonary Ultrasound",
+                  "definition": "Basic transthoracic cardiac views, lung ultrasound for pneumothorax and pulmonary edema, and IVC assessment. Rapid bedside assessment for hemodynamic and respiratory evaluation."
+                }
+              ]
             }
           ]
         },
@@ -406,7 +561,7 @@
       "statistics": {
         "sub_pillars": 4,
         "branches": 24,
-        "topic_domains": 35
+        "topic_domains": 65
       }
     }
   ]

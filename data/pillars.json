@@ -791,42 +791,263 @@
               "title": "Pediatric Anesthesia",
               "definition": "Anesthesia care for neonates, infants, children, and adolescents including developmental pharmacology, weight-based dosing, pediatric airway management, and age-specific considerations. Specialized knowledge for patients from birth through adolescence.",
               "lens": "Adapting anesthesia practice across pediatric developmental stages",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.4.1-1",
+                  "title": "Neonatal Anesthesia Considerations",
+                  "definition": "Physiologic immaturity of organ systems, thermoregulation challenges, glucose management, and pharmacokinetic differences in neonates. Anesthetic implications of prematurity and congenital anomalies."
+                },
+                {
+                  "id": "1.4.1-2",
+                  "title": "Infant and Toddler Anesthesia",
+                  "definition": "Developmental changes affecting anesthetic management in the first years of life. Separation anxiety management, parental presence during induction, and age-appropriate monitoring."
+                },
+                {
+                  "id": "1.4.1-3",
+                  "title": "Pediatric Airway Management",
+                  "definition": "Anatomic differences of the pediatric airway, equipment sizing, uncuffed versus cuffed ETT selection, and managing the difficult pediatric airway. Laryngospasm recognition and treatment."
+                },
+                {
+                  "id": "1.4.1-4",
+                  "title": "Weight-Based Pharmacology and Dosing",
+                  "definition": "Developmental pharmacology affecting drug distribution, metabolism, and effect. Weight-based and age-based dosing calculations for anesthetic agents, muscle relaxants, and adjuncts."
+                },
+                {
+                  "id": "1.4.1-5",
+                  "title": "Pediatric Fluid and Blood Management",
+                  "definition": "Maintenance fluid calculations, allowable blood loss determination, and transfusion thresholds in children. Managing the unique hematologic considerations of infants and children."
+                },
+                {
+                  "id": "1.4.1-6",
+                  "title": "Congenital Heart Disease Anesthesia",
+                  "definition": "Anesthetic management of children with repaired and unrepaired congenital heart lesions. Understanding shunt physiology, single ventricle palliation, and implications for non-cardiac surgery."
+                },
+                {
+                  "id": "1.4.1-7",
+                  "title": "Pediatric Regional Anesthesia",
+                  "definition": "Caudal epidural technique, peripheral nerve blocks in children, and local anesthetic dosing considerations. Using regional techniques for postoperative analgesia in pediatric patients."
+                },
+                {
+                  "id": "1.4.1-8",
+                  "title": "Emergence Delirium and Pediatric Pain Management",
+                  "definition": "Risk factors, prevention, and treatment of emergence delirium. Age-appropriate pain assessment tools and multimodal analgesia strategies for children."
+                }
+              ]
             },
             {
               "id": "1.4.2",
               "title": "Obstetric Anesthesia",
               "definition": "Labor analgesia, cesarean delivery anesthesia, high-risk obstetric management, and maternal-fetal physiologic considerations. Care for the pregnant patient balancing maternal safety and fetal wellbeing.",
               "lens": "Dual patient care balancing maternal and fetal considerations",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.4.2-1",
+                  "title": "Maternal Physiologic Changes of Pregnancy",
+                  "definition": "Cardiovascular, respiratory, gastrointestinal, and hematologic adaptations of pregnancy. Anesthetic implications of physiologic changes and their resolution postpartum."
+                },
+                {
+                  "id": "1.4.2-2",
+                  "title": "Labor Epidural Analgesia",
+                  "definition": "Timing, technique, drug selection, and maintenance of labor epidural analgesia. Managing breakthrough pain, motor block, and conversion for operative delivery."
+                },
+                {
+                  "id": "1.4.2-3",
+                  "title": "Cesarean Delivery Anesthesia",
+                  "definition": "Spinal, epidural, and combined spinal-epidural techniques for cesarean section. Managing hypotension, achieving adequate surgical anesthesia, and indications for general anesthesia."
+                },
+                {
+                  "id": "1.4.2-4",
+                  "title": "High-Risk Obstetric Anesthesia",
+                  "definition": "Anesthetic management of preeclampsia, placenta accreta spectrum, cardiac disease in pregnancy, and morbid obesity. Multidisciplinary planning for complex obstetric patients."
+                },
+                {
+                  "id": "1.4.2-5",
+                  "title": "Obstetric Hemorrhage Management",
+                  "definition": "Recognition and management of postpartum hemorrhage, uterotonic medications, massive transfusion in obstetrics, and anesthetic considerations for surgical hemorrhage control."
+                },
+                {
+                  "id": "1.4.2-6",
+                  "title": "Fetal Considerations and Neonatal Resuscitation",
+                  "definition": "Uteroplacental circulation, fetal heart rate interpretation, drug transfer across the placenta, and the anesthesiologist's role in neonatal resuscitation."
+                },
+                {
+                  "id": "1.4.2-7",
+                  "title": "Non-Obstetric Surgery During Pregnancy",
+                  "definition": "Anesthetic considerations for pregnant patients undergoing non-obstetric surgery. Teratogenicity concerns, fetal monitoring, and timing of surgery relative to gestational age."
+                },
+                {
+                  "id": "1.4.2-8",
+                  "title": "Obstetric Emergencies and Crisis Management",
+                  "definition": "Emergency cesarean delivery, maternal cardiac arrest, amniotic fluid embolism, and umbilical cord prolapse. Rapid response and team coordination in obstetric emergencies."
+                }
+              ]
             },
             {
               "id": "1.4.3",
               "title": "Cardiac, Vascular, and Thoracic Anesthesia",
               "definition": "Anesthesia for cardiac surgery, major vascular procedures, and thoracic surgery including one-lung ventilation, cardiopulmonary bypass considerations, and advanced hemodynamic management.",
               "lens": "High-acuity cardiovascular and thoracic surgical support",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.4.3-1",
+                  "title": "Cardiopulmonary Bypass Principles",
+                  "definition": "CPB circuit components, anticoagulation management, myocardial protection, and physiologic effects of bypass. Separation from bypass, protamine administration, and managing coagulopathy."
+                },
+                {
+                  "id": "1.4.3-2",
+                  "title": "Anesthesia for Coronary Artery Surgery",
+                  "definition": "Hemodynamic goals for CABG, managing myocardial ischemia, off-pump considerations, and fast-track cardiac anesthesia protocols. Induction through ICU handoff for coronary revascularization."
+                },
+                {
+                  "id": "1.4.3-3",
+                  "title": "Valvular Heart Disease Anesthesia",
+                  "definition": "Hemodynamic management for stenotic and regurgitant lesions of aortic, mitral, and tricuspid valves. Anesthetic goals for valve repair and replacement procedures."
+                },
+                {
+                  "id": "1.4.3-4",
+                  "title": "Thoracic Surgery and One-Lung Ventilation",
+                  "definition": "Double-lumen tube placement and confirmation, bronchial blocker alternatives, and physiologic management during one-lung ventilation. Managing hypoxemia and optimizing surgical exposure."
+                },
+                {
+                  "id": "1.4.3-5",
+                  "title": "Aortic Surgery Anesthesia",
+                  "definition": "Anesthetic management for ascending, arch, and descending thoracic aortic surgery. Deep hypothermic circulatory arrest, cerebral perfusion strategies, and spinal cord protection."
+                },
+                {
+                  "id": "1.4.3-6",
+                  "title": "Peripheral Vascular Surgery Considerations",
+                  "definition": "Anesthetic approach to carotid endarterectomy, abdominal aortic aneurysm repair, and lower extremity revascularization. Regional versus general anesthesia considerations and hemodynamic management."
+                },
+                {
+                  "id": "1.4.3-7",
+                  "title": "Advanced Cardiac Monitoring and TEE",
+                  "definition": "Intraoperative TEE for cardiac surgery, pulmonary artery catheter interpretation, and real-time hemodynamic assessment. Using monitoring data to guide surgical and anesthetic decision-making."
+                },
+                {
+                  "id": "1.4.3-8",
+                  "title": "Cardiac ERAS and Fast-Track Recovery",
+                  "definition": "Enhanced recovery protocols for cardiac surgery including early extubation, multimodal analgesia, and goal-directed fluid therapy. Reducing ICU length of stay and improving outcomes."
+                }
+              ]
             },
             {
               "id": "1.4.4",
               "title": "Neuroanesthesia",
               "definition": "Anesthesia for craniotomy, spine surgery, and neurointerventional procedures including cerebral physiology, intracranial pressure management, and neurophysiologic monitoring considerations.",
               "lens": "Protecting and optimizing the central nervous system during surgery",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.4.4-1",
+                  "title": "Cerebral Physiology and Neuroprotection",
+                  "definition": "Cerebral blood flow regulation, autoregulation, intracranial pressure dynamics, and the effects of anesthetic agents on cerebral metabolism. Strategies for intraoperative neuroprotection."
+                },
+                {
+                  "id": "1.4.4-2",
+                  "title": "Anesthesia for Craniotomy",
+                  "definition": "Anesthetic management for supratentorial and infratentorial procedures, brain tumor resection, and intracranial aneurysm clipping. Positioning, brain relaxation, and emergence considerations."
+                },
+                {
+                  "id": "1.4.4-3",
+                  "title": "Spine Surgery Anesthesia",
+                  "definition": "Anesthetic considerations for cervical, thoracic, and lumbar spine surgery. Prone positioning, blood loss management, and wake-up test or neurophysiologic monitoring integration."
+                },
+                {
+                  "id": "1.4.4-4",
+                  "title": "Neurointerventional Anesthesia",
+                  "definition": "Anesthesia for endovascular coiling, thrombectomy, and other neurointerventional procedures. Hemodynamic management, anticoagulation, and managing complications in remote locations."
+                },
+                {
+                  "id": "1.4.4-5",
+                  "title": "Neurophysiologic Monitoring Integration",
+                  "definition": "Anesthetic effects on SSEPs, MEPs, and EEG. Coordinating with monitoring teams, responding to signal changes, and modifying anesthetic technique to optimize monitoring conditions."
+                },
+                {
+                  "id": "1.4.4-6",
+                  "title": "Awake Craniotomy and Functional Neurosurgery",
+                  "definition": "Patient selection, sedation techniques, and managing the awake-asleep-awake approach. Intraoperative speech and motor mapping, seizure management, and patient comfort during awake procedures."
+                }
+              ]
             },
             {
               "id": "1.4.5",
               "title": "Geriatric, Trauma, and High-Acuity Patient Care",
               "definition": "Anesthesia for elderly patients with age-related physiologic changes, trauma resuscitation and emergency surgery, and management of critically ill or medically complex patients.",
               "lens": "Adapting care for vulnerable and physiologically compromised patients",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.4.5-1",
+                  "title": "Geriatric Physiologic Changes and Pharmacology",
+                  "definition": "Age-related changes in cardiovascular, respiratory, renal, and hepatic function affecting anesthetic management. Altered pharmacokinetics and pharmacodynamics in elderly patients."
+                },
+                {
+                  "id": "1.4.5-2",
+                  "title": "Perioperative Cognitive Dysfunction and Delirium",
+                  "definition": "Risk factors for postoperative delirium and cognitive dysfunction, prevention strategies, and evidence regarding anesthetic technique. Screening, early recognition, and management."
+                },
+                {
+                  "id": "1.4.5-3",
+                  "title": "Trauma Resuscitation and Damage Control Anesthesia",
+                  "definition": "Anesthetic management of the trauma patient including permissive hypotension, massive transfusion, and damage control surgery principles. Managing the lethal triad of hypothermia, acidosis, and coagulopathy."
+                },
+                {
+                  "id": "1.4.5-4",
+                  "title": "Burn Patient Anesthesia",
+                  "definition": "Pathophysiology of burn injury, airway considerations, fluid resuscitation, and pharmacokinetic changes. Anesthetic management for acute burn surgery and reconstructive procedures."
+                },
+                {
+                  "id": "1.4.5-5",
+                  "title": "Sepsis and Critical Illness Anesthesia",
+                  "definition": "Anesthetic considerations for septic patients, hemodynamic optimization, and adrenal insufficiency. Managing the critically ill patient requiring emergency surgery."
+                },
+                {
+                  "id": "1.4.5-6",
+                  "title": "Organ Transplant Anesthesia",
+                  "definition": "Anesthetic management for liver, kidney, and other solid organ transplantation. Hemodynamic goals, coagulation management, and reperfusion considerations."
+                },
+                {
+                  "id": "1.4.5-7",
+                  "title": "Bariatric Surgery Anesthesia",
+                  "definition": "Physiologic changes of morbid obesity, airway management challenges, dosing considerations, and positioning. Anesthetic approach to laparoscopic and open bariatric procedures."
+                }
+              ]
             },
             {
               "id": "1.4.6",
               "title": "Ambulatory Surgery and Non-Operating Room Anesthesia",
               "definition": "Anesthesia in ambulatory surgery centers, office-based settings, and NORA locations including endoscopy, interventional radiology, cardiac catheterization, and MRI suites. Unique considerations for care outside traditional operating rooms.",
               "lens": "Safe anesthesia delivery in diverse and remote care environments",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.4.6-1",
+                  "title": "Ambulatory Surgery Patient Selection and Optimization",
+                  "definition": "Criteria for same-day surgery eligibility, medical optimization requirements, and social factors affecting safe discharge. Procedure and patient factors determining ambulatory appropriateness."
+                },
+                {
+                  "id": "1.4.6-2",
+                  "title": "Office-Based Anesthesia Safety",
+                  "definition": "Equipment requirements, emergency preparedness, patient selection, and regulatory considerations for office-based anesthesia. Ensuring safety standards in non-hospital settings."
+                },
+                {
+                  "id": "1.4.6-3",
+                  "title": "Endoscopy Suite Anesthesia",
+                  "definition": "Anesthetic considerations for upper and lower GI endoscopy, ERCP, and advanced endoscopic procedures. Shared airway management, positioning, and propofol-based sedation techniques."
+                },
+                {
+                  "id": "1.4.6-4",
+                  "title": "Interventional Radiology and Cardiac Catheterization",
+                  "definition": "Anesthetic management in IR suites and cardiac catheterization labs. Radiation safety, contrast considerations, and managing complications of interventional procedures."
+                },
+                {
+                  "id": "1.4.6-5",
+                  "title": "MRI and Radiation Therapy Anesthesia",
+                  "definition": "MRI-compatible equipment, ferromagnetic safety, and remote monitoring challenges. Anesthesia for pediatric and adult patients requiring immobility for imaging or radiation treatment."
+                },
+                {
+                  "id": "1.4.6-6",
+                  "title": "Electroconvulsive Therapy and Procedural Anesthesia",
+                  "definition": "Anesthetic management for ECT including seizure optimization and hemodynamic control. Anesthesia for cardioversion, bronchoscopy, and other brief procedures outside the OR."
+                }
+              ]
             }
           ]
         }
@@ -834,7 +1055,7 @@
       "statistics": {
         "sub_pillars": 4,
         "branches": 24,
-        "topic_domains": 118
+        "topic_domains": 161
       }
     }
   ]

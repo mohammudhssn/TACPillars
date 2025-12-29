@@ -1051,6 +1051,11 @@
                   "id": "1.4.6-6",
                   "title": "Electroconvulsive Therapy and Procedural Anesthesia",
                   "definition": "Anesthetic management for ECT including seizure optimization and hemodynamic control. Anesthesia for cardioversion, bronchoscopy, and other brief procedures outside the OR."
+                },
+                {
+                  "id": "1.4.6-7",
+                  "title": "Ophthalmologic Surgery Anesthesia",
+                  "definition": "Anesthetic techniques for eye surgery including retrobulbar and peribulbar blocks, oculocardiac reflex management, intraocular pressure considerations, and anesthesia for pediatric strabismus surgery and adult vitreoretinal procedures."
                 }
               ]
             }

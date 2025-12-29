@@ -1,0 +1,111 @@
+THE 8 PILLARS
+These eight pillars together contain every domain of anesthesia as a profession, science, business, workforce, and lived human experience.
+1. Clinical Science and Perioperative Care
+What it covers:
+ All bedside knowledge and actions directly involved in assessing patients, delivering anesthesia, managing airways, providing sedation, regional, postoperative care, and responding to emergencies.
+Inclusion tests:
+ Is this about science, physiology, pharmacology, or patient care decisions?
+Is this something a clinician does to or for the patient?
+What it excludes:
+ Workforce models, compensation, scope laws, hospital politics, wellbeing.
+
+
+2. People, Roles, Training and Credentialing
+What it covers:
+ Definitions of anesthesia roles (CRNA, MDA, AA, SRNA), their training pathways, scopes of practice, credentialing, authority boundaries, and interprofessional dynamics (including CRNA–MDA relationships).
+Inclusion tests:
+ Is this about who the provider is, what their role permits, and how they are authorized to practice?
+What it excludes:
+ Career transitions, workforce shortages, burnout, economics, OR operations.
+
+
+________________
+3. Systems, Infrastructure, Technology and Operations
+What it covers:
+ The non-human systems that make anesthesia possible: facilities, OR operations, workflows, IT, cybersecurity, anesthesia machines, monitors, supply chain, turnover processes, documentation systems.
+Inclusion tests:
+ Is this about how the environment, technology, or system functions so anesthesia care can occur?
+What it excludes:
+ Contracts, money flows, cultural issues, career advice, supervision laws.
+
+
+4. Law, Regulation, Ethics and Governance
+What it covers:
+ All rules governing anesthesia: federal/state law, CMS regulations, malpractice, institutional bylaws, ethics, informed consent, criminal misuse of drugs, DEA issues, compliance.
+Inclusion tests:
+ Is this about what is legally required, prohibited, regulated, or ethically governed?
+What it excludes:
+ Business strategy, compensation, workforce motivation, burnout.
+
+
+5. Economics, Finance, Contracting and Business Structures
+What it covers:
+ Money flows, billing, coding, revenue cycle, entity structures, 1099 economics, practice models (PE, MSOs, agencies), negotiations, stipends, subsidies, financial strategy for providers and organizations.
+Inclusion tests:
+ Is this about how money moves or how business entities are structured in anesthesia?
+What it excludes:
+ Education, wellbeing, ethics, clinical practice, professional identity.
+
+
+________________
+6. Education, Research, Knowledge and Innovation
+What it covers:
+ Training methods, CE, teaching, guidelines, evidence-based practice, clinical research, quality improvement, technology development, AI in anesthesia, theoretical or scientific exploration (including consciousness).
+Inclusion tests:
+ Is this about creating, evaluating, or transmitting knowledge?
+What it excludes:
+ Workforce deployment, societal culture, clinical bedside decision-making.
+
+
+7. Workforce, Careers, Leadership and Organizational Dynamics
+What it covers:
+ Career arcs, W2→1099 transitions, locums, leadership roles, team dynamics, recruitment/retention, workforce trends, organizational strategy, workplace conflict, mentor pathways, role evolution.
+Inclusion tests:
+ Is this about how people move through jobs, organizations, careers, or leadership structures?
+What it excludes:
+ Role definitions (Pillar 2), culture and wellbeing (Pillar 8), contractual details (Pillar 5).
+
+
+8. Culture, Wellbeing, History and Societal Impact
+What it covers:
+ Professional culture, OR politics, DEI, burnout, mental health, work–life architecture, pregnancy and parenting, historical evolution of the profession, public perception, misinformation, ethical identity, environmental impact of anesthesia.
+Inclusion tests:
+ Is this about how anesthesia is lived, experienced, perceived, or understood by society?
+What it excludes:
+ Formal research, clinical practice, economics, legal statutes, workforce deployment.
+________________
+INCLUSION / EXCLUSION RULES 
+(THE CORE OF THE ONTOLOGY)
+Use these rules to place any topic:
+Rule 1: If it’s about the patient or physiology → Pillar 1.
+Airways, ventilation, hemodynamics, drug administration, special populations.
+Rule 2: If it’s about what a role is → Pillar 2.
+Scope, authority, training, credentialing, CRNA–MDA dynamics.
+Rule 3: If it’s about the environment or tools → Pillar 3.
+OR systems, anesthesia machines, EHRs, supply chain, cybersecurity.
+Rule 4: If it’s about rules, compliance, or malpractice → Pillar 4.
+State law, CMS, ethics, DEA, governance structures.
+Rule 5: If it’s about money, contracts, or negotiation → Pillar 5.
+Billing, RVUs, subsidies, practice models, 1099 strategy.
+Rule 6: If it’s about knowledge creation or teaching → Pillar 6.
+Education, research, evidence, guidelines, innovation, AI.
+Rule 7: If it’s about career path or leadership → Pillar 7.
+W2→1099 transitions, leadership skills, job markets, workforce dynamics.
+Rule 8: If it’s about human experience or society → Pillar 8.
+Burnout, OR culture, DEI, parenting, identity, public perception, history.
+
+
+________________
+HOW TO USE THIS DOCUMENT
+This one-page ontology should be used to:
+* Place every TAC course, masterclass, checklist, and article into the correct pillar
+
+* Avoid content overlap or redundancy
+
+* Guide future TAC curriculum expansion
+
+* Train your internal AI systems so topic classification is automatic
+
+* Give the UX team a stable structure for navigation
+
+* Ensure TAC becomes the definitive, lifetime learning ecosystem for anesthesia

@@ -36,35 +36,215 @@
               "title": "Physiology of Organ Systems",
               "definition": "Normal physiologic function of cardiovascular, respiratory, neurological, renal, hepatic, and endocrine systems as they relate to anesthesia delivery and patient response. Encompasses the baseline understanding required to predict and interpret physiologic changes during anesthesia.",
               "lens": "Understanding how the body functions normally to predict anesthetic responses",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.1.1-1",
+                  "title": "Cardiovascular Physiology",
+                  "definition": "Cardiac cycle mechanics, myocardial oxygen supply and demand, coronary circulation, cardiac output determinants, and vascular tone regulation. The physiologic basis for understanding hemodynamic responses to anesthesia and surgical stress."
+                },
+                {
+                  "id": "1.1.1-2",
+                  "title": "Respiratory Physiology",
+                  "definition": "Ventilation mechanics, gas exchange, oxygen transport, carbon dioxide elimination, ventilation-perfusion relationships, and respiratory control mechanisms. Foundation for managing oxygenation and ventilation during anesthesia."
+                },
+                {
+                  "id": "1.1.1-3",
+                  "title": "Neurophysiology and Autonomic Function",
+                  "definition": "Central nervous system function, cerebral blood flow regulation, intracranial pressure dynamics, autonomic nervous system balance, and neuromuscular transmission. Essential for understanding anesthetic effects on consciousness and autonomic responses."
+                },
+                {
+                  "id": "1.1.1-4",
+                  "title": "Renal Physiology",
+                  "definition": "Glomerular filtration, tubular function, fluid and electrolyte homeostasis, acid-base regulation, and drug elimination pathways. Critical for managing fluid balance and understanding pharmacokinetic alterations."
+                },
+                {
+                  "id": "1.1.1-5",
+                  "title": "Hepatic Physiology",
+                  "definition": "Hepatic blood flow, drug metabolism pathways, synthetic function, and bile production. Foundation for understanding drug biotransformation and coagulation factor production relevant to anesthesia."
+                },
+                {
+                  "id": "1.1.1-6",
+                  "title": "Endocrine Physiology",
+                  "definition": "Hypothalamic-pituitary axes, adrenal stress response, thyroid function, glucose regulation, and calcium homeostasis. Understanding hormonal responses to surgical stress and anesthesia."
+                },
+                {
+                  "id": "1.1.1-7",
+                  "title": "Hematologic Physiology",
+                  "definition": "Coagulation cascade, platelet function, fibrinolysis, oxygen-carrying capacity, and transfusion physiology. Basis for managing bleeding, anticoagulation, and blood product administration."
+                }
+              ]
             },
             {
               "id": "1.1.2",
               "title": "Pathophysiology and Coexisting Disease States",
               "definition": "How acute and chronic disease processes alter normal physiology and impact anesthetic risk, drug handling, and perioperative management. Covers the pathophysiologic basis of conditions commonly encountered in surgical patients.",
               "lens": "Understanding how disease modifies physiologic reserve and anesthetic approach",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.1.2-1",
+                  "title": "Cardiovascular Disease Pathophysiology",
+                  "definition": "Coronary artery disease, heart failure, valvular disease, arrhythmias, and hypertension as they alter anesthetic risk and management. Understanding how cardiac pathology modifies hemodynamic responses and drug effects."
+                },
+                {
+                  "id": "1.1.2-2",
+                  "title": "Pulmonary Disease Pathophysiology",
+                  "definition": "Obstructive and restrictive lung diseases, pulmonary hypertension, and sleep-disordered breathing affecting anesthetic management. How respiratory pathology alters ventilation strategies and perioperative risk."
+                },
+                {
+                  "id": "1.1.2-3",
+                  "title": "Neurologic Disease Pathophysiology",
+                  "definition": "Cerebrovascular disease, seizure disorders, neurodegenerative conditions, and neuromuscular diseases relevant to anesthesia. Understanding how neurologic conditions affect anesthetic selection and monitoring requirements."
+                },
+                {
+                  "id": "1.1.2-4",
+                  "title": "Renal Disease Pathophysiology",
+                  "definition": "Acute kidney injury, chronic kidney disease, and electrolyte disorders affecting drug handling and fluid management. How renal impairment alters pharmacokinetics and perioperative fluid strategies."
+                },
+                {
+                  "id": "1.1.2-5",
+                  "title": "Hepatic Disease Pathophysiology",
+                  "definition": "Cirrhosis, portal hypertension, hepatic encephalopathy, and coagulopathy of liver disease. Understanding altered drug metabolism, synthetic dysfunction, and hemodynamic changes in liver disease."
+                },
+                {
+                  "id": "1.1.2-6",
+                  "title": "Endocrine and Metabolic Disease Pathophysiology",
+                  "definition": "Diabetes mellitus, thyroid disorders, adrenal insufficiency, and pheochromocytoma as they impact perioperative care. Managing hormonal imbalances and metabolic derangements during anesthesia."
+                },
+                {
+                  "id": "1.1.2-7",
+                  "title": "Hematologic Disorders Pathophysiology",
+                  "definition": "Coagulopathies, anticoagulant effects, anemia, and hemoglobinopathies affecting surgical bleeding and oxygen delivery. Understanding bleeding risk assessment and transfusion thresholds."
+                },
+                {
+                  "id": "1.1.2-8",
+                  "title": "Obesity and Nutritional Pathophysiology",
+                  "definition": "Physiologic changes of obesity including respiratory mechanics, cardiovascular effects, and pharmacokinetic alterations. Managing the metabolically complex patient and understanding malnutrition effects on healing."
+                }
+              ]
             },
             {
               "id": "1.1.3",
               "title": "Pharmacology of Anesthetic Agents",
               "definition": "Mechanisms of action, pharmacokinetics, pharmacodynamics, and drug interactions for all agent classes used in anesthesia practice including inhalational agents, intravenous anesthetics, opioids, neuromuscular blocking agents, local anesthetics, and adjuncts.",
               "lens": "Understanding drug behavior to optimize agent selection, dosing, and timing",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.1.3-1",
+                  "title": "Inhalational Anesthetic Pharmacology",
+                  "definition": "Uptake, distribution, and elimination of volatile agents; MAC concepts; organ system effects of sevoflurane, desflurane, isoflurane, and nitrous oxide. Understanding potency, solubility, and clinical selection of inhaled anesthetics."
+                },
+                {
+                  "id": "1.1.3-2",
+                  "title": "Intravenous Anesthetic Pharmacology",
+                  "definition": "Pharmacokinetics and pharmacodynamics of propofol, etomidate, ketamine, and emerging agents like remimazolam. Mechanism of action, context-sensitive half-times, and clinical applications for induction and maintenance."
+                },
+                {
+                  "id": "1.1.3-3",
+                  "title": "Opioid Pharmacology",
+                  "definition": "Receptor pharmacology, pharmacokinetics of fentanyl, sufentanil, remifentanil, morphine, and hydromorphone. Understanding equianalgesic dosing, context-sensitive effects, and opioid-related adverse effects."
+                },
+                {
+                  "id": "1.1.3-4",
+                  "title": "Neuromuscular Blocking Agent Pharmacology",
+                  "definition": "Depolarizing and non-depolarizing agent mechanisms, onset and duration profiles, metabolism pathways, and factors affecting blockade. Succinylcholine, rocuronium, vecuronium, and cisatracurium clinical pharmacology."
+                },
+                {
+                  "id": "1.1.3-5",
+                  "title": "Local Anesthetic Pharmacology",
+                  "definition": "Mechanism of nerve blockade, structure-activity relationships, pharmacokinetics, and systemic toxicity of amides and esters. Understanding potency, duration, differential blockade, and maximum doses."
+                },
+                {
+                  "id": "1.1.3-6",
+                  "title": "Sedative and Anxiolytic Pharmacology",
+                  "definition": "Benzodiazepine pharmacology, dexmedetomidine mechanisms and applications, and the sedation continuum. Clinical use for anxiolysis, sedation, and adjunctive anesthesia."
+                },
+                {
+                  "id": "1.1.3-7",
+                  "title": "Cardiovascular Drug Pharmacology",
+                  "definition": "Vasopressors, inotropes, vasodilators, antihypertensives, and antiarrhythmics used in anesthesia practice. Mechanism-based selection and dosing for hemodynamic management."
+                },
+                {
+                  "id": "1.1.3-8",
+                  "title": "Reversal Agents and Antagonist Pharmacology",
+                  "definition": "Sugammadex, neostigmine, flumazenil, naloxone, and other antagonists. Mechanisms of reversal, dosing strategies, and clinical indications for pharmacologic antagonism."
+                }
+              ]
             },
             {
               "id": "1.1.4",
               "title": "Applied Anatomy for Anesthesia Practice",
               "definition": "Anatomical structures and spatial relationships essential for airway management, regional anesthesia techniques, vascular access, and understanding surgical positioning effects. Emphasizes clinically relevant anatomy over comprehensive anatomical study.",
               "lens": "Spatial and structural understanding for procedural success and patient safety",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.1.4-1",
+                  "title": "Airway Anatomy",
+                  "definition": "Upper and lower airway structures, anatomic predictors of difficult intubation, and variations affecting airway management. Nasal, oral, pharyngeal, laryngeal, and tracheal anatomy essential for airway interventions."
+                },
+                {
+                  "id": "1.1.4-2",
+                  "title": "Neuraxial Anatomy",
+                  "definition": "Vertebral column, spinal cord, meninges, epidural space, and cerebrospinal fluid compartments. Surface landmarks, dermatomes, and anatomic considerations for spinal and epidural techniques."
+                },
+                {
+                  "id": "1.1.4-3",
+                  "title": "Upper Extremity Peripheral Nerve Anatomy",
+                  "definition": "Brachial plexus organization, individual nerve courses, and sonographic appearance. Anatomic basis for interscalene, supraclavicular, infraclavicular, and axillary approaches."
+                },
+                {
+                  "id": "1.1.4-4",
+                  "title": "Lower Extremity and Trunk Peripheral Nerve Anatomy",
+                  "definition": "Lumbar and sacral plexus anatomy, femoral, sciatic, and truncal nerve distributions. Anatomic foundation for lower extremity blocks and fascial plane techniques."
+                },
+                {
+                  "id": "1.1.4-5",
+                  "title": "Vascular Access Anatomy",
+                  "definition": "Arterial and venous anatomy for radial, femoral, and central venous catheterization. Ultrasound correlation, anatomic variations, and structures at risk during vascular access."
+                },
+                {
+                  "id": "1.1.4-6",
+                  "title": "Thoracic and Mediastinal Anatomy",
+                  "definition": "Heart, great vessels, lungs, and pleural spaces relevant to thoracic anesthesia and line placement. Anatomic considerations for thoracic surgery and one-lung ventilation."
+                }
+              ]
             },
             {
               "id": "1.1.5",
               "title": "Chemistry and Physics Principles",
               "definition": "Gas laws, fluid dynamics, electrical principles, solubility, diffusion, and physical chemistry underlying anesthesia machine function, drug delivery, and physiologic monitoring. The scientific basis for understanding equipment behavior and drug distribution.",
               "lens": "Physical science foundation for equipment operation and drug behavior prediction",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.1.5-1",
+                  "title": "Gas Laws and Behavior",
+                  "definition": "Boyle's, Charles's, Dalton's, and Henry's laws as applied to anesthesia. Understanding gas behavior in cylinders, breathing circuits, and alveolar gas exchange."
+                },
+                {
+                  "id": "1.1.5-2",
+                  "title": "Vaporizer Physics and Vapor Pressure",
+                  "definition": "Saturated vapor pressure, vaporizer design principles, temperature compensation, and altitude effects. Physics underlying accurate volatile anesthetic delivery."
+                },
+                {
+                  "id": "1.1.5-3",
+                  "title": "Fluid Dynamics and Flow Principles",
+                  "definition": "Laminar and turbulent flow, Poiseuille's law, Bernoulli principle, and flow through orifices. Application to breathing circuits, airways, and IV fluid delivery."
+                },
+                {
+                  "id": "1.1.5-4",
+                  "title": "Solubility, Diffusion, and Membrane Transport",
+                  "definition": "Blood-gas solubility coefficients, Fick's law of diffusion, and membrane permeability. Physical chemistry of anesthetic uptake, distribution, and elimination."
+                },
+                {
+                  "id": "1.1.5-5",
+                  "title": "Electrical Principles and Safety",
+                  "definition": "Ohm's law, capacitance, grounding, microshock and macroshock hazards, and electrical safety in the OR. Understanding monitoring equipment function and patient electrical safety."
+                },
+                {
+                  "id": "1.1.5-6",
+                  "title": "Pressure Measurement and Transduction",
+                  "definition": "Principles of pressure measurement, transducer function, natural frequency, damping, and zeroing. Physics underlying accurate invasive pressure monitoring."
+                }
+              ]
             }
           ]
         },
@@ -226,7 +406,7 @@
       "statistics": {
         "sub_pillars": 4,
         "branches": 24,
-        "topic_domains": 0
+        "topic_domains": 35
       }
     }
   ]

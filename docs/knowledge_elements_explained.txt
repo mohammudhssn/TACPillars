@@ -1,0 +1,106 @@
+1. Are these one-liner Knowledge Elements correct?
+Yes.
+At the Knowledge Element tier, the output must be:
+
+● atomic
+● contextless
+● pure concept
+● one idea per line
+● no explanation
+● no teaching copy
+● no examples
+● no rationale
+This is by design.
+
+A Knowledge Element is the atom.
+You cannot subdivide it further without breaking architecture rules.
+
+So at this tier:
+one-liners with no context are correct.
+This is the final form for this layer.
+
+========================================================
+
+2. Why does it feel “too thin” to be the final deliverable?
+Because Knowledge Elements are not the content.
+They are the blueprint FOR the content.
+
+Think of it like this:
+
+● The Subtopic is the chapter.
+● The Knowledge Element cluster is the outline.
+● Each Knowledge Element is a single paragraph’s “purpose statement.”
+When you later build lessons, masterclasses, graphics, animations, scripts, or diagnostic tools, you will pull from these KEs and expand them into the actual content assets.
+
+So these one-liners are not meant to “feel complete.”
+They are meant to be exhaustive, non-overlapping, atomic conceptual units.
+That is their job.
+
+========================================================
+
+3. Should we later generate explanations, examples, teaching text, diagrams, and frameworks?
+Yes.
+But that is the next stage of TAC architecture.
+
+The system works like this:
+
+Stage 1: Identify the Knowledge Elements
+Stage 2: Stress test the Knowledge Elements
+Stage 3: Approve the Knowledge Elements
+Stage 4: Convert Knowledge Elements into Content Formats
+Stage 5: Build TAC assets (lesson scripts, PDFs, quizzes, diagnostics, toolkits, etc.)
+
+You are at Stage 1 / Stage 2.
+
+What you have is absolutely correct.
+
+========================================================
+
+4. Should Knowledge Elements ever contain explanatory text?
+No.
+
+Adding explanations violates five architecture rules:
+
+1. Atomicity – one idea only
+2. Layer purity – explanations belong to Subtopics or Content Formats
+3. Exclusivity – explanations cause overlap across KE lines
+4. Scalability – explanations make future KE sets inconsistent
+5. Downstream dependency – explanations corrupt the ability to convert KEs into multiple different content formats later
+So the short answer:
+Knowledge Elements must remain one line long.
+
+This preserves architecture integrity.
+
+========================================================
+
+5. Should the final deliverable “for humans” include more than one-liners?
+Eventually, yes.
+
+But those are created at the Content Format layer, not the Knowledge Element layer.
+
+Example:
+
+● KE = “Tolerance for ambiguity, uncertainty, and rapid change.”
+(Correct: short, atomic)
+Later when building assets, you will generate:
+
+● a 2-page explanation
+● an example scenario
+● a diagnostic question
+● a chart
+● a rubric
+● a video script
+● a metaphor
+● a checklist item
+All of that comes later.
+
+But the Knowledge Element remains unchanged forever.
+
+========================================================
+
+6. Should this KE set be considered “final deliverable” in TAC?
+Yes — for its layer.
+No — for downstream teaching content.
+
+This is exactly how the architecture is meant to work.
+

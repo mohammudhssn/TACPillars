@@ -609,11 +609,6 @@
                   "id": "1.3.4-7",
                   "title": "Multimodal Analgesia and Opioid-Sparing Strategies",
                   "definition": "Combining acetaminophen, NSAIDs, gabapentinoids, ketamine, dexmedetomidine, and regional techniques. Evidence-based multimodal protocols to optimize analgesia while minimizing opioid consumption and side effects."
-                },
-                {
-                  "id": "1.3.4-8",
-                  "title": "Enhanced Recovery Protocol Integration",
-                  "definition": "ERAS pathway components including preoperative education, carbohydrate loading, multimodal analgesia, goal-directed fluid therapy, and early mobilization. The anesthesiologist's role in implementing enhanced recovery programs."
                 }
               ]
             },
@@ -690,6 +685,11 @@
                   "id": "1.3.6-7",
                   "title": "Intraoperative Glycemic Control",
                   "definition": "Target glucose ranges, insulin infusion protocols, and managing diabetic and non-diabetic hyperglycemia. Balancing glycemic control against hypoglycemia risk during surgery."
+                },
+                {
+                  "id": "1.3.6-8",
+                  "title": "Enhanced Recovery Protocol Integration",
+                  "definition": "ERAS pathway components including preoperative optimization, multimodal analgesia, goal-directed fluid therapy, normothermia, and early mobilization. The anesthesiologist's role in implementing enhanced recovery programs across surgical specialties."
                 }
               ]
             },

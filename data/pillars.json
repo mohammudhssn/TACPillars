@@ -72,24 +72,160 @@
           "id": "1.2",
           "title": "Clinical Equipment, Monitoring, and Technology",
           "definition": "The clinical application, operation, and interpretation of anesthesia delivery systems, patient monitoring devices, airway equipment, and point-of-care technology at the bedside. This sub-pillar covers equipment use, troubleshooting, and output interpretation—distinct from procurement, maintenance, and IT infrastructure (Pillar 3).",
-          "branches": []
+          "branches": [
+            {
+              "id": "1.2.1",
+              "title": "Anesthesia Delivery Systems",
+              "definition": "Clinical operation, function checking, and troubleshooting of anesthesia machines, vaporizers, breathing circuits, and mechanical ventilators. Encompasses the practical knowledge required to safely deliver anesthetic gases and provide ventilatory support.",
+              "lens": "Mastering the primary tools of anesthetic gas and ventilation delivery",
+              "topic_domains": []
+            },
+            {
+              "id": "1.2.2",
+              "title": "Physiologic Monitoring and Waveform Interpretation",
+              "definition": "Standard ASA monitors including pulse oximetry, capnography, ECG, and non-invasive blood pressure, plus waveform analysis, artifact recognition, and alarm management. The foundation of continuous patient assessment during anesthesia.",
+              "lens": "Continuous vigilance through monitoring data interpretation",
+              "topic_domains": []
+            },
+            {
+              "id": "1.2.3",
+              "title": "Advanced Hemodynamic and Neuromuscular Monitoring",
+              "definition": "Invasive pressure monitoring, cardiac output measurement, quantitative neuromuscular blockade assessment, and advanced physiologic parameters. Extends beyond standard monitoring for complex cases requiring precise hemodynamic or paralysis management.",
+              "lens": "Precision monitoring for high-acuity patient management",
+              "topic_domains": []
+            },
+            {
+              "id": "1.2.4",
+              "title": "Airway Management Equipment",
+              "definition": "Direct and video laryngoscopes, supraglottic airways, endotracheal tubes, difficult airway adjuncts, and rescue devices. Clinical selection, use, and troubleshooting of the tools required for airway control.",
+              "lens": "Equipment mastery for airway security across all scenarios",
+              "topic_domains": []
+            },
+            {
+              "id": "1.2.5",
+              "title": "Point-of-Care Diagnostic Technology",
+              "definition": "Bedside ultrasound (POCUS), blood gas analyzers, coagulation testing, glucose monitoring, and rapid diagnostic devices. Real-time diagnostic capabilities that inform immediate clinical decisions.",
+              "lens": "Immediate diagnostic information for time-critical decisions",
+              "topic_domains": []
+            }
+          ]
         },
         {
           "id": "1.3",
           "title": "Perioperative Care and Anesthesia Techniques",
           "definition": "The continuum of patient care from preoperative assessment through intraoperative management to postoperative recovery, encompassing all anesthesia delivery methods and modalities. Includes general anesthesia, regional anesthesia, monitored anesthesia care, airway management, enhanced recovery protocols, multimodal analgesia, patient safety practices, and crisis management.",
-          "branches": []
+          "branches": [
+            {
+              "id": "1.3.1",
+              "title": "Preoperative Assessment and Optimization",
+              "definition": "Comprehensive patient evaluation, risk stratification, NPO guidelines, premedication strategies, and perioperative optimization. The foundation of safe anesthesia planning based on patient-specific factors.",
+              "lens": "Preparation and planning to minimize perioperative risk",
+              "topic_domains": []
+            },
+            {
+              "id": "1.3.2",
+              "title": "Airway Management Techniques",
+              "definition": "Airway assessment, basic and advanced airway techniques, difficult airway algorithms, and extubation strategies. The clinical skills and decision-making required to establish and maintain airway control.",
+              "lens": "Securing and maintaining the airway across all patient presentations",
+              "topic_domains": []
+            },
+            {
+              "id": "1.3.3",
+              "title": "General Anesthesia Delivery",
+              "definition": "Induction techniques, maintenance strategies (inhalational, TIVA, balanced), depth of anesthesia management, and emergence. The core techniques for rendering patients unconscious and managing the anesthetic state.",
+              "lens": "Mastering the art and science of general anesthesia",
+              "topic_domains": []
+            },
+            {
+              "id": "1.3.4",
+              "title": "Regional Anesthesia and Acute Pain Management",
+              "definition": "Neuraxial techniques, peripheral nerve blocks, multimodal analgesia strategies, and ERAS protocol integration. Techniques that provide surgical anesthesia, supplement general anesthesia, or manage acute postoperative pain.",
+              "lens": "Regional techniques and multimodal strategies for anesthesia and analgesia",
+              "topic_domains": []
+            },
+            {
+              "id": "1.3.5",
+              "title": "Sedation and Monitored Anesthesia Care",
+              "definition": "MAC techniques, procedural sedation, the sedation continuum, and patient selection for non-general anesthesia approaches. Managing patient comfort and safety without full general anesthesia.",
+              "lens": "Tailored sedation for procedures not requiring general anesthesia",
+              "topic_domains": []
+            },
+            {
+              "id": "1.3.6",
+              "title": "Intraoperative Physiologic Management",
+              "definition": "Hemodynamic optimization, ventilation strategies, fluid and blood product therapy, temperature management, and surgical positioning considerations. Maintaining physiologic homeostasis throughout the surgical procedure.",
+              "lens": "Moment-to-moment physiologic optimization during surgery",
+              "topic_domains": []
+            },
+            {
+              "id": "1.3.7",
+              "title": "Postoperative Care and PACU Management",
+              "definition": "Emergence management, PONV prophylaxis and treatment, postoperative pain control, discharge criteria, and handoff communication. Ensuring safe transition from anesthesia through recovery.",
+              "lens": "Safe recovery and transition from anesthetic care",
+              "topic_domains": []
+            },
+            {
+              "id": "1.3.8",
+              "title": "Patient Safety and Crisis Management",
+              "definition": "Emergency protocols, ACLS integration, malignant hyperthermia, local anesthetic systemic toxicity (LAST), anaphylaxis, and medication safety practices. Recognition and management of life-threatening perioperative events.",
+              "lens": "Preparedness and response for perioperative emergencies",
+              "topic_domains": []
+            }
+          ]
         },
         {
           "id": "1.4",
           "title": "Specialty Anesthesia and Special Populations",
           "definition": "Population-specific and procedure-specific anesthesia care requiring specialized knowledge beyond general principles. Covers pediatric, obstetric, cardiac, neuroanesthesia, geriatric, trauma, and other subspecialty domains, as well as distinct care environments including ambulatory surgery centers and non-operating room anesthesia (NORA) locations.",
-          "branches": []
+          "branches": [
+            {
+              "id": "1.4.1",
+              "title": "Pediatric Anesthesia",
+              "definition": "Anesthesia care for neonates, infants, children, and adolescents including developmental pharmacology, weight-based dosing, pediatric airway management, and age-specific considerations. Specialized knowledge for patients from birth through adolescence.",
+              "lens": "Adapting anesthesia practice across pediatric developmental stages",
+              "topic_domains": []
+            },
+            {
+              "id": "1.4.2",
+              "title": "Obstetric Anesthesia",
+              "definition": "Labor analgesia, cesarean delivery anesthesia, high-risk obstetric management, and maternal-fetal physiologic considerations. Care for the pregnant patient balancing maternal safety and fetal wellbeing.",
+              "lens": "Dual patient care balancing maternal and fetal considerations",
+              "topic_domains": []
+            },
+            {
+              "id": "1.4.3",
+              "title": "Cardiac, Vascular, and Thoracic Anesthesia",
+              "definition": "Anesthesia for cardiac surgery, major vascular procedures, and thoracic surgery including one-lung ventilation, cardiopulmonary bypass considerations, and advanced hemodynamic management.",
+              "lens": "High-acuity cardiovascular and thoracic surgical support",
+              "topic_domains": []
+            },
+            {
+              "id": "1.4.4",
+              "title": "Neuroanesthesia",
+              "definition": "Anesthesia for craniotomy, spine surgery, and neurointerventional procedures including cerebral physiology, intracranial pressure management, and neurophysiologic monitoring considerations.",
+              "lens": "Protecting and optimizing the central nervous system during surgery",
+              "topic_domains": []
+            },
+            {
+              "id": "1.4.5",
+              "title": "Geriatric, Trauma, and High-Acuity Patient Care",
+              "definition": "Anesthesia for elderly patients with age-related physiologic changes, trauma resuscitation and emergency surgery, and management of critically ill or medically complex patients.",
+              "lens": "Adapting care for vulnerable and physiologically compromised patients",
+              "topic_domains": []
+            },
+            {
+              "id": "1.4.6",
+              "title": "Ambulatory Surgery and Non-Operating Room Anesthesia",
+              "definition": "Anesthesia in ambulatory surgery centers, office-based settings, and NORA locations including endoscopy, interventional radiology, cardiac catheterization, and MRI suites. Unique considerations for care outside traditional operating rooms.",
+              "lens": "Safe anesthesia delivery in diverse and remote care environments",
+              "topic_domains": []
+            }
+          ]
         }
       ],
       "statistics": {
         "sub_pillars": 4,
-        "branches": 5,
+        "branches": 24,
         "topic_domains": 0
       }
     }

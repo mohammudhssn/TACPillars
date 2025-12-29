@@ -1056,6 +1056,11 @@
                   "id": "1.4.6-7",
                   "title": "Ophthalmologic Surgery Anesthesia",
                   "definition": "Anesthetic techniques for eye surgery including retrobulbar and peribulbar blocks, oculocardiac reflex management, intraocular pressure considerations, and anesthesia for pediatric strabismus surgery and adult vitreoretinal procedures."
+                },
+                {
+                  "id": "1.4.6-8",
+                  "title": "Urologic Surgery Anesthesia",
+                  "definition": "Anesthetic considerations for urologic procedures including TURP syndrome recognition and management, lithotripsy positioning and anesthesia, autonomic hyperreflexia in spinal cord injury patients, and robotic-assisted urologic surgery positioning and physiologic effects."
                 }
               ]
             }

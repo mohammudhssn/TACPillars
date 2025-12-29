@@ -1,0 +1,712 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2024-12-21",
+    "status": "reference_template",
+    "notes": "This is the golden reference for TAC architecture. All other pillars should match this structure and scale."
+  },
+  "pillar": {
+    "id": "7",
+    "title": "Workforce, Careers, Leadership and Organizational Dynamics",
+    "definition": "All aspects of career lifecycle, job transitions, workforce trends, leadership development, organizational behavior, conflict, recruitment, retention, locums, W2 vs 1099 pathways, team dynamics, and professional advancement. This pillar maps both the macro forces that shape CRNA work and the micro realities of daily professional life.",
+    "inclusion_tests": [
+      "Is this about how providers move through jobs, careers, or organizations?",
+      "Is this about leadership, workplace culture, team function, or job markets?",
+      "Is this about workforce forces or market structure?",
+      "Is this about career progression or lifecycle architecture?",
+      "Is this about job models or transition mechanics?",
+      "Is this about professional identity and mobility?"
+    ],
+    "exclusion_tests": [
+      "Clinical practice, physiology, patient care → Pillar 1",
+      "Role definitions, scope boundaries, training requirements → Pillar 2",
+      "Systems, equipment, OR operations, IT, infrastructure → Pillar 3",
+      "Legal requirements, compliance, malpractice, regulation → Pillar 4",
+      "Compensation mechanics, billing, contracts, subsidies, economics → Pillar 5",
+      "Education science, research methods, evidence generation → Pillar 6",
+      "Wellbeing, burnout, identity as lived experience, personal psychology → Pillar 8"
+    ],
+    "sub_pillars": [
+      {
+        "id": "7.1",
+        "title": "Workforce Landscape and Market Dynamics",
+        "definition": "The external forces that shape CRNA supply, demand, compensation, hiring models, and the geographic distribution of opportunity. This sub-pillar covers staffing models, organizational ecosystems, legislative environments, and economic cycles that determine where and how CRNAs work.",
+        "branches": [
+          {
+            "id": "7.1.1",
+            "title": "Market Structure, Supply and Demand Forces",
+            "definition": "CRNA workforce numbers, shortages, expansion patterns, regional variances, and macro labor trends.",
+            "lens": "Understanding the quantitative realities of the CRNA labor market",
+            "topic_domains": [
+              {
+                "id": "7.1.1-1",
+                "title": "National CRNA Workforce Demographics and Distribution",
+                "definition": "Current population counts, geographic concentration patterns, urban-rural distribution, demographic breakdowns by age/gender/experience, and longitudinal trends in workforce composition."
+              },
+              {
+                "id": "7.1.1-2",
+                "title": "Regional Supply-Demand Variation Patterns",
+                "definition": "How CRNA supply and facility demand differ by region, state, and metropolitan area. Includes saturation markets, shortage areas, and migration patterns."
+              },
+              {
+                "id": "7.1.1-3",
+                "title": "Shortage Dynamics and Workforce Projections",
+                "definition": "Current shortage estimates, retirement wave modeling, training pipeline capacity, and projected supply-demand gaps over 5-20 year horizons."
+              },
+              {
+                "id": "7.1.1-4",
+                "title": "Workforce Entry and Exit Flow Analysis",
+                "definition": "Annual graduation rates, new market entrants, retirement patterns, career exit reasons, and net workforce growth calculations."
+              },
+              {
+                "id": "7.1.1-5",
+                "title": "Competition and Market Saturation Indicators",
+                "definition": "Metrics and signals indicating market saturation or opportunity, including job posting volumes, time-to-fill, rate compression, and provider density ratios."
+              }
+            ]
+          },
+          {
+            "id": "7.1.2",
+            "title": "Facility and Organizational Ecosystems",
+            "definition": "Hospitals, anesthesia groups, MSOs, private equity, independent practices, ACT models, rural facilities, outpatient centers, and how each deploys CRNAs.",
+            "lens": "Understanding who employs CRNAs and how different organizational models operate",
+            "topic_domains": [
+              {
+                "id": "7.1.2-1",
+                "title": "Hospital Employment Models and System Structures",
+                "definition": "How hospital systems structure anesthesia services, including employed models, contracted groups, hybrid arrangements, and the decision factors hospitals use."
+              },
+              {
+                "id": "7.1.2-2",
+                "title": "Anesthesia Group Structures and Practice Models",
+                "definition": "Private groups, partnerships, democratic vs hierarchical structures, buy-in models, and how traditional anesthesia groups operate and compensate providers."
+              },
+              {
+                "id": "7.1.2-3",
+                "title": "MSO and Private Equity Dynamics",
+                "definition": "How management services organizations and PE-backed entities acquire, consolidate, and operate anesthesia practices. Includes impact on provider autonomy, compensation, and career stability."
+              },
+              {
+                "id": "7.1.2-4",
+                "title": "Staffing Agency Ecosystem and Operations",
+                "definition": "How locums agencies function, their business models, markup structures, facility relationships, and the role they play in workforce distribution."
+              },
+              {
+                "id": "7.1.2-5",
+                "title": "Rural and Critical Access Facility Dynamics",
+                "definition": "Unique characteristics of rural hospital employment, CAH designations, solo practice realities, and the opportunities and challenges of rural CRNA work."
+              },
+              {
+                "id": "7.1.2-6",
+                "title": "Ambulatory and Outpatient Center Operations",
+                "definition": "ASC ownership models, office-based anesthesia, GI centers, and how outpatient settings differ in structure, pace, and CRNA utilization."
+              },
+              {
+                "id": "7.1.2-7",
+                "title": "Academic Medical Center Structures",
+                "definition": "How AMCs structure anesthesia departments, teaching responsibilities, research expectations, and the career implications of academic employment."
+              }
+            ]
+          },
+          {
+            "id": "7.1.3",
+            "title": "Legislative, Regulatory and Scope Realities",
+            "definition": "State autonomy, supervision laws, opt-out status, political influence, reimbursement structures, and policy-driven workforce shifts.",
+            "lens": "Understanding how laws and regulations shape where and how CRNAs can work",
+            "topic_domains": [
+              {
+                "id": "7.1.3-1",
+                "title": "State Practice Authority Landscape",
+                "definition": "Current state-by-state breakdown of CRNA practice authority, including full practice, restricted, and supervised states, with specific statutory and regulatory requirements."
+              },
+              {
+                "id": "7.1.3-2",
+                "title": "Opt-Out Status and Implementation Patterns",
+                "definition": "Which states have opted out of federal supervision requirements, the process for opt-out, and how opt-out status affects facility hiring and CRNA practice."
+              },
+              {
+                "id": "7.1.3-3",
+                "title": "Supervision Requirement Variations",
+                "definition": "Specific supervision ratios, direction requirements, and oversight rules across different states and facility types. Includes how these affect daily practice and staffing."
+              },
+              {
+                "id": "7.1.3-4",
+                "title": "Legislative Trend Analysis and Advocacy Impact",
+                "definition": "Recent and pending legislation affecting CRNA practice, successful advocacy patterns, and how political dynamics shape practice authority expansion or restriction."
+              },
+              {
+                "id": "7.1.3-5",
+                "title": "Facility Credentialing Policy Variations",
+                "definition": "How individual facilities interpret and implement state regulations through credentialing policies, privilege delineation, and practice agreements."
+              }
+            ]
+          },
+          {
+            "id": "7.1.4",
+            "title": "Economic and Contracting Trends",
+            "definition": "How market cycles, payer dynamics, hospital finances, and agency behavior shape compensation, hiring, and job stability.",
+            "lens": "Understanding the economic forces that drive CRNA employment conditions",
+            "topic_domains": [
+              {
+                "id": "7.1.4-1",
+                "title": "Compensation Trend Analysis and Benchmarking",
+                "definition": "Historical and current compensation trends by region, setting, and employment model. Includes W2 salary ranges, locums rates, and total compensation benchmarks."
+              },
+              {
+                "id": "7.1.4-2",
+                "title": "Economic Cycle Impact on CRNA Employment",
+                "definition": "How recessions, healthcare spending cycles, and economic conditions affect CRNA hiring, rates, and job security across different employment models."
+              },
+              {
+                "id": "7.1.4-3",
+                "title": "Hospital Financial Pressure and Anesthesia Subsidies",
+                "definition": "How hospital financial health affects anesthesia department funding, subsidy levels, and staffing decisions. Includes understanding of anesthesia as cost center vs revenue generator."
+              },
+              {
+                "id": "7.1.4-4",
+                "title": "Payer Mix and Reimbursement Impact",
+                "definition": "How Medicare, Medicaid, commercial payer mix, and reimbursement changes affect facility finances and downstream CRNA compensation and employment."
+              },
+              {
+                "id": "7.1.4-5",
+                "title": "Market Rate Dynamics and Negotiation Leverage",
+                "definition": "How supply-demand conditions in specific markets affect rate negotiability, and indicators that signal strong vs weak provider leverage."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7.2",
+        "title": "Careers and Life Cycle",
+        "definition": "The complete professional journey of a CRNA, including readiness for practice, early identity formation, employment model selection, transition mechanics (W2, per diem, 1099, locums), specialization pathways, mid-career recalibration, geographic and market repositioning, and late-career optimization or exit.",
+        "branches": [
+          {
+            "id": "7.2.1",
+            "title": "Entry, SRNA Transition and Early Career Formation",
+            "definition": "Identity formation, first-job selection, foundational professional habits, early reputation building, and postgraduate confidence development.",
+            "lens": "The critical first years that shape long-term career trajectory",
+            "topic_domains": [
+              {
+                "id": "7.2.1-1",
+                "title": "SRNA to CRNA Transition Psychology",
+                "definition": "The identity shift from student to autonomous provider, imposter syndrome management, confidence building, and psychological adjustment to professional responsibility."
+              },
+              {
+                "id": "7.2.1-2",
+                "title": "First Job Selection Strategy",
+                "definition": "Criteria for evaluating first positions, trade-offs between learning environment and compensation, geographic considerations, and avoiding common first-job mistakes."
+              },
+              {
+                "id": "7.2.1-3",
+                "title": "Early Career Skill Consolidation",
+                "definition": "Strategies for building clinical confidence, expanding case exposure, developing efficiency, and transitioning from supervised practice to autonomous decision-making."
+              },
+              {
+                "id": "7.2.1-4",
+                "title": "Professional Habit Formation",
+                "definition": "Establishing sustainable work patterns, documentation habits, communication standards, and professional behaviors that support long-term success."
+              },
+              {
+                "id": "7.2.1-5",
+                "title": "Early Career Reputation Building",
+                "definition": "How new CRNAs establish professional reputation, build references, create visibility, and position themselves for future opportunities."
+              }
+            ]
+          },
+          {
+            "id": "7.2.2",
+            "title": "Employment Model Pathways and Mindset Architecture",
+            "definition": "W2, per diem, hybrid, 1099, locums, direct contracting, psychological readiness, risk profiles, and lifestyle-fit analysis.",
+            "lens": "Understanding which employment structure fits who you are",
+            "topic_domains": [
+              {
+                "id": "7.2.2-1",
+                "title": "Employment Model Taxonomy and Structural Characteristics",
+                "definition": "Operational definitions and structural differences between W2 full-time, W2 per diem, 1099 independent contractor, locum tenens, hybrid arrangements, and direct facility contracting."
+              },
+              {
+                "id": "7.2.2-2",
+                "title": "Psychological Readiness and Mindset Architecture",
+                "definition": "The internal cognitive and emotional requirements for successful employment model transition, including identity shifts, risk tolerance assessment, and self-management capabilities."
+              },
+              {
+                "id": "7.2.2-3",
+                "title": "Risk Profile Analysis and Tolerance Assessment",
+                "definition": "Frameworks for evaluating personal risk tolerance across financial, professional, and lifestyle dimensions, and matching risk profiles to appropriate employment models."
+              },
+              {
+                "id": "7.2.2-4",
+                "title": "Lifestyle Integration and Personal Fit Analysis",
+                "definition": "How different employment models interact with family obligations, geographic preferences, schedule needs, travel tolerance, and personal values."
+              },
+              {
+                "id": "7.2.2-5",
+                "title": "Model Comparison and Selection Decision Science",
+                "definition": "Structured frameworks for comparing employment models across compensation, autonomy, stability, flexibility, and career development dimensions."
+              }
+            ]
+          },
+          {
+            "id": "7.2.3A",
+            "title": "Transition Decision Science",
+            "definition": "Evaluating readiness, financial thresholds, risk mitigation, family and lifestyle constraints, geography, and timing.",
+            "lens": "Deciding IF and WHEN to transition between employment models",
+            "topic_domains": [
+              {
+                "id": "7.2.3A-1",
+                "title": "Financial Readiness Assessment",
+                "definition": "Minimum savings thresholds, debt considerations, cash flow runway requirements, and financial stress testing before employment model transition."
+              },
+              {
+                "id": "7.2.3A-2",
+                "title": "Clinical Readiness Evaluation",
+                "definition": "Assessing whether clinical skills, experience breadth, and adaptability are sufficient for independent or variable practice environments."
+              },
+              {
+                "id": "7.2.3A-3",
+                "title": "Family and Lifestyle Constraint Mapping",
+                "definition": "Evaluating how family obligations, partner career, childcare, geographic ties, and personal commitments affect transition feasibility and timing."
+              },
+              {
+                "id": "7.2.3A-4",
+                "title": "Market Timing and Opportunity Assessment",
+                "definition": "Reading market conditions to optimize transition timing, including demand cycles, rate trends, and regional opportunity variations."
+              },
+              {
+                "id": "7.2.3A-5",
+                "title": "Risk Mitigation Strategy Development",
+                "definition": "Building safety nets, backup plans, and staged transition approaches that reduce downside risk while enabling model change."
+              }
+            ]
+          },
+          {
+            "id": "7.2.3B",
+            "title": "Transition Execution Mechanics",
+            "definition": "How to resign, sequence steps, line up contracts, navigate onboarding, avoid traps, and stabilize early independence.",
+            "lens": "The operational HOW of executing an employment model transition",
+            "topic_domains": [
+              {
+                "id": "7.2.3B-1",
+                "title": "Transition Readiness Diagnostics",
+                "definition": "Comprehensive assessment frameworks covering employment model fit, financial stability, clinical adaptability, lifestyle compatibility, and market positioning."
+              },
+              {
+                "id": "7.2.3B-2",
+                "title": "Strategic Exit Planning",
+                "definition": "Timing resignation, managing notice periods, preserving relationships, handling counteroffers, and protecting professional reputation during departure."
+              },
+              {
+                "id": "7.2.3B-3",
+                "title": "Professional Offboarding and Relationship Preservation",
+                "definition": "Maintaining collegial relationships, securing references, completing obligations, and leaving doors open for future opportunities."
+              },
+              {
+                "id": "7.2.3B-4",
+                "title": "Licensing, Credentialing and Workstart Sequencing",
+                "definition": "Managing multi-state licensure, credentialing timelines, privilege applications, and sequencing these processes to minimize income gaps."
+              },
+              {
+                "id": "7.2.3B-5",
+                "title": "Contract Pipeline Development",
+                "definition": "Building and managing a pipeline of potential assignments, agency relationships, and direct facility contacts to ensure continuous work availability."
+              },
+              {
+                "id": "7.2.3B-6",
+                "title": "Compensation, Rate Structuring and Cash Flow Alignment",
+                "definition": "Setting rates, understanding market positioning, structuring pay (hourly vs daily vs weekly), and managing cash flow timing in variable income models."
+              },
+              {
+                "id": "7.2.3B-7",
+                "title": "Administrative Setup for 1099 or Locums Work",
+                "definition": "Business entity formation, tax structure, banking, invoicing systems, expense tracking, and operational infrastructure for independent practice."
+              },
+              {
+                "id": "7.2.3B-8",
+                "title": "Compliance, Insurance and Liability Continuity",
+                "definition": "Malpractice coverage transitions, health insurance options, disability coverage, and maintaining continuous protection during model changes."
+              },
+              {
+                "id": "7.2.3B-9",
+                "title": "Risk Prevention and Transition Failure Points",
+                "definition": "Common transition mistakes, contract red flags, financial traps, and how to avoid the failure modes that derail employment model changes."
+              },
+              {
+                "id": "7.2.3B-10",
+                "title": "Crisis Recovery and Contingency Protocols",
+                "definition": "What to do when transitions go wrong: contract cancellations, credentialing failures, market downturns, and emergency fallback strategies."
+              },
+              {
+                "id": "7.2.3B-11",
+                "title": "Identity, Communication and Systems Migration",
+                "definition": "Updating professional identity, communication systems, online presence, and administrative processes to reflect new employment status."
+              },
+              {
+                "id": "7.2.3B-12",
+                "title": "Hybrid Transitioning and Dual Model Management",
+                "definition": "Managing simultaneous W2 and 1099 work, moonlighting considerations, and staged transitions that maintain stability while building independence."
+              },
+              {
+                "id": "7.2.3B-13",
+                "title": "First 30-90 Days Performance Strategy",
+                "definition": "Optimizing early performance in new assignments, rapid orientation strategies, relationship building, and establishing reputation quickly."
+              },
+              {
+                "id": "7.2.3B-14",
+                "title": "Family, Lifestyle and Financial Transition Stabilizers",
+                "definition": "Managing family adjustment to new work patterns, lifestyle changes, financial psychology shifts, and household system adaptations."
+              }
+            ]
+          },
+          {
+            "id": "7.2.4",
+            "title": "Career Acceleration, Specialization and Opportunity Positioning",
+            "definition": "Case mix selection, specialty growth pathways, compensation leverage, political navigation inside facilities, strategic networking, and opportunity mapping.",
+            "lens": "Strategic career growth and advancement",
+            "topic_domains": [
+              {
+                "id": "7.2.4-1",
+                "title": "Specialization Pathway Selection",
+                "definition": "Evaluating subspecialty options (cardiac, OB, pediatrics, regional, pain), market demand, training requirements, and career implications of specialization."
+              },
+              {
+                "id": "7.2.4-2",
+                "title": "Case Mix Strategy and Clinical Portfolio Building",
+                "definition": "Strategically building diverse case experience, maintaining recency in high-value skills, and creating a clinical portfolio that maximizes market value."
+              },
+              {
+                "id": "7.2.4-3",
+                "title": "Compensation Advancement Strategies",
+                "definition": "Tactics for increasing compensation through negotiation, market repositioning, specialization, credential enhancement, and strategic job changes."
+              },
+              {
+                "id": "7.2.4-4",
+                "title": "Professional Network Development",
+                "definition": "Building strategic relationships with colleagues, recruiters, facility leaders, and industry contacts that generate career opportunities."
+              },
+              {
+                "id": "7.2.4-5",
+                "title": "Internal Advancement and Political Navigation",
+                "definition": "Positioning for leadership roles, navigating organizational politics, building influence, and advancing within an organization."
+              }
+            ]
+          },
+          {
+            "id": "7.2.5",
+            "title": "Mid-Career Optimization, Reinvention and Market Restart",
+            "definition": "Fixing stagnation, addressing burnout, escaping political environments, retraining identity, recovering from career damage, changing regions, and repositioning in the market.",
+            "lens": "Course correction and reinvention at career midpoint",
+            "topic_domains": [
+              {
+                "id": "7.2.5-1",
+                "title": "Career Stagnation Diagnosis and Intervention",
+                "definition": "Identifying signs of career plateau, root cause analysis, and strategies for reigniting growth and engagement."
+              },
+              {
+                "id": "7.2.5-2",
+                "title": "Toxic Environment Extraction",
+                "definition": "Recognizing unsustainable work environments, planning strategic exits, and recovering professionally from damaging situations."
+              },
+              {
+                "id": "7.2.5-3",
+                "title": "Geographic Relocation Strategy",
+                "definition": "Evaluating markets for relocation, managing licensure transitions, rebuilding networks, and optimizing career outcomes through geographic change."
+              },
+              {
+                "id": "7.2.5-4",
+                "title": "Career Damage Recovery and Reputation Repair",
+                "definition": "Recovering from professional setbacks, addressing gaps or blemishes, rebuilding reputation, and re-establishing market position."
+              },
+              {
+                "id": "7.2.5-5",
+                "title": "Mid-Career Model Transition",
+                "definition": "Unique considerations for experienced CRNAs changing employment models, leveraging experience, and avoiding mid-career transition pitfalls."
+              }
+            ]
+          },
+          {
+            "id": "7.2.6",
+            "title": "Senior-Phase Optimization, Leadership and Transition Out",
+            "definition": "Maximizing final earning years, shifting into part-time models, mentorship roles, PAC involvement, policy engagement, phased retirement, and professional identity transition.",
+            "lens": "Late career optimization and eventual exit",
+            "topic_domains": [
+              {
+                "id": "7.2.6-1",
+                "title": "Late Career Income Maximization",
+                "definition": "Strategies for maximizing earnings in final working years, including high-value assignments, consultation roles, and leveraging senior status."
+              },
+              {
+                "id": "7.2.6-2",
+                "title": "Phased Retirement Planning",
+                "definition": "Designing gradual work reduction, part-time arrangements, PRN transitions, and work structures that enable smooth retirement."
+              },
+              {
+                "id": "7.2.6-3",
+                "title": "Mentorship and Legacy Contributions",
+                "definition": "Transitioning expertise into teaching, mentoring, precepting, and other roles that contribute to profession while reducing clinical demands."
+              },
+              {
+                "id": "7.2.6-4",
+                "title": "Professional Identity Transition",
+                "definition": "Managing the psychological transition from active practitioner to retired professional, maintaining identity, and finding post-career purpose."
+              },
+              {
+                "id": "7.2.6-5",
+                "title": "Advocacy and Policy Engagement",
+                "definition": "Channeling professional experience into advocacy, PAC involvement, legislative engagement, and policy influence as late-career contribution."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7.3",
+        "title": "Leadership and Organizational Behavior",
+        "definition": "How CRNAs influence, lead, and function inside clinical organizations. This sub-pillar covers real-world culture, communication, power structures, conflict navigation, and team behavior.",
+        "branches": [
+          {
+            "id": "7.3.1",
+            "title": "OR and Facility Cultural Dynamics",
+            "definition": "Team norms, conflict patterns, unwritten rules, onboarding expectations, and cultural impact on practice.",
+            "lens": "Understanding and navigating workplace culture",
+            "topic_domains": [
+              {
+                "id": "7.3.1-1",
+                "title": "OR Culture Assessment and Adaptation",
+                "definition": "Reading cultural cues, understanding unwritten rules, identifying power dynamics, and adapting behavior to thrive in different OR environments."
+              },
+              {
+                "id": "7.3.1-2",
+                "title": "Team Integration Strategies",
+                "definition": "Techniques for integrating into established teams, building relationships with permanent staff, and establishing credibility quickly."
+              },
+              {
+                "id": "7.3.1-3",
+                "title": "Cultural Red Flags and Toxicity Recognition",
+                "definition": "Identifying dysfunctional culture patterns, recognizing toxic environments early, and deciding when cultural issues warrant departure."
+              },
+              {
+                "id": "7.3.1-4",
+                "title": "Cross-Cultural Facility Navigation",
+                "definition": "Adapting to different facility types (academic vs community, urban vs rural, large vs small) and their distinct cultural expectations."
+              }
+            ]
+          },
+          {
+            "id": "7.3.2",
+            "title": "Power Structures and Influence Models",
+            "definition": "MD relationships, administrative hierarchies, anesthesia group politics, power asymmetries, and negotiation environments.",
+            "lens": "Understanding who holds power and how to work within hierarchies",
+            "topic_domains": [
+              {
+                "id": "7.3.2-1",
+                "title": "CRNA-Anesthesiologist Dynamic Management",
+                "definition": "Navigating professional relationships with MDAs, managing supervision dynamics, and building collaborative relationships across provider types."
+              },
+              {
+                "id": "7.3.2-2",
+                "title": "Surgeon Relationship Management",
+                "definition": "Building productive relationships with surgeons, managing difficult surgeon personalities, and navigating surgeon preferences and demands."
+              },
+              {
+                "id": "7.3.2-3",
+                "title": "Administrative Hierarchy Navigation",
+                "definition": "Understanding hospital administrative structures, building relationships with leadership, and effectively advocating within bureaucratic systems."
+              },
+              {
+                "id": "7.3.2-4",
+                "title": "Anesthesia Group Political Dynamics",
+                "definition": "Understanding internal politics of anesthesia groups, partnership dynamics, and how to navigate or avoid political entanglements."
+              },
+              {
+                "id": "7.3.2-5",
+                "title": "Influence Building Without Authority",
+                "definition": "Developing professional influence as a CRNA without formal authority, building credibility, and becoming a valued voice in decision-making."
+              }
+            ]
+          },
+          {
+            "id": "7.3.3",
+            "title": "Communication, Conflict Navigation and Negotiation",
+            "definition": "High-stakes communication, hostile environments, surgeon dynamics, safety advocacy, and conflict skillsets.",
+            "lens": "Professional communication and conflict management",
+            "topic_domains": [
+              {
+                "id": "7.3.3-1",
+                "title": "High-Stakes Clinical Communication",
+                "definition": "Communicating effectively in critical situations, assertive communication techniques, and advocating for patient safety under pressure."
+              },
+              {
+                "id": "7.3.3-2",
+                "title": "Conflict De-escalation and Resolution",
+                "definition": "Techniques for de-escalating workplace conflicts, managing interpersonal tensions, and resolving disputes professionally."
+              },
+              {
+                "id": "7.3.3-3",
+                "title": "Difficult Conversation Management",
+                "definition": "Frameworks for handling difficult professional conversations including performance issues, boundary violations, and disagreements with superiors."
+              },
+              {
+                "id": "7.3.3-4",
+                "title": "Professional Negotiation Skills",
+                "definition": "Negotiation techniques for workplace issues beyond compensation, including schedule, assignments, resources, and working conditions."
+              }
+            ]
+          },
+          {
+            "id": "7.3.4",
+            "title": "Leadership Identity and Capacity Building",
+            "definition": "Leadership styles, emotional intelligence, coaching skill development, stepping into leadership roles, and shaping team culture.",
+            "lens": "Developing as a leader within anesthesia practice",
+            "topic_domains": [
+              {
+                "id": "7.3.4-1",
+                "title": "Leadership Style Development",
+                "definition": "Understanding different leadership styles, identifying personal leadership strengths, and developing an authentic leadership approach."
+              },
+              {
+                "id": "7.3.4-2",
+                "title": "Emotional Intelligence in Clinical Leadership",
+                "definition": "Developing EQ competencies essential for clinical leadership including self-awareness, empathy, and relationship management."
+              },
+              {
+                "id": "7.3.4-3",
+                "title": "Team Leadership and Culture Shaping",
+                "definition": "Skills for leading clinical teams, shaping team culture, fostering collaboration, and building high-performing anesthesia teams."
+              },
+              {
+                "id": "7.3.4-4",
+                "title": "Formal Leadership Role Preparation",
+                "definition": "Preparing for formal leadership positions including chief CRNA, department leadership, and administrative roles."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7.4",
+        "title": "Professional Identity, Reputation and Career Mobility",
+        "definition": "The identity-based drivers of CRNA opportunity: how providers are perceived, selected, valued, promoted, or excluded. This is the career currency layer including identity architecture, personal brand, CV strategy, reference systems, mentorship networks, and mobility strategies.",
+        "branches": [
+          {
+            "id": "7.4.1",
+            "title": "Identity, Brand and Visibility Architecture",
+            "definition": "Creating a professional identity that signals competence, autonomy, reliability, and leadership potential.",
+            "lens": "Building and projecting professional identity",
+            "topic_domains": [
+              {
+                "id": "7.4.1-1",
+                "title": "Professional Identity Construction",
+                "definition": "Consciously building professional identity, aligning self-perception with career goals, and developing identity clarity."
+              },
+              {
+                "id": "7.4.1-2",
+                "title": "Personal Brand Development",
+                "definition": "Creating a coherent professional brand, differentiating from peers, and communicating unique value to the market."
+              },
+              {
+                "id": "7.4.1-3",
+                "title": "Digital Presence and Online Visibility",
+                "definition": "Managing LinkedIn, social media, and online presence for professional benefit while avoiding risks."
+              },
+              {
+                "id": "7.4.1-4",
+                "title": "Professional Differentiation Strategy",
+                "definition": "Identifying and communicating what makes you different and more valuable than other candidates."
+              }
+            ]
+          },
+          {
+            "id": "7.4.2",
+            "title": "CV, Portfolio and Career Asset Management",
+            "definition": "CV structure, reputation protection, digital hygiene, watermarks, document strategy, and avoiding identity damage.",
+            "lens": "Managing the tangible assets of professional identity",
+            "topic_domains": [
+              {
+                "id": "7.4.2-1",
+                "title": "CV Optimization and Strategy",
+                "definition": "Creating compelling CVs, tailoring for different opportunities, highlighting relevant experience, and avoiding common CV mistakes."
+              },
+              {
+                "id": "7.4.2-2",
+                "title": "Credential and Documentation Management",
+                "definition": "Organizing and maintaining professional documents, licenses, certifications, and credentials for rapid deployment."
+              },
+              {
+                "id": "7.4.2-3",
+                "title": "Reference Network Development",
+                "definition": "Building and maintaining a network of professional references, managing reference relationships, and strategic reference deployment."
+              },
+              {
+                "id": "7.4.2-4",
+                "title": "Professional Portfolio Curation",
+                "definition": "Building a portfolio of professional accomplishments, case experience documentation, and career highlight collection."
+              }
+            ]
+          },
+          {
+            "id": "7.4.3",
+            "title": "Relationship Building and Mentorship Systems",
+            "definition": "Mentorship models, maintaining key sponsor relationships, and leveraging professional networks for opportunity generation.",
+            "lens": "Building relationships that create opportunity",
+            "topic_domains": [
+              {
+                "id": "7.4.3-1",
+                "title": "Mentorship Relationship Development",
+                "definition": "Finding mentors, building mentor relationships, maximizing mentorship value, and eventually becoming a mentor."
+              },
+              {
+                "id": "7.4.3-2",
+                "title": "Sponsor Identification and Cultivation",
+                "definition": "Identifying potential sponsors (vs mentors), building sponsor relationships, and leveraging sponsorship for opportunity."
+              },
+              {
+                "id": "7.4.3-3",
+                "title": "Professional Network Strategy",
+                "definition": "Strategic networking approaches, maintaining connections, and converting network relationships into career opportunities."
+              },
+              {
+                "id": "7.4.3-4",
+                "title": "Peer Relationship Investment",
+                "definition": "Building collegial relationships, creating mutual support systems, and leveraging peer networks for career benefit."
+              }
+            ]
+          },
+          {
+            "id": "7.4.4",
+            "title": "Reputation Risk, Repair and Mobility Strategy",
+            "definition": "Handling mistakes, exiting toxic environments, rebuilding reputation, repositioning, and re-entering markets with leverage.",
+            "lens": "Protecting and recovering professional reputation",
+            "topic_domains": [
+              {
+                "id": "7.4.4-1",
+                "title": "Reputation Risk Management",
+                "definition": "Identifying reputation risks, protecting professional standing, and avoiding actions that damage professional perception."
+              },
+              {
+                "id": "7.4.4-2",
+                "title": "Mistake Recovery and Damage Control",
+                "definition": "Managing professional mistakes, controlling damage, and recovering reputation after errors or missteps."
+              },
+              {
+                "id": "7.4.4-3",
+                "title": "Strategic Repositioning",
+                "definition": "Changing professional direction, repositioning in the market, and creating new career narratives."
+              },
+              {
+                "id": "7.4.4-4",
+                "title": "Market Re-Entry Strategy",
+                "definition": "Re-entering the job market after gaps, setbacks, or extended absences while maximizing leverage and minimizing stigma."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "statistics": {
+    "sub_pillars": 4,
+    "branches": 18,
+    "topic_domains": 76
+  }
+}

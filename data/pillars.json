@@ -1008,6 +1008,11 @@
                   "id": "1.4.5-7",
                   "title": "Bariatric Surgery Anesthesia",
                   "definition": "Physiologic changes of morbid obesity, airway management challenges, dosing considerations, and positioning. Anesthetic approach to laparoscopic and open bariatric procedures."
+                },
+                {
+                  "id": "1.4.5-8",
+                  "title": "Substance Use Disorders and Anesthesia",
+                  "definition": "Anesthetic considerations for patients with opioid use disorder, alcohol dependence, and other substance use disorders. Managing patients on medication-assisted treatment (buprenorphine, methadone), acute intoxication, withdrawal syndromes, and altered pharmacologic responses."
                 }
               ]
             },

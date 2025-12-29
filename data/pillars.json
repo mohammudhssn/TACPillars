@@ -455,56 +455,329 @@
               "title": "Preoperative Assessment and Optimization",
               "definition": "Comprehensive patient evaluation, risk stratification, NPO guidelines, premedication strategies, and perioperative optimization. The foundation of safe anesthesia planning based on patient-specific factors.",
               "lens": "Preparation and planning to minimize perioperative risk",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.3.1-1",
+                  "title": "Preanesthetic History and Physical Examination",
+                  "definition": "Systematic approach to obtaining relevant medical, surgical, anesthetic, and social history. Focused physical examination techniques for airway, cardiovascular, pulmonary, and neurologic systems relevant to anesthesia planning."
+                },
+                {
+                  "id": "1.3.1-2",
+                  "title": "Perioperative Risk Stratification",
+                  "definition": "ASA physical status classification, cardiac risk indices (RCRI, NSQIP), pulmonary risk assessment, and frailty screening. Using validated tools to quantify risk and guide perioperative planning."
+                },
+                {
+                  "id": "1.3.1-3",
+                  "title": "Preoperative Testing and Laboratory Evaluation",
+                  "definition": "Evidence-based indications for ECG, chest radiography, laboratory studies, and specialized testing. Avoiding unnecessary testing while ensuring appropriate evaluation for patient-specific and procedure-specific risks."
+                },
+                {
+                  "id": "1.3.1-4",
+                  "title": "NPO Guidelines and Aspiration Risk",
+                  "definition": "Current fasting guidelines for solids, liquids, and specific populations. Identifying patients at increased aspiration risk and modifying anesthetic approach accordingly."
+                },
+                {
+                  "id": "1.3.1-5",
+                  "title": "Premedication Strategies",
+                  "definition": "Anxiolysis, aspiration prophylaxis, continuation or discontinuation of chronic medications, and prophylactic antibiotics. Rational premedication selection based on patient factors and procedure requirements."
+                },
+                {
+                  "id": "1.3.1-6",
+                  "title": "Perioperative Optimization and Prehabilitation",
+                  "definition": "Optimizing chronic conditions before surgery including diabetes, hypertension, anemia, and nutritional status. Prehabilitation principles for improving functional capacity and reducing complications."
+                }
+              ]
             },
             {
               "id": "1.3.2",
               "title": "Airway Management Techniques",
               "definition": "Airway assessment, basic and advanced airway techniques, difficult airway algorithms, and extubation strategies. The clinical skills and decision-making required to establish and maintain airway control.",
               "lens": "Securing and maintaining the airway across all patient presentations",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.3.2-1",
+                  "title": "Airway Assessment and Difficult Airway Prediction",
+                  "definition": "Systematic airway examination, predictive indices (Mallampati, thyromental distance, mouth opening), and recognition of conditions associated with difficult mask ventilation or intubation. Developing a primary and backup airway strategy."
+                },
+                {
+                  "id": "1.3.2-2",
+                  "title": "Basic Airway Maneuvers and Mask Ventilation",
+                  "definition": "Head positioning, jaw thrust, chin lift, oral and nasal airway insertion, and two-handed mask ventilation techniques. Optimizing mask seal and managing difficult mask ventilation scenarios."
+                },
+                {
+                  "id": "1.3.2-3",
+                  "title": "Direct and Video Laryngoscopy Techniques",
+                  "definition": "Positioning, blade insertion, laryngeal exposure optimization, and tube delivery for direct laryngoscopy. Video laryngoscopy technique differences, stylet angles, and troubleshooting failed attempts."
+                },
+                {
+                  "id": "1.3.2-4",
+                  "title": "Supraglottic Airway Placement and Management",
+                  "definition": "Insertion techniques for various supraglottic devices, confirming adequate placement, troubleshooting poor seal, and recognizing appropriate versus contraindicated clinical scenarios."
+                },
+                {
+                  "id": "1.3.2-5",
+                  "title": "Difficult Airway Algorithm Application",
+                  "definition": "ASA Difficult Airway Algorithm implementation, decision-making at key branch points, transitioning between techniques, and knowing when to abort and allow awakening. Managing the cannot-intubate-cannot-oxygenate scenario."
+                },
+                {
+                  "id": "1.3.2-6",
+                  "title": "Awake Intubation Techniques",
+                  "definition": "Patient selection, topicalization methods, sedation strategies, and flexible bronchoscopic intubation technique. Managing patient anxiety while maintaining spontaneous ventilation and airway reflexes."
+                },
+                {
+                  "id": "1.3.2-7",
+                  "title": "Extubation Planning and Techniques",
+                  "definition": "Assessing extubation readiness, high-risk extubation strategies, use of airway exchange catheters, and managing failed extubation. Deep versus awake extubation decision-making."
+                }
+              ]
             },
             {
               "id": "1.3.3",
               "title": "General Anesthesia Delivery",
               "definition": "Induction techniques, maintenance strategies (inhalational, TIVA, balanced), depth of anesthesia management, and emergence. The core techniques for rendering patients unconscious and managing the anesthetic state.",
               "lens": "Mastering the art and science of general anesthesia",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.3.3-1",
+                  "title": "Intravenous Induction Techniques",
+                  "definition": "Standard IV induction, dose modifications for patient factors, co-induction strategies, and managing hemodynamic responses. Smooth transition from consciousness to secured airway."
+                },
+                {
+                  "id": "1.3.3-2",
+                  "title": "Inhalational Induction and Maintenance",
+                  "definition": "Sevoflurane induction technique for adults and children, titrating volatile agents for maintenance, and understanding MAC-based dosing. Managing the transition between induction and maintenance phases."
+                },
+                {
+                  "id": "1.3.3-3",
+                  "title": "Total Intravenous Anesthesia (TIVA)",
+                  "definition": "Propofol and remifentanil-based TIVA, target-controlled infusion concepts, manual infusion schemes, and clinical indications. Avoiding awareness while optimizing recovery characteristics."
+                },
+                {
+                  "id": "1.3.3-4",
+                  "title": "Rapid Sequence Induction and Intubation",
+                  "definition": "Indications, preparation, preoxygenation optimization, drug selection, cricoid pressure application, and managing failed RSI. Balancing aspiration risk against airway difficulty."
+                },
+                {
+                  "id": "1.3.3-5",
+                  "title": "Emergence and Awakening Management",
+                  "definition": "Timing anesthetic offset, preventing emergence delirium and agitation, smooth awakening techniques, and criteria for safe extubation. Managing coughing, bucking, and hemodynamic responses."
+                },
+                {
+                  "id": "1.3.3-6",
+                  "title": "Anesthetic Planning and Case Management",
+                  "definition": "Developing comprehensive anesthetic plans integrating patient factors, surgical requirements, and recovery goals. Anticipating challenges, preparing contingencies, and adapting to intraoperative changes."
+                }
+              ]
             },
             {
               "id": "1.3.4",
               "title": "Regional Anesthesia and Acute Pain Management",
               "definition": "Neuraxial techniques, peripheral nerve blocks, multimodal analgesia strategies, and ERAS protocol integration. Techniques that provide surgical anesthesia, supplement general anesthesia, or manage acute postoperative pain.",
               "lens": "Regional techniques and multimodal strategies for anesthesia and analgesia",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.3.4-1",
+                  "title": "Spinal Anesthesia Technique",
+                  "definition": "Patient selection, positioning, landmark and ultrasound-guided needle placement, local anesthetic selection and dosing, managing block height, and recognizing and treating complications including post-dural puncture headache."
+                },
+                {
+                  "id": "1.3.4-2",
+                  "title": "Epidural Anesthesia and Analgesia",
+                  "definition": "Epidural catheter placement technique, test dosing, local anesthetic and adjunct selection, managing patchy or failed blocks, and epidural use for surgical anesthesia versus postoperative analgesia."
+                },
+                {
+                  "id": "1.3.4-3",
+                  "title": "Upper Extremity Peripheral Nerve Blocks",
+                  "definition": "Ultrasound-guided interscalene, supraclavicular, infraclavicular, and axillary brachial plexus blocks. Indications, technique, local anesthetic volumes, and managing complications including phrenic nerve blockade."
+                },
+                {
+                  "id": "1.3.4-4",
+                  "title": "Lower Extremity Peripheral Nerve Blocks",
+                  "definition": "Femoral, adductor canal, popliteal sciatic, and ankle blocks. Ultrasound-guided technique, motor-sparing approaches, and clinical applications for hip, knee, and foot surgery."
+                },
+                {
+                  "id": "1.3.4-5",
+                  "title": "Truncal and Fascial Plane Blocks",
+                  "definition": "TAP blocks, quadratus lumborum blocks, erector spinae plane blocks, PECS blocks, and serratus anterior plane blocks. Technique, local anesthetic spread patterns, and procedure-specific applications."
+                },
+                {
+                  "id": "1.3.4-6",
+                  "title": "Continuous Catheter Techniques",
+                  "definition": "Perineural catheter placement for prolonged analgesia, infusion management, patient-controlled regional analgesia, and troubleshooting catheter-related complications including dislodgement and infection."
+                },
+                {
+                  "id": "1.3.4-7",
+                  "title": "Multimodal Analgesia and Opioid-Sparing Strategies",
+                  "definition": "Combining acetaminophen, NSAIDs, gabapentinoids, ketamine, dexmedetomidine, and regional techniques. Evidence-based multimodal protocols to optimize analgesia while minimizing opioid consumption and side effects."
+                },
+                {
+                  "id": "1.3.4-8",
+                  "title": "Enhanced Recovery Protocol Integration",
+                  "definition": "ERAS pathway components including preoperative education, carbohydrate loading, multimodal analgesia, goal-directed fluid therapy, and early mobilization. The anesthesiologist's role in implementing enhanced recovery programs."
+                }
+              ]
             },
             {
               "id": "1.3.5",
               "title": "Sedation and Monitored Anesthesia Care",
               "definition": "MAC techniques, procedural sedation, the sedation continuum, and patient selection for non-general anesthesia approaches. Managing patient comfort and safety without full general anesthesia.",
               "lens": "Tailored sedation for procedures not requiring general anesthesia",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.3.5-1",
+                  "title": "Sedation Continuum and Depth Assessment",
+                  "definition": "Minimal, moderate, and deep sedation definitions and clinical characteristics. Recognizing transitions between sedation levels, using assessment tools, and understanding the pharmacologic factors affecting sedation depth."
+                },
+                {
+                  "id": "1.3.5-2",
+                  "title": "Monitored Anesthesia Care Technique",
+                  "definition": "MAC indications, drug selection (propofol, dexmedetomidine, midazolam, opioids), titration strategies, and supplemental oxygen delivery. Maintaining patient comfort while preserving airway reflexes and spontaneous ventilation."
+                },
+                {
+                  "id": "1.3.5-3",
+                  "title": "Procedural Sedation for Specific Settings",
+                  "definition": "Sedation techniques for endoscopy, interventional radiology, cardiac catheterization, and other NORA environments. Adapting approach to procedure duration, patient positioning, and access limitations."
+                },
+                {
+                  "id": "1.3.5-4",
+                  "title": "Patient Selection for Non-General Anesthesia",
+                  "definition": "Evaluating patient suitability for MAC or regional anesthesia, identifying contraindications, and discussing realistic expectations. Recognizing when conversion to general anesthesia may be necessary."
+                },
+                {
+                  "id": "1.3.5-5",
+                  "title": "Managing Sedation Complications",
+                  "definition": "Recognizing and managing oversedation, airway obstruction, hypoxemia, and paradoxical reactions during sedation. Rescue interventions and decision-making for conversion to general anesthesia."
+                }
+              ]
             },
             {
               "id": "1.3.6",
               "title": "Intraoperative Physiologic Management",
               "definition": "Hemodynamic optimization, ventilation strategies, fluid and blood product therapy, temperature management, and surgical positioning considerations. Maintaining physiologic homeostasis throughout the surgical procedure.",
               "lens": "Moment-to-moment physiologic optimization during surgery",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.3.6-1",
+                  "title": "Hemodynamic Goals and Vasoactive Therapy",
+                  "definition": "Target blood pressure and cardiac output goals, vasopressor and inotrope selection and dosing, and managing anesthetic-induced hypotension. Goal-directed hemodynamic optimization strategies."
+                },
+                {
+                  "id": "1.3.6-2",
+                  "title": "Ventilation Strategies and Lung Protection",
+                  "definition": "Intraoperative lung-protective ventilation including low tidal volumes, appropriate PEEP, and recruitment maneuvers. Managing oxygenation and ventilation challenges during various surgical positions and procedures."
+                },
+                {
+                  "id": "1.3.6-3",
+                  "title": "Fluid Management and Resuscitation",
+                  "definition": "Crystalloid versus colloid selection, goal-directed fluid therapy using dynamic parameters, restrictive versus liberal fluid strategies, and managing fluid deficits and third-space losses."
+                },
+                {
+                  "id": "1.3.6-4",
+                  "title": "Blood Product Therapy and Massive Transfusion",
+                  "definition": "Transfusion triggers, component therapy ratios, massive transfusion protocol activation and management, and complications including TACO, TRALI, and citrate toxicity."
+                },
+                {
+                  "id": "1.3.6-5",
+                  "title": "Temperature Management and Normothermia",
+                  "definition": "Mechanisms of perioperative hypothermia, active and passive warming strategies, temperature monitoring sites, and consequences of unintended hypothermia on coagulation, infection, and recovery."
+                },
+                {
+                  "id": "1.3.6-6",
+                  "title": "Surgical Positioning and Associated Risks",
+                  "definition": "Physiologic effects of supine, lateral, prone, lithotomy, and Trendelenburg positions. Preventing positioning injuries including peripheral nerve damage, pressure injuries, and ocular complications."
+                },
+                {
+                  "id": "1.3.6-7",
+                  "title": "Intraoperative Glycemic Control",
+                  "definition": "Target glucose ranges, insulin infusion protocols, and managing diabetic and non-diabetic hyperglycemia. Balancing glycemic control against hypoglycemia risk during surgery."
+                }
+              ]
             },
             {
               "id": "1.3.7",
               "title": "Postoperative Care and PACU Management",
               "definition": "Emergence management, PONV prophylaxis and treatment, postoperative pain control, discharge criteria, and handoff communication. Ensuring safe transition from anesthesia through recovery.",
               "lens": "Safe recovery and transition from anesthetic care",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.3.7-1",
+                  "title": "PACU Admission and Monitoring Standards",
+                  "definition": "Transfer of care protocols, initial PACU assessment, monitoring requirements, and observation intervals. Ensuring continuous surveillance during the high-risk immediate postoperative period."
+                },
+                {
+                  "id": "1.3.7-2",
+                  "title": "Postoperative Nausea and Vomiting Management",
+                  "definition": "PONV risk stratification, multimodal prophylaxis regimens, and rescue antiemetic therapy. Evidence-based approaches to minimizing this common and distressing postoperative complication."
+                },
+                {
+                  "id": "1.3.7-3",
+                  "title": "Postoperative Pain Assessment and Treatment",
+                  "definition": "Pain assessment tools, IV opioid titration, regional technique management, and transition to oral analgesics. Achieving adequate analgesia while minimizing opioid-related side effects."
+                },
+                {
+                  "id": "1.3.7-4",
+                  "title": "Discharge Criteria and Fast-Track Recovery",
+                  "definition": "Modified Aldrete scores, phase I and phase II recovery criteria, same-day discharge requirements, and bypass protocols for appropriate patients. Safe and efficient transitions to lower levels of care."
+                },
+                {
+                  "id": "1.3.7-5",
+                  "title": "Postoperative Handoff Communication",
+                  "definition": "Structured handoff frameworks (I-PASS, SBAR), essential information elements, and communication with PACU nurses and subsequent care teams. Preventing information loss during care transitions."
+                },
+                {
+                  "id": "1.3.7-6",
+                  "title": "Recognition and Management of PACU Complications",
+                  "definition": "Managing postoperative respiratory depression, emergence delirium, shivering, hypotension, bleeding, and arrhythmias. Early recognition and intervention for common PACU emergencies."
+                }
+              ]
             },
             {
               "id": "1.3.8",
               "title": "Patient Safety and Crisis Management",
               "definition": "Emergency protocols, ACLS integration, malignant hyperthermia, local anesthetic systemic toxicity (LAST), anaphylaxis, and medication safety practices. Recognition and management of life-threatening perioperative events.",
               "lens": "Preparedness and response for perioperative emergencies",
-              "topic_domains": []
+              "topic_domains": [
+                {
+                  "id": "1.3.8-1",
+                  "title": "Malignant Hyperthermia Recognition and Treatment",
+                  "definition": "Early clinical signs, triggering agents, differential diagnosis, and MHAUS treatment protocol including dantrolene dosing. Preparation, team roles, and post-crisis management."
+                },
+                {
+                  "id": "1.3.8-2",
+                  "title": "Local Anesthetic Systemic Toxicity (LAST) Protocol",
+                  "definition": "Risk factors, prodromal symptoms, cardiovascular and CNS manifestations, and ASRA LAST treatment algorithm. Lipid emulsion therapy dosing, timing, and adjunctive management."
+                },
+                {
+                  "id": "1.3.8-3",
+                  "title": "Anaphylaxis Recognition and Management",
+                  "definition": "Common perioperative triggers, clinical presentation across organ systems, and immediate treatment with epinephrine. Secondary management, tryptase testing, and post-event allergy evaluation."
+                },
+                {
+                  "id": "1.3.8-4",
+                  "title": "Perioperative Cardiac Arrest and ACLS",
+                  "definition": "Adapting ACLS algorithms to the OR environment, managing anesthesia-specific causes (4 Hs and 4 Ts), and role assignments during resuscitation. CPR quality and defibrillation in surgical patients."
+                },
+                {
+                  "id": "1.3.8-5",
+                  "title": "Medication Safety and Error Prevention",
+                  "definition": "High-alert medications, look-alike/sound-alike drug pairs, syringe labeling standards, and barcode medication administration. Systems and individual practices to prevent medication errors."
+                },
+                {
+                  "id": "1.3.8-6",
+                  "title": "Airway Fire and OR Fire Response",
+                  "definition": "Fire triangle in the surgical environment, prevention strategies during airway and laser surgery, and immediate response protocol (stop gas flow, remove ETT, extinguish, assess injury)."
+                },
+                {
+                  "id": "1.3.8-7",
+                  "title": "Intraoperative Awareness Prevention and Management",
+                  "definition": "Risk factors for awareness, monitoring strategies including processed EEG, and management when awareness is suspected. Post-event patient support and documentation."
+                },
+                {
+                  "id": "1.3.8-8",
+                  "title": "Crisis Resource Management and Team Communication",
+                  "definition": "CRM principles including leadership, communication, situational awareness, and workload distribution. Using cognitive aids, calling for help early, and conducting debriefs after critical events."
+                }
+              ]
             }
           ]
         },
@@ -561,7 +834,7 @@
       "statistics": {
         "sub_pillars": 4,
         "branches": 24,
-        "topic_domains": 65
+        "topic_domains": 118
       }
     }
   ]

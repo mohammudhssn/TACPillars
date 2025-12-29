@@ -30,7 +30,43 @@
           "id": "1.1",
           "title": "Foundational Sciences for Anesthesia Practice",
           "definition": "The scientific foundation underpinning all clinical anesthesia practice, including human physiology and pathophysiology, pharmacology and pharmacokinetics, applied anatomy, and the chemistry and physics relevant to anesthesia delivery. This sub-pillar encompasses the basic science knowledge required for understanding drug behavior, physiologic responses, and disease processes that inform clinical decision-making.",
-          "branches": []
+          "branches": [
+            {
+              "id": "1.1.1",
+              "title": "Physiology of Organ Systems",
+              "definition": "Normal physiologic function of cardiovascular, respiratory, neurological, renal, hepatic, and endocrine systems as they relate to anesthesia delivery and patient response. Encompasses the baseline understanding required to predict and interpret physiologic changes during anesthesia.",
+              "lens": "Understanding how the body functions normally to predict anesthetic responses",
+              "topic_domains": []
+            },
+            {
+              "id": "1.1.2",
+              "title": "Pathophysiology and Coexisting Disease States",
+              "definition": "How acute and chronic disease processes alter normal physiology and impact anesthetic risk, drug handling, and perioperative management. Covers the pathophysiologic basis of conditions commonly encountered in surgical patients.",
+              "lens": "Understanding how disease modifies physiologic reserve and anesthetic approach",
+              "topic_domains": []
+            },
+            {
+              "id": "1.1.3",
+              "title": "Pharmacology of Anesthetic Agents",
+              "definition": "Mechanisms of action, pharmacokinetics, pharmacodynamics, and drug interactions for all agent classes used in anesthesia practice including inhalational agents, intravenous anesthetics, opioids, neuromuscular blocking agents, local anesthetics, and adjuncts.",
+              "lens": "Understanding drug behavior to optimize agent selection, dosing, and timing",
+              "topic_domains": []
+            },
+            {
+              "id": "1.1.4",
+              "title": "Applied Anatomy for Anesthesia Practice",
+              "definition": "Anatomical structures and spatial relationships essential for airway management, regional anesthesia techniques, vascular access, and understanding surgical positioning effects. Emphasizes clinically relevant anatomy over comprehensive anatomical study.",
+              "lens": "Spatial and structural understanding for procedural success and patient safety",
+              "topic_domains": []
+            },
+            {
+              "id": "1.1.5",
+              "title": "Chemistry and Physics Principles",
+              "definition": "Gas laws, fluid dynamics, electrical principles, solubility, diffusion, and physical chemistry underlying anesthesia machine function, drug delivery, and physiologic monitoring. The scientific basis for understanding equipment behavior and drug distribution.",
+              "lens": "Physical science foundation for equipment operation and drug behavior prediction",
+              "topic_domains": []
+            }
+          ]
         },
         {
           "id": "1.2",
@@ -53,7 +89,7 @@
       ],
       "statistics": {
         "sub_pillars": 4,
-        "branches": 0,
+        "branches": 5,
         "topic_domains": 0
       }
     }

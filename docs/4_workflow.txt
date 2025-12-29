@@ -1,0 +1,189 @@
+TAC CONTENT ARCHITECT WORKFLOW
+(Authoritative Production Process for Building the Knowledge System)
+This workflow governs how every piece of knowledge is added, validated, stress-tested, and locked into the TAC architecture. If someone is creating or revising anything in the system, they follow this sequence.
+The purpose is simple:
+Preserve purity of the architecture, prevent overlap, and guarantee completeness.
+________________
+
+
+1. Start With the Approved Architecture File
+Before anything is built:
+• Open the current TAC Knowledge Architecture Guidebook
+• Confirm the Pillar, Sub-Pillar, Branch, Topic Domain, Subtopic, and Knowledge Element chain is accurate
+• Confirm numbering matches the canonical format
+• Confirm no level above the one you're building is still under debate
+If architecture is in flux at that layer, you STOP.
+________________
+
+
+2. Always Build Vertically, One Slice at a Time
+Every project starts with a single vertical slice and drills down:
+Pillar
+→ Sub-Pillar
+→ Branch
+→ Topic Domain
+→ Subtopic
+→ Knowledge Elements
+You do not generate Subtopics until a Topic Domain is fully defined.
+You do not generate Knowledge Elements until one Subtopic is fully defined.
+You do not generate educational content until Knowledge Elements are locked.
+This protects the system from premature expansion and ensures every layer matches the constraints above it.
+________________
+
+
+3. Use the Vertical Build Protocol
+For each slice:
+3.1 Define the level
+Example: “Define Topic Domain 7.2.3B-2.”
+3.2 Restate the upstream constraints
+AI must restate:
+• Pillar definition
+• Sub-Pillar objective
+• Branch lens
+• Topic Domain purpose
+This forces alignment and prevents drift.
+3.3 Generate the first draft
+Allow AI to produce a clean, structurally correct output for that level.
+________________
+
+
+4. Stress-Test Before Moving Forward
+Never build down to the next layer until the current layer survives stress testing.
+Stress tests check:
+4.1 Completeness
+Ask:
+“Does this fully describe the Topic Domain if someone had to teach it without help?”
+4.2 Non-overlap
+Ask:
+“Does any component belong somewhere else in the architecture?”
+4.3 Scope purity
+Ask:
+“Is this trying to do the job of the layer above or below it?”
+4.4 Necessity
+Ask:
+“If this section were removed, would the Topic Domain still be complete?”
+4.5 Dimensional boundaries
+Ask:
+“Is this consistent with the Pillar, Sub-Pillar, and Branch constraints?”
+Every failure must be addressed before continuing.
+________________
+
+
+5. Lock Levels Before Descending
+A level is considered “locked” only when:
+• It is fully defined
+• It has passed stress testing
+• The architect signs off
+• Numbering is assigned
+• It is inserted into the master architecture document
+If it is not locked, you are not allowed to build downward.
+________________
+
+
+6. Once Locked, Begin the Next Level
+After a Subtopic is locked:
+• Generate Knowledge Element sets
+• Stress test for atomicity and exclusivity
+• Ensure each element is only one idea
+• Ensure nothing overlaps across elements
+• Ensure the set fully covers the Subtopic
+Do not produce educational assets until the Knowledge Elements are locked.
+________________
+
+
+7. Produce Content Only After Architecture Is Final
+Once Knowledge Elements are locked, then and only then:
+• Create course modules
+• Write checklists
+• Build assessments
+• Write scripts for videos
+• Create templates or worksheets
+• Generate examples and case studies
+Every asset is explicitly mapped to:
+Pillar → Sub-Pillar → Branch → Domain → Subtopic → Knowledge Element.
+This mapping becomes a metadata tag.
+________________
+
+
+8. Contributor Submission Protocol
+When contractors or subject matter experts produce content, they must:
+• Identify the exact Knowledge Element they are building
+• Avoid adding new ideas not defined in the KE set
+• Flag if they believe an unaddressed concept exists
+• Submit content for validation before formatting
+No one may arbitrarily add ideas to the system.
+________________
+
+
+9. Drift Detection Protocol
+The architect checks for:
+• Ideas recurring across Domains or Subtopics
+• Content that “feels like” it belongs in another part of the architecture
+• Newly invented concepts not grounded in existing Knowledge Elements
+• Scope creep caused by examples bleeding into conceptual definitions
+• Subtopics behaving like Domains
+• Knowledge Elements behaving like Subtopics
+If drift is detected:
+• Stop production
+• Return to the level where drift originated
+• Restress test
+• Correct the architecture
+• Relock
+Only then resume.
+________________
+
+
+10. Version Control
+Each update to the architecture must include:
+• A version number
+• A change log
+• A statement of what was added, moved, merged, or deleted
+• A confirmation of which contributors were notified
+This keeps the entire team aligned and prevents fragmentation.
+________________
+
+
+11. Monthly Architecture Review
+Once per month (or at each major milestone):
+• Review the entire Pillar or Sub-Pillar
+• Look for accumulated drift
+• Identify concepts that need restructuring before scaling
+• Confirm alignment with TAC’s evolving strategic direction
+If a structural correction is required, it must be executed before new content is added.
+________________
+
+
+12. AI Session Initialization Protocol
+Every time AI is used for production:
+• Load the TAC Architecture Guide
+• Load the Quickstart Overview
+• Load the HIP (Hierarchical Integrity Prompt)
+• Paste the exact slice being worked on
+• Explicitly restate the constraints
+This guarantees consistency across sessions and prevents erosion of conceptual boundaries.
+________________
+
+
+13. Final Output Validation Before Publishing
+Before any content enters Kajabi, Circle, or TAC platform:
+• Confirm the meta-tag chain is correct
+• Confirm content matches the atomic Knowledge Elements
+• Confirm no new ideas are introduced
+• Confirm correctness and adherence to TAC voice
+Nothing goes live without architectural validation.
+________________
+
+
+Summary
+This workflow keeps TAC’s knowledge system:
+• clean
+• predictable
+• scalable
+• drift-resistant
+• useful for learners
+• usable by future GPT models
+• and structurally consistent across hundreds of assets
+It is the operator’s playbook.
+No shortcuts.
+No horizontal building until the architecture dictates it.
+No content creation until the intellectual map is complete.

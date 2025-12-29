@@ -1061,6 +1061,11 @@
                   "id": "1.4.6-8",
                   "title": "Urologic Surgery Anesthesia",
                   "definition": "Anesthetic considerations for urologic procedures including TURP syndrome recognition and management, lithotripsy positioning and anesthesia, autonomic hyperreflexia in spinal cord injury patients, and robotic-assisted urologic surgery positioning and physiologic effects."
+                },
+                {
+                  "id": "1.4.6-9",
+                  "title": "Orthopedic Surgery Anesthesia Considerations",
+                  "definition": "Anesthetic considerations specific to orthopedic procedures including tourniquet physiology and management, bone cement implantation syndrome, fat embolism recognition, and anesthesia for joint replacement and spine surgery positioning challenges."
                 }
               ]
             }
@@ -1070,7 +1075,7 @@
       "statistics": {
         "sub_pillars": 4,
         "branches": 24,
-        "topic_domains": 161
+        "topic_domains": 165
       }
     }
   ]

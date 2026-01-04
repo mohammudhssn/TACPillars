@@ -2,7 +2,7 @@
 """
 TAC Architecture Validation Script
 ===================================
-Checks pillars.json for common errors:
+Checks pillar JSON files for common errors:
 - Duplicate IDs
 - Missing required fields
 - Orphaned items (children without parents)
@@ -10,7 +10,8 @@ Checks pillars.json for common errors:
 
 HOW TO USE:
 1. Put this file in your repo root (next to data/ folder)
-2. Run: python validate_pillars.py
+2. Run: python validate_pillars.py                     # validates all pillar files
+   Or:  python validate_pillars.py data/pillar_2.json  # validates specific file
 3. It will print any problems it finds
 
 No coding knowledge needed - just run it and read the output!
@@ -18,6 +19,7 @@ No coding knowledge needed - just run it and read the output!
 
 import json
 import sys
+import glob as glob_module
 from collections import Counter
 
 # ============================================
@@ -30,19 +32,60 @@ REQUIRED_BRANCH_FIELDS = ["id", "title", "definition", "lens", "topic_domains"]
 REQUIRED_TOPICDOMAIN_FIELDS = ["id", "title", "definition"]
 
 
-def load_pillars(filepath="data/pillars.json"):
-    """Load the pillars.json file"""
+# Pillar files pattern
+PILLAR_FILES = [
+    "data/pillar1-topicdomain.json",
+    "data/pillar_2.json",
+    "data/pillar_3.json",
+    "data/pillar_4.json",
+    "data/pillar_5.json",
+    "data/pillar_6.json",
+    "data/pillar_7_reference.json",
+    "data/pillar_8.json",
+]
+
+
+def load_pillar_file(filepath):
+    """Load a single pillar JSON file"""
     try:
         with open(filepath, 'r') as f:
             return json.load(f)
     except FileNotFoundError:
         print(f"❌ ERROR: Could not find {filepath}")
         print("   Make sure you're running this from the repo root folder")
-        sys.exit(1)
+        return None
     except json.JSONDecodeError as e:
         print(f"❌ ERROR: Invalid JSON in {filepath}")
         print(f"   {e}")
+        return None
+
+
+def load_pillars(filepath=None):
+    """Load pillar file(s). If no filepath given, loads all pillar files."""
+    if filepath:
+        data = load_pillar_file(filepath)
+        if data is None:
+            sys.exit(1)
+        # Wrap single pillar in pillars array if needed
+        if "pillar" in data and "pillars" not in data:
+            return {"pillars": [data["pillar"]]}
+        return data
+
+    # Load all pillar files
+    all_pillars = []
+    for pf in PILLAR_FILES:
+        data = load_pillar_file(pf)
+        if data:
+            if "pillar" in data:
+                all_pillars.append(data["pillar"])
+            elif "pillars" in data:
+                all_pillars.extend(data["pillars"])
+
+    if not all_pillars:
+        print("❌ ERROR: No valid pillar files found")
         sys.exit(1)
+
+    return {"pillars": all_pillars}
 
 
 def check_required_fields(item, required_fields, item_type, item_id):
@@ -171,9 +214,18 @@ def main():
     print("TAC ARCHITECTURE VALIDATION")
     print("=" * 60)
     print()
-    
+
+    # Check for command line argument
+    filepath = sys.argv[1] if len(sys.argv) > 1 else None
+
+    if filepath:
+        print(f"📁 Validating: {filepath}")
+    else:
+        print("📁 Validating all pillar files")
+    print()
+
     # Load data
-    data = load_pillars()
+    data = load_pillars(filepath)
     
     # Run validation
     errors, warnings, stats = validate_pillars(data)

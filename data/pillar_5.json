@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "pillar_id": "5",
+    "status": "not_started",
+    "created": "2026-01-04",
+    "last_updated": "2026-01-04"
+  },
+  "pillar": {
+    "id": "5",
+    "title": "Economics, Finance, Contracting and Business Structures",
+    "definition": "Money flows, billing, coding, revenue cycle, entity structures, 1099 economics, practice models (PE, MSOs, agencies), negotiations, stipends, subsidies, financial strategy for providers and organizations.",
+    "inclusion_tests": [
+      "Is this about how money moves or how business entities are structured in anesthesia?"
+    ],
+    "exclusion_tests": [
+      "Education, wellbeing, ethics, clinical practice, professional identity."
+    ],
+    "sub_pillars": []
+  }
+}

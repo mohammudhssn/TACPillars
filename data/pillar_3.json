@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "pillar_id": "3",
+    "status": "not_started",
+    "created": "2026-01-04",
+    "last_updated": "2026-01-04"
+  },
+  "pillar": {
+    "id": "3",
+    "title": "Systems, Infrastructure, Technology and Operations",
+    "definition": "The non-human systems that make anesthesia possible: facilities, OR operations, workflows, IT, cybersecurity, anesthesia machines, monitors, supply chain, turnover processes, documentation systems.",
+    "inclusion_tests": [
+      "Is this about how the environment, technology, or system functions so anesthesia care can occur?"
+    ],
+    "exclusion_tests": [
+      "Contracts, money flows, cultural issues, career advice, supervision laws."
+    ],
+    "sub_pillars": []
+  }
+}

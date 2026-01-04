@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "pillar_id": "8",
+    "status": "not_started",
+    "created": "2026-01-04",
+    "last_updated": "2026-01-04"
+  },
+  "pillar": {
+    "id": "8",
+    "title": "Culture, Wellbeing, History and Societal Impact",
+    "definition": "Professional culture, OR politics, DEI, burnout, mental health, work-life architecture, pregnancy and parenting, historical evolution of the profession, public perception, misinformation, ethical identity, environmental impact of anesthesia.",
+    "inclusion_tests": [
+      "Is this about how anesthesia is lived, experienced, perceived, or understood by society?"
+    ],
+    "exclusion_tests": [
+      "Formal research, clinical practice, economics, legal statutes, workforce deployment."
+    ],
+    "sub_pillars": []
+  }
+}

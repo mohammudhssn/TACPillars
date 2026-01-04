@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "pillar_id": "6",
+    "status": "not_started",
+    "created": "2026-01-04",
+    "last_updated": "2026-01-04"
+  },
+  "pillar": {
+    "id": "6",
+    "title": "Education, Research, Knowledge and Innovation",
+    "definition": "Training methods, CE, teaching, guidelines, evidence-based practice, clinical research, quality improvement, technology development, AI in anesthesia, theoretical or scientific exploration (including consciousness).",
+    "inclusion_tests": [
+      "Is this about creating, evaluating, or transmitting knowledge?"
+    ],
+    "exclusion_tests": [
+      "Workforce deployment, societal culture, clinical bedside decision-making."
+    ],
+    "sub_pillars": []
+  }
+}

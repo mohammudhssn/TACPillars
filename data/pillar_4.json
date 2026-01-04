@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "pillar_id": "4",
+    "status": "not_started",
+    "created": "2026-01-04",
+    "last_updated": "2026-01-04"
+  },
+  "pillar": {
+    "id": "4",
+    "title": "Law, Regulation, Ethics and Governance",
+    "definition": "All rules governing anesthesia: federal/state law, CMS regulations, malpractice, institutional bylaws, ethics, informed consent, criminal misuse of drugs, DEA issues, compliance.",
+    "inclusion_tests": [
+      "Is this about what is legally required, prohibited, regulated, or ethically governed?"
+    ],
+    "exclusion_tests": [
+      "Business strategy, compensation, workforce motivation, burnout."
+    ],
+    "sub_pillars": []
+  }
+}

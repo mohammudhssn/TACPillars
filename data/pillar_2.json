@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "pillar_id": "2",
+    "status": "not_started",
+    "created": "2026-01-04",
+    "last_updated": "2026-01-04"
+  },
+  "pillar": {
+    "id": "2",
+    "title": "People, Roles, Training and Credentialing",
+    "definition": "Definitions of anesthesia roles (CRNA, MDA, AA, SRNA), their training pathways, scopes of practice, credentialing, authority boundaries, and interprofessional dynamics (including CRNA-MDA relationships).",
+    "inclusion_tests": [
+      "Is this about who the provider is, what their role permits, and how they are authorized to practice?"
+    ],
+    "exclusion_tests": [
+      "Career transitions, workforce shortages, burnout, economics, OR operations."
+    ],
+    "sub_pillars": []
+  }
+}

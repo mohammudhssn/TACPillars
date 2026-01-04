@@ -39,28 +39,162 @@
             "title": "OR Design, Layout and Physical Space",
             "definition": "The architectural and ergonomic design of operating rooms and anesthesia workspaces, including room dimensions, equipment positioning, sterile zones, workflow optimization, and adjacency to support areas.",
             "lens": "Understanding how physical space design affects safety, efficiency, and clinical workflow",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.1.1-1",
+                "title": "OR Room Dimensions and Space Standards",
+                "definition": "Standard operating room sizes (400-600 ft²), ceiling height requirements, clearance zones, and minimum space allocations per FGI Guidelines. Includes how room dimensions affect equipment placement, team movement, and procedural safety."
+              },
+              {
+                "id": "3.1.1-2",
+                "title": "Functional Zones and Sterile Field Organization",
+                "definition": "The organization of OR space into functional zones: sterile field, instrument preparation area, anesthesia workspace, circulator zone, and support spaces. Covers traffic patterns, contamination prevention, and zone boundary management."
+              },
+              {
+                "id": "3.1.1-3",
+                "title": "Anesthesia Workstation Positioning and Ergonomics",
+                "definition": "Optimal placement of the anesthesia machine, equipment booms, monitors, supply carts, and documentation stations. Addresses ergonomic principles, line-of-sight to patient and monitors, and workflow efficiency for the anesthesia provider."
+              },
+              {
+                "id": "3.1.1-4",
+                "title": "Adjacency Planning and Support Space Design",
+                "definition": "The relationship between ORs and adjacent spaces: pre-operative holding, PACU, sterile processing, supply rooms, and control desks. Covers traffic flow patterns, patient transport routes, and efficient material movement."
+              },
+              {
+                "id": "3.1.1-5",
+                "title": "Hybrid OR Design and Imaging Integration",
+                "definition": "Special design considerations for hybrid operating rooms that combine surgery with advanced imaging (angiography, CT, MRI). Includes electromagnetic shielding, equipment clearances, and radiation protection infrastructure."
+              },
+              {
+                "id": "3.1.1-6",
+                "title": "Human Factors and Workflow-Optimized Design",
+                "definition": "Application of human factors engineering to OR design: standardized room orientations, lean layout principles, parallel workflow models (pit crew approach), and design features that reduce errors and improve team performance."
+              }
+            ]
           },
           {
             "id": "3.1.2",
             "title": "Medical Gas, Vacuum and Utility Systems",
             "definition": "The pipeline infrastructure that delivers oxygen, nitrous oxide, medical air, suction vacuum, and waste anesthetic gas disposal (WAGD) to the anesthesia workstation, including bulk sources, zone valves, outlet connections, and alarm systems.",
             "lens": "Understanding the utility backbone that makes gas delivery and scavenging possible",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.1.2-1",
+                "title": "Medical Gas Sources and Distribution Architecture",
+                "definition": "Bulk storage systems (liquid oxygen, cylinder banks), manifold configurations, main supply lines, riser diagrams, and zone valve placement. Covers how medical gases travel from source to point of use throughout the facility."
+              },
+              {
+                "id": "3.1.2-2",
+                "title": "Pipeline Pressure Regulation and Delivery Standards",
+                "definition": "Pressure specifications for medical gases (50 psi for O₂/air/N₂O, 25 psi for vacuum), regulator staging, pressure relief systems, and NFPA 99 compliance requirements for safe gas delivery."
+              },
+              {
+                "id": "3.1.2-3",
+                "title": "Outlet Systems and Connection Standards",
+                "definition": "Wall and ceiling outlet configurations, Diameter Index Safety System (DISS) connectors, color coding standards, quick-connect fittings, and the pin-index safety system for cylinders. Covers how outlets prevent misconnection."
+              },
+              {
+                "id": "3.1.2-4",
+                "title": "Vacuum and Suction Infrastructure",
+                "definition": "Central vacuum system design, pump configurations, receiver tanks, surgical vs clinical suction levels, and distribution to OR outlets. Includes capacity planning and redundancy requirements."
+              },
+              {
+                "id": "3.1.2-5",
+                "title": "Waste Anesthetic Gas Disposal (WAGD) Systems",
+                "definition": "Scavenging system infrastructure that removes waste anesthetic gases from the OR environment. Covers passive vs active scavenging, dedicated WAGD vacuum, interface connections, and OSHA/NIOSH exposure limits."
+              },
+              {
+                "id": "3.1.2-6",
+                "title": "Medical Gas Alarm and Monitoring Systems",
+                "definition": "Central alarm panels, area alarm systems, zone monitoring, pressure sensors, and alert protocols for medical gas system failures. Covers alarm prioritization, staff notification, and emergency response procedures."
+              }
+            ]
           },
           {
             "id": "3.1.3",
             "title": "Electrical Power, Environmental Control and Safety Systems",
             "definition": "The electrical infrastructure (isolated power systems, line-isolation monitors, emergency generators, UPS) and environmental systems (HVAC, ventilation, positive pressure, temperature/humidity control, lighting) that maintain a safe and controlled OR environment.",
             "lens": "Understanding the environmental and power systems that protect patients and enable uninterrupted care",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.1.3-1",
+                "title": "Isolated Power Systems and Electrical Safety",
+                "definition": "Isolated power system (IPS) design for wet procedure locations, line-isolation monitors (LIM), ground fault protection, and electrical safety in the OR environment. Covers NEC and NFPA 99 requirements for anesthetizing locations."
+              },
+              {
+                "id": "3.1.3-2",
+                "title": "Emergency Power and Backup Systems",
+                "definition": "On-site generator systems, automatic transfer switches, uninterruptible power supplies (UPS), and emergency power outlet identification (red receptacles). Covers NFPA 110 requirements and critical load prioritization."
+              },
+              {
+                "id": "3.1.3-3",
+                "title": "HVAC System Design and Air Filtration",
+                "definition": "Air handling unit configurations, high-efficiency filtration (HEPA, MERV 14+), air changes per hour (15-20+ ACH), and ductwork design for OR ventilation. Covers ASHRAE 170 standards and infection control requirements."
+              },
+              {
+                "id": "3.1.3-4",
+                "title": "Positive Pressure and Laminar Airflow Patterns",
+                "definition": "Maintaining positive pressure differentials between OR and adjacent spaces, laminar (unidirectional) flow from ceiling diffusers, low-wall exhaust placement, and airflow visualization. Covers contamination prevention principles."
+              },
+              {
+                "id": "3.1.3-5",
+                "title": "Temperature, Humidity and Climate Control",
+                "definition": "OR temperature setpoints (68-75°F), humidity ranges (30-60%), independent zone controls, and the impact of climate on patient safety, infection rates, and fire risk. Covers monitoring and adjustment capabilities."
+              },
+              {
+                "id": "3.1.3-6",
+                "title": "Surgical and Ambient Lighting Systems",
+                "definition": "LED surgical light technology, boom and ceiling track mounting, shadow reduction, color rendering, sterile handle controls, and ambient room lighting. Covers redundancy requirements and battery backup for critical lighting."
+              },
+              {
+                "id": "3.1.3-7",
+                "title": "Communication and Integration Infrastructure",
+                "definition": "Intercom and nurse call systems, video conferencing links, emergency code buttons, paging integration, and data network connections in the OR. Covers how communication systems support team coordination and emergency response."
+              }
+            ]
           },
           {
             "id": "3.1.4",
             "title": "Facility Types and Setting-Specific Infrastructure",
             "definition": "The distinct infrastructure characteristics of different anesthesia care settings: academic medical centers, community hospitals, ambulatory surgery centers, office-based anesthesia, mobile anesthesia, procedural suites, and rural versus urban facilities.",
             "lens": "Understanding how infrastructure scales and adapts across different practice environments",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.1.4-1",
+                "title": "Academic Medical Center Infrastructure",
+                "definition": "Complex OR suite configurations in teaching hospitals: subspecialty rooms, hybrid imaging ORs, trauma bays, transplant facilities, ICU adjacency, multiple levels of backup systems, and infrastructure supporting education and research."
+              },
+              {
+                "id": "3.1.4-2",
+                "title": "Community Hospital OR Infrastructure",
+                "definition": "Standard OR suite design for community hospitals: typical 2-6 room configurations, general-purpose room design, standard equipment complement, and appropriate backup system capacity for mid-acuity surgical services."
+              },
+              {
+                "id": "3.1.4-3",
+                "title": "Ambulatory Surgery Center Design and Requirements",
+                "definition": "ASC-specific infrastructure: streamlined suite design (4-8 rooms), efficient patient flow layouts, fast turnover optimization, CMS and accreditation requirements (AAAHC, AAAASF), and scaled utility systems."
+              },
+              {
+                "id": "3.1.4-4",
+                "title": "Office-Based Anesthesia Facility Requirements",
+                "definition": "Infrastructure requirements for anesthesia in physician or dental offices: procedure room retrofitting, portable oxygen systems, basic monitoring capabilities, state regulatory requirements, and minimum safety standards."
+              },
+              {
+                "id": "3.1.4-5",
+                "title": "Mobile and Dental Anesthesia Infrastructure",
+                "definition": "Equipment and infrastructure for mobile anesthesia services: portable anesthesia machines, cylinder gas systems (E and J-size), battery-powered monitors, vehicle-based setups, and communication systems for remote locations."
+              },
+              {
+                "id": "3.1.4-6",
+                "title": "Procedural Suite Infrastructure",
+                "definition": "Infrastructure characteristics of non-OR procedural areas: cardiac catheterization labs, endoscopy suites, interventional radiology, and freestanding emergency departments. Covers anesthesia-specific requirements in these settings."
+              },
+              {
+                "id": "3.1.4-7",
+                "title": "Rural and Critical Access Hospital Considerations",
+                "definition": "Unique infrastructure challenges in rural settings: multi-purpose room design, limited redundancy, Critical Access Hospital (CAH) designations, off-grid contingencies, and tele-anesthesia support infrastructure."
+              }
+            ]
           }
         ]
       },

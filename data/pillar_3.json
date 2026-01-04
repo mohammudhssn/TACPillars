@@ -208,35 +208,190 @@
             "title": "Anesthesia Machine Architecture and Function",
             "definition": "The core components and operating principles of anesthesia machines and workstations: high-pressure, intermediate-pressure, and low-pressure circuits; flowmeters and vaporizers; breathing circuits and ventilators; scavenging systems; and integrated safety features.",
             "lens": "Understanding how the anesthesia machine delivers gases and ventilation safely",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.2.1-1",
+                "title": "High-Pressure System and Cylinder Supply",
+                "definition": "Cylinder yokes, hanger assemblies, pin-index safety system (PISS), cylinder pressure gauges, and two-stage regulators that reduce cylinder pressure from ~2200 psi to intermediate pressure. Covers backup oxygen supply and cylinder management."
+              },
+              {
+                "id": "3.2.1-2",
+                "title": "Intermediate-Pressure System and Pipeline Interface",
+                "definition": "Pipeline inlet connections (DISS), second-stage regulators, ventilator driving gas supply, fail-safe valves, pipeline pressure gauges, and oxygen flush valves. Covers how the machine interfaces with facility gas supplies."
+              },
+              {
+                "id": "3.2.1-3",
+                "title": "Low-Pressure System and Flowmeter Bank",
+                "definition": "Flow control valves, glass rotameter tubes, electronic flow sensors, oxygen ratio monitoring, and the common gas outlet. Covers gas mixing principles and the sequence of components in the low-pressure circuit."
+              },
+              {
+                "id": "3.2.1-4",
+                "title": "Vaporizer Technology and Agent Delivery",
+                "definition": "Variable bypass vaporizer design, temperature and flow compensation, agent-specific keyed filling systems, interlock mechanisms, and desflurane heated vaporizers. Covers accurate delivery of volatile anesthetic agents."
+              },
+              {
+                "id": "3.2.1-5",
+                "title": "Breathing Circuits and Circle System Design",
+                "definition": "Circle system components: CO₂ absorber canisters (soda lime), unidirectional valves, reservoir bag, adjustable pressure-limiting (APL) valve, fresh gas inlet, and Y-piece. Covers rebreathing principles and circuit configurations."
+              },
+              {
+                "id": "3.2.1-6",
+                "title": "Mechanical Ventilators and Ventilation Modes",
+                "definition": "Bellows and piston-driven ventilators, driving gas mechanisms, fresh gas decoupling, volume and pressure control modes, SIMV, pressure support, and PEEP. Covers ventilator settings and their clinical implications."
+              },
+              {
+                "id": "3.2.1-7",
+                "title": "Safety Systems, Alarms and Machine Checkout",
+                "definition": "Oxygen failure alarm (fail-safe), hypoxic guard systems, high/low pressure alarms, apnea alarms, agent analyzers, and pre-use checkout procedures. Covers ASA machine check recommendations and daily verification protocols."
+              }
+            ]
           },
           {
             "id": "3.2.2",
             "title": "Physiologic Monitoring Systems",
             "definition": "The monitors and sensors that track patient status during anesthesia: multi-parameter monitors (ECG, SpO₂, NIBP, EtCO₂, temperature), invasive pressure monitoring, neuromuscular and depth-of-anesthesia monitors, alarm systems, and data integration with clinical records.",
             "lens": "Understanding the monitoring ecosystem that provides real-time patient data",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.2.2-1",
+                "title": "Multi-Parameter Monitor Architecture and Configuration",
+                "definition": "Modular monitor design, parameter modules, display configurations, trend storage, and network connectivity. Covers how monitors are configured for different clinical environments and integrated with clinical information systems."
+              },
+              {
+                "id": "3.2.2-2",
+                "title": "Cardiac Rhythm and ECG Monitoring",
+                "definition": "ECG lead configurations (3-lead, 5-lead, 12-lead), electrode placement, arrhythmia detection algorithms, ST-segment analysis, and artifact management. Covers cardiac monitoring standards for anesthesia."
+              },
+              {
+                "id": "3.2.2-3",
+                "title": "Oxygenation Monitoring: Pulse Oximetry and Capnography",
+                "definition": "Pulse oximeter technology (SpO₂), probe types, motion artifact rejection, capnograph waveform analysis, mainstream vs sidestream sampling, and end-tidal CO₂ interpretation. Covers respiratory monitoring fundamentals."
+              },
+              {
+                "id": "3.2.2-4",
+                "title": "Blood Pressure Monitoring Systems",
+                "definition": "Non-invasive blood pressure (NIBP) oscillometry, cuff sizing, measurement intervals, invasive arterial line setup, pressure transducers, zeroing and leveling, and waveform analysis. Covers hemodynamic monitoring technology."
+              },
+              {
+                "id": "3.2.2-5",
+                "title": "Temperature and Neuromuscular Monitoring",
+                "definition": "Temperature probe types (esophageal, nasopharyngeal, skin), core vs peripheral monitoring, train-of-four (TOF) stimulators, acceleromyography, and quantitative neuromuscular monitoring. Covers perioperative thermoregulation and paralysis assessment."
+              },
+              {
+                "id": "3.2.2-6",
+                "title": "Depth of Anesthesia and Processed EEG Monitors",
+                "definition": "Bispectral index (BIS) monitoring, entropy monitors, patient state index (PSI), processed EEG algorithms, electrode placement, and clinical interpretation. Covers technology for assessing anesthetic depth and awareness prevention."
+              }
+            ]
           },
           {
             "id": "3.2.3",
             "title": "Infusion Systems and Point-of-Care Devices",
             "definition": "Smart infusion pumps with drug libraries, syringe drivers, patient-controlled analgesia systems, and point-of-care testing devices (blood gas analyzers, glucose meters, coagulation testers) used in anesthesia care.",
             "lens": "Understanding drug delivery technology and rapid diagnostic devices at the bedside",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.2.3-1",
+                "title": "Smart Infusion Pump Technology and Drug Libraries",
+                "definition": "Large-volume infusion pumps with dose error reduction software (DERS), drug library configuration, hard and soft limits, barcode scanning integration, and wireless connectivity for pump management."
+              },
+              {
+                "id": "3.2.3-2",
+                "title": "Syringe Drivers and Target-Controlled Infusion",
+                "definition": "Syringe pump mechanisms, TCI pharmacokinetic models (Marsh, Schnider, Minto), effect-site targeting, and total intravenous anesthesia (TIVA) delivery systems. Covers precision drug delivery for anesthetic agents."
+              },
+              {
+                "id": "3.2.3-3",
+                "title": "Patient-Controlled Analgesia Systems",
+                "definition": "PCA pump programming, demand dosing, lockout intervals, continuous background infusions, and safety features. Covers technology for patient-controlled pain management in the perioperative period."
+              },
+              {
+                "id": "3.2.3-4",
+                "title": "Blood Gas and Electrolyte Analyzers",
+                "definition": "Point-of-care blood gas analysis, electrode technology, sample handling, quality control requirements, and result interpretation. Covers rapid assessment of oxygenation, ventilation, and acid-base status."
+              },
+              {
+                "id": "3.2.3-5",
+                "title": "Point-of-Care Coagulation and Hemoglobin Testing",
+                "definition": "Thromboelastography (TEG/ROTEM), ACT monitors, platelet function analyzers, and non-invasive hemoglobin measurement. Covers rapid coagulation and hematology testing for perioperative decision-making."
+              }
+            ]
           },
           {
             "id": "3.2.4",
             "title": "Airway, Specialty and Emergency Equipment",
             "definition": "Airway management devices (video laryngoscopes, fiberoptic bronchoscopes, supraglottic airways), ultrasound for regional anesthesia, difficult airway carts, malignant hyperthermia carts, defibrillators, and other specialty or emergency equipment.",
             "lens": "Understanding specialized tools for airway management, regional techniques, and emergency response",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.2.4-1",
+                "title": "Video Laryngoscopy Systems",
+                "definition": "Video laryngoscope platforms (GlideScope, C-MAC, McGrath), blade geometries, display systems, recording capabilities, and reprocessing requirements. Covers technology that enhances visualization during intubation."
+              },
+              {
+                "id": "3.2.4-2",
+                "title": "Fiberoptic Bronchoscopes and Advanced Airway Devices",
+                "definition": "Flexible fiberoptic and video bronchoscopes, light sources, working channels, reprocessing protocols, and adjunct devices for awake intubation. Covers equipment for managing anticipated difficult airways."
+              },
+              {
+                "id": "3.2.4-3",
+                "title": "Supraglottic Airways and Rescue Devices",
+                "definition": "Laryngeal mask airways (LMA), i-gel, intubating LMAs, sizing considerations, and rescue airway devices (bougies, airway exchange catheters). Covers the equipment spectrum for supraglottic ventilation and rescue."
+              },
+              {
+                "id": "3.2.4-4",
+                "title": "Ultrasound Systems for Regional Anesthesia",
+                "definition": "Portable ultrasound machines, high-frequency linear probes, needle visualization technology, image optimization, and machine presets for nerve block procedures. Covers equipment enabling ultrasound-guided regional techniques."
+              },
+              {
+                "id": "3.2.4-5",
+                "title": "Difficult Airway Cart Organization and Contents",
+                "definition": "Standardized difficult airway cart design, essential contents (videolaryngoscopes, FOB, supraglottic airways, surgical airway kit), organization principles, and readiness verification protocols."
+              },
+              {
+                "id": "3.2.4-6",
+                "title": "Emergency Equipment: MH Cart, Defibrillators, Crash Carts",
+                "definition": "Malignant hyperthermia cart contents and organization (dantrolene, cooling supplies), defibrillator technology and pad placement, crash cart standardization per ACLS guidelines, and readiness inspection protocols."
+              }
+            ]
           },
           {
             "id": "3.2.5",
             "title": "Equipment Lifecycle Management",
             "definition": "The complete lifecycle of anesthesia equipment: capital planning and procurement, vendor selection and GPO contracts, installation and acceptance testing, preventive maintenance and calibration, repairs and service contracts, asset tracking, and end-of-life replacement.",
             "lens": "Understanding how equipment is acquired, maintained, and retired over time",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.2.5-1",
+                "title": "Capital Planning and Budget Justification",
+                "definition": "Capital equipment budgeting cycles, needs assessment, clinical justification, total cost of ownership analysis, and ROI calculations for anesthesia equipment acquisition. Covers navigating hospital capital processes."
+              },
+              {
+                "id": "3.2.5-2",
+                "title": "Procurement, Vendor Selection and GPO Utilization",
+                "definition": "Request for proposal (RFP) processes, vendor evaluation criteria, group purchasing organization (GPO) contracts, standardization benefits, and negotiation strategies for equipment purchases."
+              },
+              {
+                "id": "3.2.5-3",
+                "title": "Installation, Commissioning and Acceptance Testing",
+                "definition": "Equipment installation planning, integration with facility infrastructure, biomedical engineering acceptance testing, performance verification, and documentation requirements before clinical use."
+              },
+              {
+                "id": "3.2.5-4",
+                "title": "Preventive Maintenance and Calibration Protocols",
+                "definition": "Scheduled maintenance programs, manufacturer-recommended PM intervals, calibration procedures for sensors and analyzers, maintenance documentation, and CMMS tracking. Covers keeping equipment in safe operating condition."
+              },
+              {
+                "id": "3.2.5-5",
+                "title": "Asset Tracking and Inventory Systems",
+                "definition": "Equipment identification systems (barcodes, RFID), asset databases, location tracking, utilization monitoring, and integration with hospital inventory management platforms."
+              },
+              {
+                "id": "3.2.5-6",
+                "title": "Obsolescence Planning and Equipment Replacement",
+                "definition": "Equipment lifecycle analysis, replacement cycle planning (8-15 years for major devices), obsolescence indicators, legacy system risks, disposal and decommissioning procedures, and technology refresh strategies."
+              }
+            ]
           }
         ]
       },

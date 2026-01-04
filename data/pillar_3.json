@@ -405,28 +405,142 @@
             "title": "Anesthesia Information Management and EHR Integration",
             "definition": "Anesthesia Information Management Systems (AIMS) that capture vital signs, document medication administration, and generate the anesthesia record, including integration with hospital EHR platforms, clinical decision support, and barcode medication administration.",
             "lens": "Understanding the clinical documentation and decision support systems for anesthesia",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.3.1-1",
+                "title": "AIMS Platform Architecture and Core Functions",
+                "definition": "How Anesthesia Information Management Systems are structured: data capture modules, charting interfaces, record generation, trend displays, and case management. Covers major platforms (Epic Anesthesia, Cerner, legacy systems) and their core capabilities."
+              },
+              {
+                "id": "3.3.1-2",
+                "title": "EHR Integration and Bidirectional Data Exchange",
+                "definition": "How AIMS integrates with hospital electronic health records: patient demographics, orders, lab results, allergy data, and discharge summaries. Covers interface standards, data synchronization, and seamless workflow between systems."
+              },
+              {
+                "id": "3.3.1-3",
+                "title": "Automated Vital Signs Capture and Device Documentation",
+                "definition": "Automatic ingestion of physiologic data from monitors and anesthesia machines into the electronic record. Covers data validation, artifact handling, charting intervals, and the transition from manual to automated documentation."
+              },
+              {
+                "id": "3.3.1-4",
+                "title": "Clinical Decision Support in Anesthesia Systems",
+                "definition": "Embedded alerts, reminders, and clinical pathways within AIMS: antibiotic timing alerts, drug interaction warnings, protocol compliance prompts, and ERAS pathway integration. Covers configuration and effectiveness of CDS tools."
+              },
+              {
+                "id": "3.3.1-5",
+                "title": "Barcode Medication Administration for Anesthesia",
+                "definition": "BCMA systems adapted for anesthesia workflow: syringe barcode scanning, medication verification, documentation automation, and error prevention. Covers implementation challenges and workarounds in the OR environment."
+              },
+              {
+                "id": "3.3.1-6",
+                "title": "Reporting, Analytics and Quality Metrics Extraction",
+                "definition": "Using AIMS data for quality reporting, outcome analysis, and performance dashboards. Covers data extraction, registry reporting (NACOR), benchmarking, and leveraging anesthesia data for quality improvement."
+              }
+            ]
           },
           {
             "id": "3.3.2",
             "title": "Device Connectivity and Interoperability",
             "definition": "How anesthesia devices (monitors, machines, pumps) connect and communicate with clinical information systems, including interface engines, device gateways, data standards (HL7, IEEE 11073, FHIR), and middleware solutions.",
             "lens": "Understanding how devices share data with each other and with clinical systems",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.3.2-1",
+                "title": "Medical Device Interface Standards",
+                "definition": "Data communication standards for medical devices: HL7 v2.x messaging, IEEE 11073 (SDC), ASTM standards, and emerging HL7 FHIR for device data. Covers how standards enable (or limit) device interoperability."
+              },
+              {
+                "id": "3.3.2-2",
+                "title": "Device Gateways and Middleware Solutions",
+                "definition": "Interface engines and middleware that translate device data for clinical systems: Capsule, Cerner CareAware, Philips IntelliBridge, and similar platforms. Covers gateway architecture, configuration, and troubleshooting."
+              },
+              {
+                "id": "3.3.2-3",
+                "title": "Monitor and Anesthesia Machine Connectivity",
+                "definition": "How physiologic monitors and anesthesia workstations connect to networks and clinical systems: serial, USB, Ethernet, and wireless connections. Covers vendor-specific integration approaches and data output formats."
+              },
+              {
+                "id": "3.3.2-4",
+                "title": "Infusion Pump Integration and Auto-Documentation",
+                "definition": "Connecting smart infusion pumps to AIMS for automatic drug administration documentation: pump-to-record integration, rate capture, drug identification, and closed-loop documentation workflows."
+              },
+              {
+                "id": "3.3.2-5",
+                "title": "Interoperability Challenges and Emerging Solutions",
+                "definition": "Current limitations in device interoperability: proprietary protocols, alarm integration gaps, and unfulfilled promises of smart alarms. Covers IHE PCD profiles, FDA guidance, and the path toward true plug-and-play interoperability."
+              }
+            ]
           },
           {
             "id": "3.3.3",
             "title": "Network Infrastructure and System Architecture",
             "definition": "The IT infrastructure supporting anesthesia operations: wired and wireless networks, VLANs, servers and cloud platforms, redundancy and failover systems, OR scheduling software, and real-time location systems (RTLS).",
             "lens": "Understanding the network and computing foundation that enables clinical IT systems",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.3.3-1",
+                "title": "Clinical Network Architecture and Segmentation",
+                "definition": "Network topology for perioperative areas: VLANs separating medical devices from administrative traffic, firewall placement, network switches, and traffic prioritization for clinical data. Covers design principles for reliable clinical networks."
+              },
+              {
+                "id": "3.3.3-2",
+                "title": "Wireless Infrastructure for OR Environments",
+                "definition": "WiFi network design for operating rooms: access point placement, signal coverage challenges, interference management, and bandwidth requirements for mobile devices and wireless monitors."
+              },
+              {
+                "id": "3.3.3-3",
+                "title": "Server Infrastructure and Cloud Platforms",
+                "definition": "Computing infrastructure for AIMS and clinical systems: on-premises servers, virtualization (VMware), database clustering, and migration to cloud platforms (Azure, AWS). Covers hybrid architectures and SaaS models."
+              },
+              {
+                "id": "3.3.3-4",
+                "title": "Redundancy, Failover and Downtime Management",
+                "definition": "Business continuity for clinical systems: server clustering, automatic failover, UPS for network equipment, and downtime procedures. Covers maintaining anesthesia documentation capability during system outages."
+              },
+              {
+                "id": "3.3.3-5",
+                "title": "Real-Time Location Systems (RTLS) in Perioperative Settings",
+                "definition": "RTLS technology for tracking equipment, patients, and staff: RFID, Bluetooth beacons, Ultra-Wideband (UWB), and integration with OR management systems. Covers use cases from equipment finding to patient flow tracking."
+              }
+            ]
           },
           {
             "id": "3.3.4",
             "title": "Cybersecurity, Data Protection and Compliance",
             "definition": "Security of medical devices and networks: vulnerability management, network segmentation, patch management, threat detection and response, access control and authentication, data encryption, HIPAA compliance, and FDA cybersecurity requirements including SBOM.",
             "lens": "Understanding how anesthesia systems are protected from cyber threats and data breaches",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.3.4-1",
+                "title": "Medical Device Security Fundamentals",
+                "definition": "Cybersecurity risks specific to anesthesia devices: embedded operating systems, known vulnerabilities (e.g., GE Aestiva alerts), attack vectors, and the unique challenges of securing life-critical medical equipment."
+              },
+              {
+                "id": "3.3.4-2",
+                "title": "Network Segmentation and Access Control",
+                "definition": "Isolating medical devices from general network traffic: VLAN design, firewall rules, network access control (NAC), and microsegmentation strategies. Covers implementing CISA recommendations for device isolation."
+              },
+              {
+                "id": "3.3.4-3",
+                "title": "Vulnerability and Patch Management",
+                "definition": "Managing device vulnerabilities and software updates: CVE tracking, SBOM (Software Bill of Materials) requirements, vendor patch coordination, and testing procedures. Covers FDA 2025 cybersecurity requirements and 30-day disclosure rules."
+              },
+              {
+                "id": "3.3.4-4",
+                "title": "Threat Detection and Incident Response",
+                "definition": "Monitoring for cyber threats in clinical environments: SIEM deployment, medical device-specific security platforms (CyberMDX, Medigate), anomaly detection, and incident response procedures for OR network events."
+              },
+              {
+                "id": "3.3.4-5",
+                "title": "Authentication and Identity Management",
+                "definition": "Access control for clinical systems: badge authentication, two-factor authentication (2FA), single sign-on (SSO), session timeouts, and physical security for network infrastructure. Covers balancing security with clinical workflow."
+              },
+              {
+                "id": "3.3.4-6",
+                "title": "HIPAA Compliance and Data Protection",
+                "definition": "Protecting patient data in anesthesia systems: encryption at rest and in transit (AES, TLS), audit logging, access monitoring, and HIPAA security rule compliance. Covers privacy requirements for anesthesia records and device data."
+              }
+            ]
           }
         ]
       },

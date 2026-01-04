@@ -1,20 +1,192 @@
 {
   "metadata": {
-    "pillar_id": "6",
-    "status": "not_started",
+    "version": "1.0",
     "created": "2026-01-04",
-    "last_updated": "2026-01-04"
+    "last_updated": "2026-01-04",
+    "status": "in_progress",
+    "notes": "Sub-Pillars and Branches complete. Topic Domains pending."
   },
   "pillar": {
     "id": "6",
     "title": "Education, Research, Knowledge and Innovation",
-    "definition": "Training methods, CE, teaching, guidelines, evidence-based practice, clinical research, quality improvement, technology development, AI in anesthesia, theoretical or scientific exploration (including consciousness).",
+    "definition": "Training methods, CE, teaching, guidelines, evidence-based practice, clinical research, quality improvement, technology development, AI in anesthesia, theoretical or scientific exploration (including consciousness). This pillar encompasses how anesthesia knowledge is created, evaluated, transmitted, and advanced.",
     "inclusion_tests": [
-      "Is this about creating, evaluating, or transmitting knowledge?"
+      "Is this about creating, evaluating, or transmitting knowledge?",
+      "Is this about how anesthesia professionals are trained or educated?",
+      "Is this about research methodology, evidence synthesis, or guideline development?",
+      "Is this about innovation pipelines (new drugs, devices, AI, digital health)?",
+      "Is this about quality improvement science (QI methods, PDSA, registries)?",
+      "Is this about scientific communication (publishing, conferences, dissemination)?"
     ],
     "exclusion_tests": [
-      "Workforce deployment, societal culture, clinical bedside decision-making."
+      "Clinical practice, physiology, patient care decisions → Pillar 1",
+      "Role definitions, scope boundaries, training requirements (who the provider IS) → Pillar 2",
+      "Systems, equipment, OR operations, IT infrastructure → Pillar 3",
+      "Legal requirements, compliance, malpractice, ethics statutes → Pillar 4",
+      "Compensation mechanics, billing, contracts, business structures → Pillar 5",
+      "Career paths, workforce deployment, job transitions, leadership roles → Pillar 7",
+      "Burnout, wellbeing, culture, OR politics, professional identity as lived experience → Pillar 8"
     ],
-    "sub_pillars": []
+    "sub_pillars": [
+      {
+        "id": "6.1",
+        "title": "Education Systems, Programs and Pedagogy",
+        "definition": "The architecture, governance, and instructional methods of anesthesia training. This sub-pillar covers program structures (CRNA and physician), accreditation standards, curriculum design, teaching methodologies, adult learning principles, simulation-based education, and the integration of didactic and clinical experiences that produce competent anesthesia providers.",
+        "branches": [
+          {
+            "id": "6.1.1",
+            "title": "Program Architecture, Governance and Accreditation",
+            "definition": "The structural components of anesthesia training programs including program types (CRNA, physician), duration, degree requirements, governance bodies, accreditation standards (COA, ACGME), and the organizations that oversee educational quality.",
+            "lens": "Understanding how anesthesia training programs are structured and regulated",
+            "topic_domains": []
+          },
+          {
+            "id": "6.1.2",
+            "title": "Curriculum Design and Integration",
+            "definition": "How anesthesia curricula are developed, organized, and delivered. Includes didactic-clinical integration, rotation structures, spiral curricula, competency mapping, and the alignment of learning objectives with professional practice requirements.",
+            "lens": "Designing effective learning experiences across the training continuum",
+            "topic_domains": []
+          },
+          {
+            "id": "6.1.3",
+            "title": "Teaching Methods and Instructional Design",
+            "definition": "Pedagogical approaches for anesthesia education including adult learning theory (andragogy), competency-based education, flipped classrooms, case-based and team-based learning, clinical teaching techniques, feedback models, and remediation strategies.",
+            "lens": "How to teach anesthesia effectively",
+            "topic_domains": []
+          },
+          {
+            "id": "6.1.4",
+            "title": "Simulation and Experiential Learning",
+            "definition": "The use of simulation across the fidelity spectrum—from task trainers to high-fidelity mannequins to virtual reality—for skills acquisition, crisis management, and team training. Includes simulation center operations, scenario design, debriefing methods, and in-situ simulation.",
+            "lens": "Learning through simulated clinical experience",
+            "topic_domains": []
+          }
+        ]
+      },
+      {
+        "id": "6.2",
+        "title": "Assessment, Competency and Lifelong Learning",
+        "definition": "How anesthesia professionals are evaluated, credentialed, and maintained throughout their careers. This sub-pillar covers competency frameworks, workplace-based assessment, certification exams, continuing education requirements, self-assessment, and the systems that ensure providers remain current from initial training through retirement.",
+        "branches": [
+          {
+            "id": "6.2.1",
+            "title": "Knowledge and Clinical Skills Assessment",
+            "definition": "Methods for evaluating cognitive knowledge and procedural skills including written examinations, OSCEs, oral boards, procedural checklists, and skills sign-offs. Covers exam design, psychometric principles, and standard-setting methods.",
+            "lens": "Measuring what learners know and can do",
+            "topic_domains": []
+          },
+          {
+            "id": "6.2.2",
+            "title": "Workplace-Based Assessment and Feedback",
+            "definition": "Assessment conducted during real clinical practice including direct observation (Mini-CEX, DOPS), case logs, 360° feedback, and structured feedback delivery. Covers rater training, bias mitigation, and formative assessment practices.",
+            "lens": "Evaluating performance in authentic clinical settings",
+            "topic_domains": []
+          },
+          {
+            "id": "6.2.3",
+            "title": "Competency Frameworks, Milestones and EPAs",
+            "definition": "The conceptual structures defining what anesthesia professionals must be able to do. Includes ACGME Milestones, Entrustable Professional Activities, competency committees, progression decisions, and holistic trainee evaluation.",
+            "lens": "Defining and tracking professional development",
+            "topic_domains": []
+          },
+          {
+            "id": "6.2.4",
+            "title": "Certification, Recertification and Continuing Education",
+            "definition": "The systems ensuring initial and ongoing competence of practicing providers. Includes NBCRNA/ABA certification, maintenance of certification (MOCA, CPC), CME/CE requirements, self-assessment modules, and lifelong learning frameworks.",
+            "lens": "Maintaining competence throughout a career",
+            "topic_domains": []
+          }
+        ]
+      },
+      {
+        "id": "6.3",
+        "title": "Research, Evidence and Quality Science",
+        "definition": "The creation, synthesis, and application of knowledge to improve anesthesia practice. This sub-pillar covers research methodology (clinical trials, observational studies, qualitative research), evidence evaluation, guideline development, quality improvement science, registries, and the frameworks that translate evidence into practice change.",
+        "branches": [
+          {
+            "id": "6.3.1",
+            "title": "Clinical Research Methodology",
+            "definition": "The design and conduct of research studies in anesthesia including randomized controlled trials, observational studies (cohort, case-control), qualitative methods, survey research, and the ethical/regulatory requirements (IRB, informed consent) governing human subjects research.",
+            "lens": "How to generate valid new knowledge",
+            "topic_domains": []
+          },
+          {
+            "id": "6.3.2",
+            "title": "Data Systems, Registries and Analytics",
+            "definition": "The infrastructure for collecting and analyzing anesthesia data at scale. Includes national registries (NACOR, MPOG), institutional databases, big data approaches, machine learning applications in research, and the use of data for benchmarking and outcomes research.",
+            "lens": "Leveraging large-scale data for insight",
+            "topic_domains": []
+          },
+          {
+            "id": "6.3.3",
+            "title": "Evidence Synthesis and Evaluation",
+            "definition": "Methods for appraising and combining existing research. Includes systematic review methodology, meta-analysis, network meta-analysis, evidence grading systems (GRADE, Oxford levels), and critical appraisal of literature quality.",
+            "lens": "Making sense of the existing evidence base",
+            "topic_domains": []
+          },
+          {
+            "id": "6.3.4",
+            "title": "Guideline Development and Knowledge Translation",
+            "definition": "The process of converting evidence into actionable recommendations and implementing them in practice. Includes consensus methods (Delphi, Nominal Group), guideline writing, knowledge translation frameworks (KTA, PARiHS), implementation science, and de-implementation of low-value practices.",
+            "lens": "Turning evidence into practice change",
+            "topic_domains": []
+          },
+          {
+            "id": "6.3.5",
+            "title": "Quality Improvement Science and Safety",
+            "definition": "The science of systematically improving healthcare processes and outcomes. Includes QI methodologies (PDSA, Lean, Six Sigma), measurement and analytics (run charts, SPC), human factors engineering, safety culture, high-reliability concepts, and QI collaboratives.",
+            "lens": "Improving systems through iterative change",
+            "topic_domains": []
+          }
+        ]
+      },
+      {
+        "id": "6.4",
+        "title": "Innovation and Knowledge Dissemination",
+        "definition": "The frontier of anesthesia science and how knowledge is shared. This sub-pillar covers medical device and drug development, artificial intelligence and machine learning, digital health technologies, emerging scientific frontiers (consciousness, pharmacogenomics), scholarly publishing, scientific communication, and the dissemination of knowledge through traditional and digital channels.",
+        "branches": [
+          {
+            "id": "6.4.1",
+            "title": "Medical Device and Drug Development",
+            "definition": "The innovation pipeline for new anesthesia technologies and therapeutics. Includes R&D processes, regulatory pathways (FDA 510(k), PMA, IND/NDA), clinical trial phases, intellectual property, technology transfer, and commercialization.",
+            "lens": "Bringing new technologies from concept to bedside",
+            "topic_domains": []
+          },
+          {
+            "id": "6.4.2",
+            "title": "Artificial Intelligence and Digital Health",
+            "definition": "Emerging computational and digital technologies in anesthesia. Includes machine learning and predictive analytics, clinical decision support, closed-loop systems, automation, telemedicine, mobile health apps, wearable sensors, and regulatory frameworks for AI-enabled devices.",
+            "lens": "The digital transformation of anesthesia",
+            "topic_domains": []
+          },
+          {
+            "id": "6.4.3",
+            "title": "Emerging Scientific Frontiers",
+            "definition": "Novel areas of scientific inquiry relevant to anesthesia. Includes consciousness research, pharmacogenomics and precision medicine, chronobiology, neuroscience of anesthesia mechanisms, and translational science connecting basic research to clinical application.",
+            "lens": "The cutting edge of anesthesia science",
+            "topic_domains": []
+          },
+          {
+            "id": "6.4.4",
+            "title": "Scholarly Publishing and Peer Review",
+            "definition": "The formal systems for disseminating research findings. Includes peer review processes, journal publishing, open access models, preprint servers, authorship standards, publication ethics, reproducibility practices, and bibliometrics.",
+            "lens": "How research enters the scientific record",
+            "topic_domains": []
+          },
+          {
+            "id": "6.4.5",
+            "title": "Scientific Communication and Public Engagement",
+            "definition": "How anesthesia knowledge reaches diverse audiences beyond peer-reviewed publication. Includes conference presentations, digital scholarship (FOAMed, podcasts, blogs), social media, science communication to lay audiences, and altmetrics.",
+            "lens": "Sharing knowledge beyond the journal",
+            "topic_domains": []
+          }
+        ]
+      }
+    ]
+  },
+  "statistics": {
+    "sub_pillars": 4,
+    "branches": 18,
+    "topic_domains": 0
   }
 }

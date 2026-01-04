@@ -1,20 +1,633 @@
 {
   "metadata": {
-    "pillar_id": "8",
-    "status": "not_started",
+    "version": "1.0",
     "created": "2026-01-04",
-    "last_updated": "2026-01-04"
+    "last_updated": "2026-01-04",
+    "status": "complete",
+    "notes": "Pillar 8 complete with boundary clarifications applied for culture/identity overlap with Pillar 7."
   },
   "pillar": {
     "id": "8",
     "title": "Culture, Wellbeing, History and Societal Impact",
-    "definition": "Professional culture, OR politics, DEI, burnout, mental health, work-life architecture, pregnancy and parenting, historical evolution of the profession, public perception, misinformation, ethical identity, environmental impact of anesthesia.",
+    "definition": "Professional culture, OR politics, DEI, burnout, mental health, work-life architecture, pregnancy and parenting, historical evolution of the profession, public perception, misinformation, ethical identity, environmental impact of anesthesia. This pillar encompasses how anesthesia is lived, experienced, perceived, and understood by society.",
     "inclusion_tests": [
-      "Is this about how anesthesia is lived, experienced, perceived, or understood by society?"
+      "Is this about how anesthesia is lived, experienced, perceived, or understood by society?",
+      "Is this about mental health, burnout, or psychological wellbeing?",
+      "Is this about work-life balance, family, or personal sustainability?",
+      "Is this about OR culture, workplace dynamics, or interpersonal climate (as experienced)?",
+      "Is this about diversity, equity, and inclusion as lived by providers?",
+      "Is this about professional identity, meaning, or purpose?",
+      "Is this about the history and evolution of the profession?",
+      "Is this about public perception, patient understanding, or societal views?",
+      "Is this about ethical identity or moral dimensions of practice?",
+      "Is this about environmental impact of anesthesia practice?"
     ],
     "exclusion_tests": [
-      "Formal research, clinical practice, economics, legal statutes, workforce deployment."
+      "Clinical practice, physiology, patient care decisions → Pillar 1",
+      "Role definitions, scope boundaries, training requirements (who the provider IS) → Pillar 2",
+      "Systems, equipment, OR operations, IT infrastructure → Pillar 3",
+      "Legal requirements, compliance, malpractice, ethics statutes → Pillar 4",
+      "Compensation mechanics, billing, contracts, business structures → Pillar 5",
+      "Education science, research methods, evidence generation → Pillar 6",
+      "Career paths, workforce deployment, job transitions, organizational navigation → Pillar 7"
     ],
-    "sub_pillars": []
+    "sub_pillars": [
+      {
+        "id": "8.1",
+        "title": "Provider Wellbeing and Mental Health",
+        "definition": "The psychological health and resilience of anesthesia providers. This sub-pillar covers mental health conditions (depression, anxiety, PTSD), substance use disorders, burnout and compassion fatigue, occupational stress, second-victim syndrome, suicide prevention, and the systems that support provider recovery and wellness.",
+        "branches": [
+          {
+            "id": "8.1.1",
+            "title": "Mental Health Conditions and Psychological Distress",
+            "definition": "The spectrum of mental health challenges affecting anesthesia providers including depression, anxiety, PTSD, and other conditions. Covers prevalence, risk factors, recognition, and the unique psychological demands of anesthesia practice.",
+            "lens": "Understanding the mental health landscape of anesthesia providers",
+            "topic_domains": [
+              {
+                "id": "8.1.1-1",
+                "title": "Depression in Anesthesia Providers",
+                "definition": "The prevalence, presentation, and experience of clinical depression among anesthesia clinicians. Covers risk factors unique to anesthesia practice, recognition of symptoms in oneself and colleagues, and pathways to diagnosis and treatment."
+              },
+              {
+                "id": "8.1.1-2",
+                "title": "Anxiety Disorders and Performance Pressure",
+                "definition": "Anxiety conditions affecting anesthesia providers including generalized anxiety, panic, and performance anxiety. Covers how high-stakes clinical environments contribute to anxiety and strategies for managing anxious responses."
+              },
+              {
+                "id": "8.1.1-3",
+                "title": "PTSD and Trauma Responses",
+                "definition": "Post-traumatic stress arising from critical events, patient deaths, and cumulative exposure to suffering. Covers trauma symptoms, triggers in the OR environment, and trauma-informed approaches to recovery."
+              },
+              {
+                "id": "8.1.1-4",
+                "title": "Stigma and Barriers to Mental Health Care",
+                "definition": "The obstacles preventing providers from seeking help for mental health conditions. Covers internalized stigma, fear of career consequences, licensing concerns, confidentiality worries, and strategies to reduce help-seeking barriers."
+              },
+              {
+                "id": "8.1.1-5",
+                "title": "Accessing Mental Health Resources",
+                "definition": "Navigating the mental health care system as a provider. Covers finding appropriate therapists, employee assistance programs, professional help lines (AANA Helpline), confidential support options, and financial considerations."
+              }
+            ]
+          },
+          {
+            "id": "8.1.2",
+            "title": "Substance Use and Addiction",
+            "definition": "The particular vulnerability of anesthesia providers to substance use disorders due to access, stress, and occupational factors. Covers recognition, intervention, treatment, re-entry programs, and prevention strategies.",
+            "lens": "Addressing the profession's heightened addiction risk",
+            "topic_domains": [
+              {
+                "id": "8.1.2-1",
+                "title": "Substance Use Disorder Risk in Anesthesia",
+                "definition": "The elevated vulnerability of anesthesia providers to addiction due to drug access, high stress, and occupational culture. Covers epidemiology, commonly abused substances (opioids, propofol), and risk factor recognition."
+              },
+              {
+                "id": "8.1.2-2",
+                "title": "Recognition and Intervention",
+                "definition": "Identifying signs of substance use in oneself or colleagues and initiating appropriate responses. Covers behavioral indicators, confrontation approaches, mandatory reporting considerations, and intervention techniques."
+              },
+              {
+                "id": "8.1.2-3",
+                "title": "Treatment Pathways and Recovery Programs",
+                "definition": "Options for treatment of substance use disorders in healthcare professionals. Covers inpatient programs, PHP (Physician Health Programs), state monitoring programs, AA/NA, medication-assisted treatment, and long-term recovery support."
+              },
+              {
+                "id": "8.1.2-4",
+                "title": "Return to Practice After Treatment",
+                "definition": "The lived experience of re-entering clinical practice following treatment for substance use disorder. Covers re-entry agreements, monitoring requirements, practice restrictions, relapse prevention, rebuilding trust, and the psychological journey of recovery."
+              },
+              {
+                "id": "8.1.2-5",
+                "title": "Prevention and Healthy Coping",
+                "definition": "Strategies to prevent substance use problems before they develop. Covers stress management, healthy coping mechanisms, self-monitoring, peer accountability, and creating environments that reduce risk."
+              }
+            ]
+          },
+          {
+            "id": "8.1.3",
+            "title": "Burnout, Fatigue and Occupational Stress",
+            "definition": "Chronic workplace stress manifesting as emotional exhaustion, depersonalization, and reduced accomplishment. Covers burnout measurement, compassion fatigue, shift fatigue, circadian disruption, and organizational vs individual contributors.",
+            "lens": "The erosion of wellbeing through chronic work stress",
+            "topic_domains": [
+              {
+                "id": "8.1.3-1",
+                "title": "Understanding Burnout in Anesthesia",
+                "definition": "The syndrome of emotional exhaustion, depersonalization, and reduced accomplishment as experienced by anesthesia providers. Covers the Maslach model, burnout stages, and how burnout manifests in anesthesia practice."
+              },
+              {
+                "id": "8.1.3-2",
+                "title": "Compassion Fatigue and Secondary Trauma",
+                "definition": "The emotional toll of caring for suffering patients over time. Covers secondary traumatic stress, empathic distress, distinguishing compassion fatigue from burnout, and restoring compassion capacity."
+              },
+              {
+                "id": "8.1.3-3",
+                "title": "Shift Fatigue and Circadian Disruption",
+                "definition": "The physical and cognitive effects of irregular hours, night shifts, and sleep deprivation. Covers circadian biology, fatigue-related performance decrements, call-inebriated states, and evidence on shift work health effects."
+              },
+              {
+                "id": "8.1.3-4",
+                "title": "Organizational Contributors to Burnout",
+                "definition": "System-level factors that drive burnout including workload, staffing, administrative burden, lack of autonomy, poor leadership, and toxic culture. Covers identifying organizational dysfunction and advocating for change."
+              },
+              {
+                "id": "8.1.3-5",
+                "title": "Personal Resilience and Recovery Strategies",
+                "definition": "Individual approaches to preventing and recovering from burnout. Covers mindfulness, cognitive reframing, boundary-setting, vacation and time off, professional coaching, and rebuilding after burnout."
+              },
+              {
+                "id": "8.1.3-6",
+                "title": "Measuring and Monitoring Wellbeing",
+                "definition": "Tools and approaches for assessing burnout and wellness at individual and organizational levels. Covers burnout inventories (MBI, PFI), wellness surveys, early warning indicators, and tracking trends over time."
+              }
+            ]
+          },
+          {
+            "id": "8.1.4",
+            "title": "Crisis, Trauma and Recovery",
+            "definition": "Acute psychological responses to critical events including second-victim syndrome, critical incident stress, and suicide risk. Covers crisis intervention, psychological first aid, peer support programs, and pathways to recovery.",
+            "lens": "Responding to acute psychological crises",
+            "topic_domains": [
+              {
+                "id": "8.1.4-1",
+                "title": "Second Victim Syndrome",
+                "definition": "The psychological trauma experienced by clinicians after adverse patient events. Covers the stages of second victim response, prevalence, symptoms, and the long-term impact on providers involved in patient harm."
+              },
+              {
+                "id": "8.1.4-2",
+                "title": "Critical Incident Stress and Debriefing",
+                "definition": "Acute stress responses following traumatic clinical events and the psychological experience of processing them. Covers critical incident stress reactions, the emotional journey through debriefing, and organizational response from the provider's perspective."
+              },
+              {
+                "id": "8.1.4-3",
+                "title": "Suicide Risk and Prevention",
+                "definition": "The elevated suicide risk among healthcare providers and specific vulnerabilities in anesthesia. Covers warning signs, risk factors, protective factors, crisis intervention, and creating environments that prevent suicide."
+              },
+              {
+                "id": "8.1.4-4",
+                "title": "Peer Support Programs",
+                "definition": "Organized systems for colleagues to support one another through psychological distress. Covers peer support team structure, training peer supporters, confidentiality, when to escalate to professional help, and program effectiveness."
+              },
+              {
+                "id": "8.1.4-5",
+                "title": "Psychological First Aid",
+                "definition": "Immediate support techniques for providers in acute distress. Covers basic PFA skills, active listening, practical assistance, connecting to resources, and what not to do when supporting a colleague in crisis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8.2",
+        "title": "Work-Life Integration and Family",
+        "definition": "Balancing professional demands with personal life and family responsibilities. This sub-pillar covers boundary-setting, personal sustainability, physical health, relationships, pregnancy and parenting in anesthesia, childcare logistics, and the unique challenges of maintaining life outside the OR while building a sustainable career.",
+        "branches": [
+          {
+            "id": "8.2.1",
+            "title": "Boundary-Setting and Personal Sustainability",
+            "definition": "Establishing and maintaining healthy limits between work and personal life. Covers saying no, protecting off-time, managing the always-on culture, and building sustainable long-term practice patterns.",
+            "lens": "Protecting personal life from professional encroachment",
+            "topic_domains": [
+              {
+                "id": "8.2.1-1",
+                "title": "The Art of Saying No",
+                "definition": "Learning to decline additional work, commitments, and requests that threaten personal sustainability. Covers boundary language, managing guilt, navigating power dynamics, and protecting what matters most."
+              },
+              {
+                "id": "8.2.1-2",
+                "title": "Protecting Off-Time and Recovery",
+                "definition": "Strategies for safeguarding non-work hours from professional encroachment. Covers technology boundaries (email, phone), transition rituals, mental detachment from work, and the science of recovery."
+              },
+              {
+                "id": "8.2.1-3",
+                "title": "Managing the Always-On Culture",
+                "definition": "Navigating expectations of constant availability in modern anesthesia practice. Covers smartphone management, after-hours communication norms, setting expectations with colleagues, and resisting urgency culture."
+              },
+              {
+                "id": "8.2.1-4",
+                "title": "Building Sustainable Practice Patterns",
+                "definition": "Designing work schedules and commitments that can be maintained long-term without burnout. Covers workload calibration, strategic scheduling, knowing personal limits, and adjusting patterns across career stages."
+              },
+              {
+                "id": "8.2.1-5",
+                "title": "Values Alignment and Life Priorities",
+                "definition": "Clarifying what matters most and aligning professional choices with personal values. Covers values clarification exercises, making trade-offs explicit, and ensuring work serves life rather than consuming it."
+              }
+            ]
+          },
+          {
+            "id": "8.2.2",
+            "title": "Physical Health and Self-Care",
+            "definition": "Maintaining physical wellbeing while practicing anesthesia. Covers exercise, nutrition, sleep hygiene, managing shift work effects, and the physical demands of standing, positioning, and OR ergonomics.",
+            "lens": "Caring for the body that provides care",
+            "topic_domains": [
+              {
+                "id": "8.2.2-1",
+                "title": "Exercise and Movement for Anesthesia Providers",
+                "definition": "Maintaining physical fitness despite irregular schedules and long hours. Covers evidence for exercise benefits, fitting workouts into shift schedules, combating sedentary OR time, and practical fitness strategies."
+              },
+              {
+                "id": "8.2.2-2",
+                "title": "Nutrition and Healthy Eating in Practice",
+                "definition": "Managing nutrition around unpredictable breaks and high-stress shifts. Covers meal planning, healthy OR snacking, hydration, avoiding stress eating, and nutrition for shift workers."
+              },
+              {
+                "id": "8.2.2-3",
+                "title": "Sleep Hygiene and Shift Work Adaptation",
+                "definition": "Optimizing sleep quality despite circadian disruption from clinical schedules. Covers sleep science, strategies for night shift workers, napping, sleep environments, and when to seek help for sleep disorders."
+              },
+              {
+                "id": "8.2.2-4",
+                "title": "Managing Physical Demands of OR Work",
+                "definition": "Addressing the bodily toll of anesthesia practice including prolonged standing, awkward positioning, and repetitive strain. Covers ergonomics, stretching, footwear, preventing musculoskeletal injury, and physical longevity in practice."
+              },
+              {
+                "id": "8.2.2-5",
+                "title": "Preventive Health and Self-Monitoring",
+                "definition": "Attending to one's own healthcare needs while caring for others. Covers regular check-ups, screening, managing chronic conditions, recognizing personal health warning signs, and overcoming the doctor as patient barrier."
+              }
+            ]
+          },
+          {
+            "id": "8.2.3",
+            "title": "Relationships and Social Connection",
+            "definition": "Nurturing personal relationships amid demanding schedules. Covers partnerships/marriage, friendships, social isolation, family dynamics, and maintaining connection when work hours are unpredictable.",
+            "lens": "Sustaining human connection outside the OR",
+            "topic_domains": [
+              {
+                "id": "8.2.3-1",
+                "title": "Nurturing Partnerships and Marriage",
+                "definition": "Maintaining healthy romantic relationships amid demanding anesthesia careers. Covers communication strategies, quality time despite schedules, supporting a partner's career, navigating dual-anesthesia couples, and relationship maintenance."
+              },
+              {
+                "id": "8.2.3-2",
+                "title": "Friendships and Social Life",
+                "definition": "Sustaining friendships outside of work when schedules are unpredictable. Covers maintaining non-medical friendships, scheduling social time, avoiding isolation, and the importance of social connection for wellbeing."
+              },
+              {
+                "id": "8.2.3-3",
+                "title": "Family Relationships Beyond Immediate Household",
+                "definition": "Maintaining connections with extended family including parents, siblings, and in-laws. Covers long-distance family relationships, attending family events, managing family expectations, and family-of-origin dynamics."
+              },
+              {
+                "id": "8.2.3-4",
+                "title": "Combating Isolation and Loneliness",
+                "definition": "Addressing the social isolation that can accompany demanding clinical schedules. Covers recognizing loneliness, building community, finding belonging, and the particular isolation risks of locum or independent practice."
+              }
+            ]
+          },
+          {
+            "id": "8.2.4",
+            "title": "Pregnancy, Parenting and Family Logistics",
+            "definition": "Navigating family life as an anesthesia provider. Covers pregnancy in the OR (safety, accommodations), parental leave, breastfeeding logistics, childcare arrangements, parenting across developmental stages, and sandwich-generation caregiving.",
+            "lens": "Building family life around anesthesia practice",
+            "topic_domains": [
+              {
+                "id": "8.2.4-1",
+                "title": "Pregnancy in Anesthesia Practice",
+                "definition": "Navigating pregnancy while practicing anesthesia. Covers occupational exposure concerns (gases, radiation), workplace accommodations, physical demands, announcing pregnancy, and managing colleague and patient perceptions."
+              },
+              {
+                "id": "8.2.4-2",
+                "title": "Fertility, Family Planning and Timing",
+                "definition": "Making decisions about when and whether to have children during an anesthesia career. Covers training timing, fertility preservation, infertility challenges, and career considerations in family planning."
+              },
+              {
+                "id": "8.2.4-3",
+                "title": "Parental Leave and Return to Work",
+                "definition": "The lived experience of taking leave for new parenthood and transitioning back to clinical practice. Covers the emotional journey of leave, staying connected, re-entry challenges, and negotiating accommodations upon return."
+              },
+              {
+                "id": "8.2.4-4",
+                "title": "Breastfeeding and Pumping Logistics",
+                "definition": "Managing lactation while practicing anesthesia. Covers legal protections (FLSA), pumping schedules, finding time between cases, storage logistics, and advocating for pumping accommodations."
+              },
+              {
+                "id": "8.2.4-5",
+                "title": "Childcare Arrangements and Backup Plans",
+                "definition": "Securing reliable childcare around unpredictable anesthesia schedules. Covers daycare, nannies, family support, backup care for emergencies, early morning and late case coverage, and cost considerations."
+              },
+              {
+                "id": "8.2.4-6",
+                "title": "Parenting Across Developmental Stages",
+                "definition": "Raising children from infancy through adolescence while practicing anesthesia. Covers being present despite schedules, attending school events, parenting guilt, maintaining connection, and adapting as children grow."
+              },
+              {
+                "id": "8.2.4-7",
+                "title": "Sandwich Generation Caregiving",
+                "definition": "Managing simultaneous responsibilities for children and aging parents. Covers elder care logistics, caregiver burden, geographic challenges, balancing multiple care demands, and finding support resources."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8.3",
+        "title": "Professional Culture, Identity and Inclusion",
+        "definition": "The social fabric of anesthesia practice and how providers experience belonging and meaning. This sub-pillar covers OR culture and workplace dynamics, incivility and bullying, diversity/equity/inclusion as lived experience, professional identity formation, impostor phenomenon, and finding purpose and meaning in practice.",
+        "branches": [
+          {
+            "id": "8.3.1",
+            "title": "OR Culture and Workplace Climate",
+            "definition": "The distinctive social environment of the operating room as lived and experienced. Covers hierarchy and authority gradients, team dynamics, communication patterns, psychological safety, and the unwritten rules that shape daily experience. (Career navigation strategies for adapting to culture → Pillar 7.3.1)",
+            "lens": "The social world of the operating room",
+            "topic_domains": [
+              {
+                "id": "8.3.1-1",
+                "title": "Hierarchy and Authority Gradients in the OR",
+                "definition": "The lived experience of formal and informal power structures within operating room teams. Covers how hierarchy feels day-to-day, surgeon-anesthesia dynamics as experienced, physician-nurse relationships, and the psychological impact of authority gradients on providers."
+              },
+              {
+                "id": "8.3.1-2",
+                "title": "Team Dynamics and Communication Patterns",
+                "definition": "How OR teams function, communicate, and collaborate as experienced by team members. Covers the felt sense of teamwork, interprofessional relationships, belonging within teams, and how communication patterns affect daily experience."
+              },
+              {
+                "id": "8.3.1-3",
+                "title": "Psychological Safety in Clinical Environments",
+                "definition": "Creating environments where providers can speak up about concerns without fear. Covers voicing safety concerns, admitting uncertainty, asking questions, and leadership behaviors that promote psychological safety."
+              },
+              {
+                "id": "8.3.1-4",
+                "title": "Generational Dynamics in Anesthesia",
+                "definition": "How different generations (Boomers, Gen X, Millennials, Gen Z) experience and shape workplace culture. Covers generational values, communication preferences, mentorship across generations, and bridging generational divides."
+              },
+              {
+                "id": "8.3.1-5",
+                "title": "Locum and Temporary Staff Integration",
+                "definition": "The cultural experience of being a temporary provider in established teams. Covers fitting in quickly, navigating unfamiliar cultures, building rapport as an outsider, and the isolation of locum work."
+              }
+            ]
+          },
+          {
+            "id": "8.3.2",
+            "title": "Incivility, Bullying and Harassment",
+            "definition": "Toxic behaviors in the anesthesia workplace as experienced by those affected. Covers disruptive behavior, bullying patterns, sexual and racial harassment, eating our young culture, and the impact of incivility on providers and patient safety.",
+            "lens": "Confronting harmful workplace behaviors",
+            "topic_domains": [
+              {
+                "id": "8.3.2-1",
+                "title": "Recognizing Workplace Incivility",
+                "definition": "Identifying disrespectful, rude, or dismissive behaviors that undermine workplace culture. Covers the incivility spectrum, distinguishing incivility from bullying, impact on individuals and teams, and prevalence in OR settings."
+              },
+              {
+                "id": "8.3.2-2",
+                "title": "Bullying in Anesthesia Practice",
+                "definition": "Patterns of repeated, targeted harmful behavior in the workplace. Covers bullying dynamics, power imbalances, eating our young hazing culture, effects on targets, and the cycle of bullying."
+              },
+              {
+                "id": "8.3.2-3",
+                "title": "Sexual and Gender-Based Harassment",
+                "definition": "Unwanted sexual attention, gender discrimination, and hostile environments based on sex or gender. Covers prevalence in anesthesia, recognizing harassment, impact on careers and wellbeing, and response options."
+              },
+              {
+                "id": "8.3.2-4",
+                "title": "Racial and Ethnic Harassment and Discrimination",
+                "definition": "Mistreatment based on race, ethnicity, or national origin in the workplace. Covers overt discrimination, microaggressions, hostile environments, impact on providers of color, and addressing racial harassment."
+              },
+              {
+                "id": "8.3.2-5",
+                "title": "Responding to and Reporting Toxic Behavior",
+                "definition": "Options for addressing incivility, bullying, and harassment when it occurs. Covers bystander intervention, confrontation strategies, documentation, reporting mechanisms, and protecting oneself while advocating for change."
+              },
+              {
+                "id": "8.3.2-6",
+                "title": "Organizational Approaches to Workplace Civility",
+                "definition": "System-level strategies for preventing and addressing toxic behavior. Covers zero-tolerance policies, reporting systems, investigation processes, accountability, and building cultures of respect."
+              }
+            ]
+          },
+          {
+            "id": "8.3.3",
+            "title": "Diversity, Equity and Inclusion as Lived Experience",
+            "definition": "How underrepresented providers experience anesthesia practice. Covers racial and ethnic minority experiences, gender dynamics, LGBTQ+ inclusion, microaggressions, code-switching, and building inclusive cultures.",
+            "lens": "The experience of belonging and exclusion",
+            "topic_domains": [
+              {
+                "id": "8.3.3-1",
+                "title": "Racial and Ethnic Minority Experiences in Anesthesia",
+                "definition": "The lived experience of Black, Hispanic, Asian, and other racial/ethnic minority providers in the profession. Covers belonging, representation, discrimination, microaggressions, and navigating predominantly white spaces."
+              },
+              {
+                "id": "8.3.3-2",
+                "title": "Gender Dynamics and Women's Experiences",
+                "definition": "How gender shapes the experience of practicing anesthesia. Covers gender bias, pay inequity, leadership barriers, motherhood penalty, objectification, and navigating male-dominated subspecialties or leadership."
+              },
+              {
+                "id": "8.3.3-3",
+                "title": "LGBTQ+ Inclusion and Experience",
+                "definition": "The experience of lesbian, gay, bisexual, transgender, and queer providers in anesthesia. Covers coming out at work, discrimination, finding community, ally behaviors, and creating LGBTQ+-affirming environments."
+              },
+              {
+                "id": "8.3.3-4",
+                "title": "Intersectionality and Compound Marginalization",
+                "definition": "How multiple identity dimensions interact to shape experience. Covers holding multiple marginalized identities (e.g., Black woman, gay Latino), unique challenges of intersectionality, and inclusive approaches that address complexity."
+              },
+              {
+                "id": "8.3.3-5",
+                "title": "Microaggressions and Code-Switching",
+                "definition": "Subtle slights and the adaptation strategies used by marginalized providers. Covers recognizing microaggressions, the burden of code-switching, authenticity vs. assimilation, and creating environments where people can be themselves."
+              },
+              {
+                "id": "8.3.3-6",
+                "title": "Allyship and Building Inclusive Cultures",
+                "definition": "How members of majority groups can support inclusion and equity. Covers allyship behaviors, amplifying marginalized voices, using privilege constructively, and moving from performative to substantive inclusion."
+              }
+            ]
+          },
+          {
+            "id": "8.3.4",
+            "title": "Professional Identity and Meaning",
+            "definition": "How providers construct their psychological sense of self and find purpose in anesthesia. Covers identity formation, impostor phenomenon, reconciling nurse and autonomous provider identities, finding meaning, and identity evolution through life transitions. (Identity as career brand/market positioning → Pillar 7.4.1)",
+            "lens": "Who you are as a provider",
+            "topic_domains": [
+              {
+                "id": "8.3.4-1",
+                "title": "Career Motivation and Choosing Anesthesia",
+                "definition": "Why providers enter anesthesia and what draws them to the specialty. Covers intrinsic motivations, autonomy and challenge, patient care values, and how initial motivations evolve over time."
+              },
+              {
+                "id": "8.3.4-2",
+                "title": "Professional Identity Formation",
+                "definition": "How anesthesia providers develop their psychological sense of professional self. Covers identity development in training, socialization into the profession, and the ongoing construction of professional identity throughout careers."
+              },
+              {
+                "id": "8.3.4-3",
+                "title": "The Impostor Phenomenon in Anesthesia",
+                "definition": "Feeling like a fraud despite objective competence. Covers impostor experiences at different career stages, triggers, impact on performance and wellbeing, and strategies for managing impostor feelings."
+              },
+              {
+                "id": "8.3.4-4",
+                "title": "CRNA Identity: Nurse, Provider, or Both?",
+                "definition": "The unique identity tensions of nurse anesthetists. Covers reconciling nursing foundations with autonomous practice, just a nurse experiences, pride in CRNA identity, and navigating dual professional identities."
+              },
+              {
+                "id": "8.3.4-5",
+                "title": "Finding Meaning and Purpose in Practice",
+                "definition": "Connecting daily work to deeper significance and fulfillment. Covers sources of meaning, meaning-making during routine cases, reconnecting with purpose when disillusioned, and sustaining meaning over a career."
+              },
+              {
+                "id": "8.3.4-6",
+                "title": "Identity Through Transitions and Late Career",
+                "definition": "The psychological experience of how professional identity evolves during major life and career transitions. Covers the internal experience of identity reconstruction, finding purpose in new chapters, and the emotional journey of change. (Career tactics for managing transitions → Pillar 7.2.6)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8.4",
+        "title": "History, Society and Ethical Dimensions",
+        "definition": "The profession's past, its place in society, and its moral compass. This sub-pillar covers the historical evolution of anesthesia and nurse anesthesia, public perception and patient understanding, societal impact, ethical identity, moral distress, and environmental stewardship in anesthesia practice.",
+        "branches": [
+          {
+            "id": "8.4.1",
+            "title": "History of Anesthesia and the Profession",
+            "definition": "The origins and evolution of anesthesia practice and nurse anesthesia. Covers early anesthetic discovery, pioneering figures (Magaw, Hodgins), AANA founding, wartime contributions, key legislative milestones, and the evolution of education and autonomy.",
+            "lens": "Where the profession came from",
+            "topic_domains": [
+              {
+                "id": "8.4.1-1",
+                "title": "Early Anesthesia Discovery and Development",
+                "definition": "The origins of anesthesia in the 19th century including ether, chloroform, and early techniques. Covers the Ether Dome, Morton, Wells, and the evolution from discovery to clinical practice."
+              },
+              {
+                "id": "8.4.1-2",
+                "title": "Pioneers of Nurse Anesthesia",
+                "definition": "The founding figures who established nurse anesthesia as a profession. Covers Alice Magaw (Mother of Anesthesia), Agatha Hodgins, early nurse anesthetists, and their contributions to safety and technique."
+              },
+              {
+                "id": "8.4.1-3",
+                "title": "AANA Founding and Organizational History",
+                "definition": "The establishment and evolution of the American Association of Nurse Anesthetists. Covers the Lakeside School, AANA formation, early advocacy, and how the organization shaped the profession."
+              },
+              {
+                "id": "8.4.1-4",
+                "title": "Wartime Contributions and Military History",
+                "definition": "The role of nurse anesthetists in military medicine. Covers WWI and WWII service, combat zone anesthesia, military training programs, and how wartime experience advanced the profession."
+              },
+              {
+                "id": "8.4.1-5",
+                "title": "Evolution of Education and Credentialing",
+                "definition": "The transformation of nurse anesthesia education from hospital diploma to doctoral preparation. Covers educational milestones, CRNA credential development (1956), accreditation evolution, and the DNP/DNAP transition."
+              },
+              {
+                "id": "8.4.1-6",
+                "title": "Key Legislative and Regulatory Milestones",
+                "definition": "Major policy victories and regulatory changes that shaped CRNA practice as historical narrative. Covers Medicare direct reimbursement (1986), opt-out regulations (2001), and the historical arc of legislative evolution."
+              },
+              {
+                "id": "8.4.1-7",
+                "title": "Diversity Pioneers and Milestones",
+                "definition": "Trailblazers who broke barriers in nurse anesthesia. Covers Goldie Brangman (first African-American AANA president), early women and minority leaders, and the ongoing journey toward diversity."
+              }
+            ]
+          },
+          {
+            "id": "8.4.2",
+            "title": "Public Perception and Patient Understanding",
+            "definition": "How patients, the public, and other professionals perceive anesthesia and its providers. Covers patient knowledge and fears, media portrayals, provider role confusion, professional image, and public education efforts.",
+            "lens": "How society sees anesthesia",
+            "topic_domains": [
+              {
+                "id": "8.4.2-1",
+                "title": "Patient Knowledge and Misconceptions About Anesthesia",
+                "definition": "What patients understand (and misunderstand) about anesthesia. Covers knowledge gaps, common misconceptions, awareness of provider types, and implications for informed consent and trust."
+              },
+              {
+                "id": "8.4.2-2",
+                "title": "Patient Fears and Anxieties",
+                "definition": "Common fears patients have about anesthesia including not waking up, awareness, pain, and losing control. Covers prevalence of fears, sources of anxiety, and addressing patient concerns."
+              },
+              {
+                "id": "8.4.2-3",
+                "title": "Media Portrayals of Anesthesia",
+                "definition": "How anesthesia and its providers are depicted in television, film, and news media. Covers accuracy of portrayals, invisibility of anesthetists in media, and impact on public perception."
+              },
+              {
+                "id": "8.4.2-4",
+                "title": "Provider Role Confusion: CRNA, MDA, AA",
+                "definition": "Public and patient confusion about different anesthesia provider types. Covers explaining provider roles, patient preferences, addressing I want a real doctor reactions, and professional identity in public discourse."
+              },
+              {
+                "id": "8.4.2-5",
+                "title": "Public Education and Professional Outreach",
+                "definition": "Efforts to improve public understanding of anesthesia and its providers. Covers CRNA Week, public awareness campaigns, community outreach, social media presence, and communicating the profession's value."
+              }
+            ]
+          },
+          {
+            "id": "8.4.3",
+            "title": "Ethical Identity and Moral Dimensions",
+            "definition": "The moral landscape of anesthesia practice as experienced by providers. Covers moral distress, ethical dilemmas (futile care, end-of-life, disclosure), conscientious objection, controversial roles, and integrating personal ethics with professional demands.",
+            "lens": "Living with moral complexity",
+            "topic_domains": [
+              {
+                "id": "8.4.3-1",
+                "title": "Moral Distress in Anesthesia Practice",
+                "definition": "The experience of knowing the right action but facing barriers to taking it. Covers sources of moral distress, manifestations, cumulative impact, and strategies for addressing moral distress."
+              },
+              {
+                "id": "8.4.3-2",
+                "title": "Ethical Dilemmas in Daily Practice",
+                "definition": "Common ethical challenges in anesthesia care including futile care, DNR in the OR, truth-telling after errors, resource allocation, and respecting patient autonomy while ensuring safety."
+              },
+              {
+                "id": "8.4.3-3",
+                "title": "End-of-Life Care and Anesthesia Ethics",
+                "definition": "Moral complexities at the intersection of anesthesia and dying. Covers perioperative DNR, anesthesia for comfort care, withdrawing support, and aligning anesthesia practice with patient values at end of life."
+              },
+              {
+                "id": "8.4.3-4",
+                "title": "Conscientious Objection and Controversial Procedures",
+                "definition": "When personal ethics conflict with requested procedures. Covers refusal to participate in executions, abortion, or other contested procedures, balancing conscience with professional obligations, and organizational policies."
+              },
+              {
+                "id": "8.4.3-5",
+                "title": "Integrating Personal Ethics with Professional Demands",
+                "definition": "Living as a moral agent within institutional and professional constraints. Covers ethical self-concept, value conflicts, maintaining integrity under pressure, and finding ethical grounding in practice."
+              }
+            ]
+          },
+          {
+            "id": "8.4.4",
+            "title": "Environmental Impact and Sustainability",
+            "definition": "The ecological footprint of anesthesia practice and the provider's role as environmental steward. Covers greenhouse gas emissions from volatile anesthetics, OR waste, single-use devices, green anesthesia initiatives, low-flow techniques, and sustainability practices.",
+            "lens": "Anesthesia's impact on the planet",
+            "topic_domains": [
+              {
+                "id": "8.4.4-1",
+                "title": "Anesthetic Gases and Climate Impact",
+                "definition": "The greenhouse gas contribution of volatile anesthetics. Covers global warming potential of desflurane, sevoflurane, isoflurane, and nitrous oxide, comparative impact, and the scale of anesthesia's carbon footprint."
+              },
+              {
+                "id": "8.4.4-2",
+                "title": "Low-Flow Anesthesia and Gas Conservation",
+                "definition": "Techniques to reduce anesthetic gas emissions through lower fresh gas flows. Covers the science of low-flow, equipment requirements, safety considerations, and implementation strategies."
+              },
+              {
+                "id": "8.4.4-3",
+                "title": "OR Waste and Single-Use Device Concerns",
+                "definition": "The environmental impact of disposable equipment, plastics, and waste in anesthesia. Covers waste streams, recycling challenges, reprocessing debates, and reducing disposable consumption."
+              },
+              {
+                "id": "8.4.4-4",
+                "title": "Green Anesthesia Initiatives",
+                "definition": "Organized efforts to make anesthesia practice more environmentally sustainable. Covers institutional programs, professional society initiatives, Green OR checklists, and advocating for sustainable practices."
+              },
+              {
+                "id": "8.4.4-5",
+                "title": "The Anesthetist as Environmental Steward",
+                "definition": "Embracing environmental responsibility as part of professional identity. Covers individual actions, influencing departmental practices, purchasing decisions, and integrating sustainability into daily practice."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "statistics": {
+    "sub_pillars": 4,
+    "branches": 16,
+    "topic_domains": 84
   }
 }

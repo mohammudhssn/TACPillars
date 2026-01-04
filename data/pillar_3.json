@@ -1,10 +1,10 @@
 {
   "metadata": {
     "pillar_id": "3",
-    "status": "sub_pillars_complete",
+    "status": "branches_complete",
     "created": "2026-01-04",
     "last_updated": "2026-01-04",
-    "notes": "Sub-Pillars defined. Ready for Branch generation."
+    "notes": "Sub-Pillars and Branches defined. Ready for Topic Domain generation."
   },
   "pillar": {
     "id": "3",
@@ -33,31 +33,161 @@
         "id": "3.1",
         "title": "Physical Infrastructure and Facility Systems",
         "definition": "The built environment and utility systems that enable anesthesia delivery: OR design and layout, medical gas pipelines, electrical systems, HVAC and infection control, lighting, and communication infrastructure. This sub-pillar also covers the distinct characteristics of different facility types—academic medical centers, community hospitals, ambulatory surgery centers, office-based settings, and mobile anesthesia—and how infrastructure scales across these environments.",
-        "branches": []
+        "branches": [
+          {
+            "id": "3.1.1",
+            "title": "OR Design, Layout and Physical Space",
+            "definition": "The architectural and ergonomic design of operating rooms and anesthesia workspaces, including room dimensions, equipment positioning, sterile zones, workflow optimization, and adjacency to support areas.",
+            "lens": "Understanding how physical space design affects safety, efficiency, and clinical workflow",
+            "topic_domains": []
+          },
+          {
+            "id": "3.1.2",
+            "title": "Medical Gas, Vacuum and Utility Systems",
+            "definition": "The pipeline infrastructure that delivers oxygen, nitrous oxide, medical air, suction vacuum, and waste anesthetic gas disposal (WAGD) to the anesthesia workstation, including bulk sources, zone valves, outlet connections, and alarm systems.",
+            "lens": "Understanding the utility backbone that makes gas delivery and scavenging possible",
+            "topic_domains": []
+          },
+          {
+            "id": "3.1.3",
+            "title": "Electrical Power, Environmental Control and Safety Systems",
+            "definition": "The electrical infrastructure (isolated power systems, line-isolation monitors, emergency generators, UPS) and environmental systems (HVAC, ventilation, positive pressure, temperature/humidity control, lighting) that maintain a safe and controlled OR environment.",
+            "lens": "Understanding the environmental and power systems that protect patients and enable uninterrupted care",
+            "topic_domains": []
+          },
+          {
+            "id": "3.1.4",
+            "title": "Facility Types and Setting-Specific Infrastructure",
+            "definition": "The distinct infrastructure characteristics of different anesthesia care settings: academic medical centers, community hospitals, ambulatory surgery centers, office-based anesthesia, mobile anesthesia, procedural suites, and rural versus urban facilities.",
+            "lens": "Understanding how infrastructure scales and adapts across different practice environments",
+            "topic_domains": []
+          }
+        ]
       },
       {
         "id": "3.2",
         "title": "Anesthesia Equipment and Medical Device Ecosystem",
         "definition": "The devices and equipment used to deliver and monitor anesthesia care: anesthesia machines and workstations, physiologic monitors, infusion pumps, airway devices, point-of-care analyzers, and specialty equipment. This sub-pillar encompasses the complete equipment lifecycle from capital planning and procurement through installation, preventive maintenance, calibration, repairs, and end-of-life replacement.",
-        "branches": []
+        "branches": [
+          {
+            "id": "3.2.1",
+            "title": "Anesthesia Machine Architecture and Function",
+            "definition": "The core components and operating principles of anesthesia machines and workstations: high-pressure, intermediate-pressure, and low-pressure circuits; flowmeters and vaporizers; breathing circuits and ventilators; scavenging systems; and integrated safety features.",
+            "lens": "Understanding how the anesthesia machine delivers gases and ventilation safely",
+            "topic_domains": []
+          },
+          {
+            "id": "3.2.2",
+            "title": "Physiologic Monitoring Systems",
+            "definition": "The monitors and sensors that track patient status during anesthesia: multi-parameter monitors (ECG, SpO₂, NIBP, EtCO₂, temperature), invasive pressure monitoring, neuromuscular and depth-of-anesthesia monitors, alarm systems, and data integration with clinical records.",
+            "lens": "Understanding the monitoring ecosystem that provides real-time patient data",
+            "topic_domains": []
+          },
+          {
+            "id": "3.2.3",
+            "title": "Infusion Systems and Point-of-Care Devices",
+            "definition": "Smart infusion pumps with drug libraries, syringe drivers, patient-controlled analgesia systems, and point-of-care testing devices (blood gas analyzers, glucose meters, coagulation testers) used in anesthesia care.",
+            "lens": "Understanding drug delivery technology and rapid diagnostic devices at the bedside",
+            "topic_domains": []
+          },
+          {
+            "id": "3.2.4",
+            "title": "Airway, Specialty and Emergency Equipment",
+            "definition": "Airway management devices (video laryngoscopes, fiberoptic bronchoscopes, supraglottic airways), ultrasound for regional anesthesia, difficult airway carts, malignant hyperthermia carts, defibrillators, and other specialty or emergency equipment.",
+            "lens": "Understanding specialized tools for airway management, regional techniques, and emergency response",
+            "topic_domains": []
+          },
+          {
+            "id": "3.2.5",
+            "title": "Equipment Lifecycle Management",
+            "definition": "The complete lifecycle of anesthesia equipment: capital planning and procurement, vendor selection and GPO contracts, installation and acceptance testing, preventive maintenance and calibration, repairs and service contracts, asset tracking, and end-of-life replacement.",
+            "lens": "Understanding how equipment is acquired, maintained, and retired over time",
+            "topic_domains": []
+          }
+        ]
       },
       {
         "id": "3.3",
         "title": "Information Technology, Clinical Informatics and Cybersecurity",
         "definition": "The digital systems that capture, process, protect, and transmit anesthesia data: Anesthesia Information Management Systems (AIMS), EHR integration, device connectivity and interoperability, network architecture, clinical decision support, and OR scheduling software. This sub-pillar also addresses the growing domain of cybersecurity—device vulnerabilities, network segmentation, patch management, threat detection, and regulatory compliance for data protection.",
-        "branches": []
+        "branches": [
+          {
+            "id": "3.3.1",
+            "title": "Anesthesia Information Management and EHR Integration",
+            "definition": "Anesthesia Information Management Systems (AIMS) that capture vital signs, document medication administration, and generate the anesthesia record, including integration with hospital EHR platforms, clinical decision support, and barcode medication administration.",
+            "lens": "Understanding the clinical documentation and decision support systems for anesthesia",
+            "topic_domains": []
+          },
+          {
+            "id": "3.3.2",
+            "title": "Device Connectivity and Interoperability",
+            "definition": "How anesthesia devices (monitors, machines, pumps) connect and communicate with clinical information systems, including interface engines, device gateways, data standards (HL7, IEEE 11073, FHIR), and middleware solutions.",
+            "lens": "Understanding how devices share data with each other and with clinical systems",
+            "topic_domains": []
+          },
+          {
+            "id": "3.3.3",
+            "title": "Network Infrastructure and System Architecture",
+            "definition": "The IT infrastructure supporting anesthesia operations: wired and wireless networks, VLANs, servers and cloud platforms, redundancy and failover systems, OR scheduling software, and real-time location systems (RTLS).",
+            "lens": "Understanding the network and computing foundation that enables clinical IT systems",
+            "topic_domains": []
+          },
+          {
+            "id": "3.3.4",
+            "title": "Cybersecurity, Data Protection and Compliance",
+            "definition": "Security of medical devices and networks: vulnerability management, network segmentation, patch management, threat detection and response, access control and authentication, data encryption, HIPAA compliance, and FDA cybersecurity requirements including SBOM.",
+            "lens": "Understanding how anesthesia systems are protected from cyber threats and data breaches",
+            "topic_domains": []
+          }
+        ]
       },
       {
         "id": "3.4",
         "title": "Supply Chain, Workflow and Operational Quality Systems",
         "definition": "The operational systems that ensure resource availability, workflow efficiency, and quality assurance: automated dispensing cabinets, controlled substance management, inventory and pharmacy systems, OR scheduling and turnover optimization, Lean/Six Sigma process engineering, incident reporting, quality dashboards, disaster preparedness, and safety infrastructure including fire and radiation protection. This sub-pillar maps how operations are engineered for efficiency and how quality and safety systems provide resilience and continuous improvement.",
-        "branches": []
+        "branches": [
+          {
+            "id": "3.4.1",
+            "title": "Medication Supply and Automated Dispensing",
+            "definition": "Automated dispensing cabinets (ADCs), controlled substance management and diversion monitoring, anesthesia medication carts and trays, and integration with pharmacy systems for secure, efficient drug access.",
+            "lens": "Understanding how medications are stored, dispensed, tracked, and secured",
+            "topic_domains": []
+          },
+          {
+            "id": "3.4.2",
+            "title": "Inventory, Supply Chain and Resource Management",
+            "definition": "Supply ordering and inventory systems, par level management, just-in-time delivery, vendor and GPO relationships, recall and expiry tracking, and resource allocation for anesthesia supplies and disposables.",
+            "lens": "Understanding how supplies flow from vendor to point of care",
+            "topic_domains": []
+          },
+          {
+            "id": "3.4.3",
+            "title": "OR Scheduling and Case Flow Optimization",
+            "definition": "OR scheduling systems, block management, case booking and add-on workflows, first-case on-time starts, patient throughput from pre-op through PACU, and digital dashboards for real-time case status.",
+            "lens": "Understanding how cases are scheduled and patients flow through the perioperative environment",
+            "topic_domains": []
+          },
+          {
+            "id": "3.4.4",
+            "title": "Process Engineering and Workflow Efficiency",
+            "definition": "Lean and Six Sigma methodologies applied to anesthesia operations, turnover time optimization, parallel processing, value stream mapping, communication workflows (huddles, SBAR), and continuous improvement initiatives.",
+            "lens": "Understanding how operations are engineered for efficiency and waste reduction",
+            "topic_domains": []
+          },
+          {
+            "id": "3.4.5",
+            "title": "Quality, Safety and Continuity Systems",
+            "definition": "Incident reporting and root cause analysis, quality dashboards and performance metrics, ERAS pathway infrastructure, disaster preparedness and downtime procedures, fire and radiation safety protocols, and emergency equipment readiness.",
+            "lens": "Understanding the systems that monitor quality, ensure safety, and maintain operational resilience",
+            "topic_domains": []
+          }
+        ]
       }
     ]
   },
   "statistics": {
     "sub_pillars": 4,
-    "branches": 0,
+    "branches": 18,
     "topic_domains": 0
   }
 }

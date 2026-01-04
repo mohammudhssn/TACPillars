@@ -554,35 +554,175 @@
             "title": "Medication Supply and Automated Dispensing",
             "definition": "Automated dispensing cabinets (ADCs), controlled substance management and diversion monitoring, anesthesia medication carts and trays, and integration with pharmacy systems for secure, efficient drug access.",
             "lens": "Understanding how medications are stored, dispensed, tracked, and secured",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.4.1-1",
+                "title": "Automated Dispensing Cabinet Technology and Operations",
+                "definition": "ADC platforms (Pyxis, Omnicell) for perioperative medication access: cabinet configurations, user authentication (badge, biometric), transaction logging, and restocking workflows. Covers how ADCs streamline medication management in anesthesia."
+              },
+              {
+                "id": "3.4.1-2",
+                "title": "Controlled Substance Security and Access Controls",
+                "definition": "Security features for Schedule II-V medications in ADCs: locked compartments, dual-witness requirements, override protocols, and count verification. Covers regulatory requirements and workflow design for controlled substance access."
+              },
+              {
+                "id": "3.4.1-3",
+                "title": "Diversion Detection and Monitoring Systems",
+                "definition": "Software systems for detecting drug diversion: pattern analysis, wasting discrepancy alerts, usage benchmarking, and investigation triggers. Covers platforms like Omnicell Safeguard and RxAuditor and their role in protecting patients and providers."
+              },
+              {
+                "id": "3.4.1-4",
+                "title": "Anesthesia Medication Cart Standardization",
+                "definition": "Design and organization of anesthesia medication carts and trays: standardized layouts, pre-filled syringes, barcode labeling, and cart exchange systems. Covers optimizing medication availability while maintaining safety."
+              },
+              {
+                "id": "3.4.1-5",
+                "title": "ADC-Pharmacy Integration and Restocking Workflows",
+                "definition": "Integration between ADCs and pharmacy information systems: automatic reorder triggers, pharmacist verification, restocking schedules, and inventory synchronization. Covers maintaining medication availability across perioperative areas."
+              }
+            ]
           },
           {
             "id": "3.4.2",
             "title": "Inventory, Supply Chain and Resource Management",
             "definition": "Supply ordering and inventory systems, par level management, just-in-time delivery, vendor and GPO relationships, recall and expiry tracking, and resource allocation for anesthesia supplies and disposables.",
             "lens": "Understanding how supplies flow from vendor to point of care",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.4.2-1",
+                "title": "Inventory Management Systems and Par Level Optimization",
+                "definition": "Software systems for tracking anesthesia supplies: ERP integration, par level setting based on case mix, automatic reorder points, and consumption analytics. Covers balancing availability against carrying costs."
+              },
+              {
+                "id": "3.4.2-2",
+                "title": "Just-in-Time Delivery and Kanban Systems",
+                "definition": "Lean inventory approaches for anesthesia supplies: Kanban card systems, two-bin replenishment, just-in-time delivery from central supply, and minimizing OR storage requirements while preventing stockouts."
+              },
+              {
+                "id": "3.4.2-3",
+                "title": "Vendor Relationships and GPO Contract Utilization",
+                "definition": "Managing supplier relationships for anesthesia supplies: group purchasing organization (GPO) contract leverage, vendor-managed inventory (VMI), sole-source vs multi-source strategies, and negotiation approaches."
+              },
+              {
+                "id": "3.4.2-4",
+                "title": "Recall and Expiration Management",
+                "definition": "Systems for tracking product recalls and expiration dates: lot number tracking, automated expiry alerts, recall notification workflows, and quarantine procedures. Covers preventing use of compromised or expired supplies."
+              },
+              {
+                "id": "3.4.2-5",
+                "title": "Shortage Management and Alternate Sourcing",
+                "definition": "Responding to drug and supply shortages: alternative product identification, allocation strategies, therapeutic substitution protocols, and communication with clinical staff. Covers maintaining care continuity during supply disruptions."
+              }
+            ]
           },
           {
             "id": "3.4.3",
             "title": "OR Scheduling and Case Flow Optimization",
             "definition": "OR scheduling systems, block management, case booking and add-on workflows, first-case on-time starts, patient throughput from pre-op through PACU, and digital dashboards for real-time case status.",
             "lens": "Understanding how cases are scheduled and patients flow through the perioperative environment",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.4.3-1",
+                "title": "Block Scheduling Systems and Allocation",
+                "definition": "Block time allocation models: surgeon and service block assignments, release time policies, block utilization metrics, and reallocation strategies. Covers optimizing OR capacity through effective block management."
+              },
+              {
+                "id": "3.4.3-2",
+                "title": "Case Booking and Add-On Workflows",
+                "definition": "Electronic case scheduling systems: booking interfaces, required data elements, add-on case management, and coordination between scheduling staff, surgeons, and anesthesia. Covers streamlining the case booking process."
+              },
+              {
+                "id": "3.4.3-3",
+                "title": "First-Case On-Time Starts and Delay Tracking",
+                "definition": "Systems for achieving and measuring on-time starts: delay reason coding, accountability tracking, pre-operative readiness verification, and improvement initiatives. Covers the operational and financial impact of delays."
+              },
+              {
+                "id": "3.4.3-4",
+                "title": "Patient Flow from Pre-Op Through PACU",
+                "definition": "Managing patient throughput across perioperative phases: pre-op preparation workflows, OR-to-PACU handoffs, discharge readiness criteria, and bottleneck identification. Covers optimizing the patient journey."
+              },
+              {
+                "id": "3.4.3-5",
+                "title": "OR Dashboards and Real-Time Status Displays",
+                "definition": "Digital displays for OR management: case progress tracking, room status boards, delay alerts, and command center visualizations. Covers how real-time information enables proactive management of OR operations."
+              }
+            ]
           },
           {
             "id": "3.4.4",
             "title": "Process Engineering and Workflow Efficiency",
             "definition": "Lean and Six Sigma methodologies applied to anesthesia operations, turnover time optimization, parallel processing, value stream mapping, communication workflows (huddles, SBAR), and continuous improvement initiatives.",
             "lens": "Understanding how operations are engineered for efficiency and waste reduction",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.4.4-1",
+                "title": "Lean Methodology in Perioperative Operations",
+                "definition": "Applying Lean principles to anesthesia and OR operations: waste identification (muda), 5S workplace organization, standard work, and visual management. Covers the foundation of process improvement in perioperative settings."
+              },
+              {
+                "id": "3.4.4-2",
+                "title": "Turnover Time Optimization and Parallel Processing",
+                "definition": "Engineering efficient room turnovers: parallel task execution (pit crew model), role-specific checklists, RTLS-triggered workflows, and measurement methodologies. Covers reducing non-operative time between cases."
+              },
+              {
+                "id": "3.4.4-3",
+                "title": "Value Stream Mapping and Waste Reduction",
+                "definition": "Analyzing and improving perioperative workflows: value stream mapping techniques, identifying non-value-added steps, cycle time analysis, and redesigning processes for efficiency."
+              },
+              {
+                "id": "3.4.4-4",
+                "title": "Communication Workflows: Huddles and Handoffs",
+                "definition": "Structured communication systems for perioperative teams: pre-operative huddles, surgical briefings, SBAR handoff protocols, and shift-change communication. Covers ensuring information continuity and team alignment."
+              },
+              {
+                "id": "3.4.4-5",
+                "title": "Continuous Improvement and PDSA Cycles",
+                "definition": "Sustaining operational improvements: Plan-Do-Study-Act methodology, improvement project management, metric tracking, and building a culture of continuous improvement in anesthesia operations."
+              }
+            ]
           },
           {
             "id": "3.4.5",
             "title": "Quality, Safety and Continuity Systems",
             "definition": "Incident reporting and root cause analysis, quality dashboards and performance metrics, ERAS pathway infrastructure, disaster preparedness and downtime procedures, fire and radiation safety protocols, and emergency equipment readiness.",
             "lens": "Understanding the systems that monitor quality, ensure safety, and maintain operational resilience",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "3.4.5-1",
+                "title": "Incident Reporting Systems and Safety Culture",
+                "definition": "Electronic incident reporting platforms (RLDatix, ECRI SAFER): event categorization, anonymous reporting options, trending analysis, and good-catch programs. Covers building a just culture that encourages safety reporting."
+              },
+              {
+                "id": "3.4.5-2",
+                "title": "Root Cause Analysis and Corrective Actions",
+                "definition": "Investigating adverse events and near-misses: RCA methodology, fishbone diagrams, failure mode analysis (FMEA), and implementing sustainable corrective actions. Covers systematic approaches to preventing recurrence."
+              },
+              {
+                "id": "3.4.5-3",
+                "title": "Quality Dashboards and Performance Metrics",
+                "definition": "Monitoring anesthesia quality indicators: PONV rates, hypothermia incidence, antibiotic timing compliance, and other perioperative metrics. Covers dashboard design, benchmarking, and using data to drive improvement."
+              },
+              {
+                "id": "3.4.5-4",
+                "title": "ERAS Pathway Infrastructure and Implementation",
+                "definition": "Systems supporting Enhanced Recovery After Surgery programs: standardized order sets, patient education platforms, outcome tracking, and multi-disciplinary coordination infrastructure. Covers the operational backbone of ERAS."
+              },
+              {
+                "id": "3.4.5-5",
+                "title": "Disaster Preparedness and Downtime Procedures",
+                "definition": "Operational continuity planning: power failure protocols, IT system downtime procedures, mass casualty response, and emergency communication systems. Covers maintaining anesthesia services during facility emergencies."
+              },
+              {
+                "id": "3.4.5-6",
+                "title": "Fire Safety Systems and Prevention Protocols",
+                "definition": "OR fire prevention infrastructure: surgical fire risk assessment, oxygen management near ignition sources, fire suppression systems, laser safety protocols, and staff training requirements. Covers the fire triangle in surgical settings."
+              },
+              {
+                "id": "3.4.5-7",
+                "title": "Radiation Safety Infrastructure and Monitoring",
+                "definition": "Radiation protection systems in perioperative areas: lead shielding, protective equipment (aprons, thyroid shields), dosimetry badge programs, ALARA principles, and regulatory compliance for fluoroscopy and hybrid OR environments."
+              }
+            ]
           }
         ]
       }
@@ -591,6 +731,6 @@
   "statistics": {
     "sub_pillars": 4,
     "branches": 18,
-    "topic_domains": 0
+    "topic_domains": 105
   }
 }

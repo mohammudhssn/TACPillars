@@ -1,20 +1,980 @@
 {
   "metadata": {
-    "pillar_id": "4",
-    "status": "not_started",
+    "version": "1.0",
     "created": "2026-01-04",
-    "last_updated": "2026-01-04"
+    "last_updated": "2026-01-05",
+    "status": "complete",
+    "notes": "Law, Regulation, Ethics and Governance pillar covering federal/state regulations, liability, controlled substances, compliance, and professional ethics."
   },
   "pillar": {
     "id": "4",
     "title": "Law, Regulation, Ethics and Governance",
     "definition": "All rules governing anesthesia: federal/state law, CMS regulations, malpractice, institutional bylaws, ethics, informed consent, criminal misuse of drugs, DEA issues, compliance.",
     "inclusion_tests": [
-      "Is this about what is legally required, prohibited, regulated, or ethically governed?"
+      "Is this about what is legally required, prohibited, regulated, or ethically governed?",
+      "Is this about regulatory compliance, legal liability, or enforcement?",
+      "Is this about professional ethics codes or conduct standards?",
+      "Is this about controlled substance law or DEA requirements?",
+      "Is this about institutional governance, credentialing requirements, or accreditation?"
     ],
     "exclusion_tests": [
-      "Business strategy, compensation, workforce motivation, burnout."
+      "Business strategy, compensation mechanics, revenue optimization → Pillar 5",
+      "Workforce motivation, career navigation, job searching → Pillar 7",
+      "Burnout experience, wellness, personal psychology → Pillar 8",
+      "Clinical technique, pharmacology, patient care decisions → Pillar 1",
+      "Role definitions, training pathways, scope as career pathway → Pillar 2"
     ],
-    "sub_pillars": []
+    "sub_pillars": [
+      {
+        "id": "4.1",
+        "title": "Regulatory Authority and Practice Governance",
+        "definition": "The federal and state legal frameworks that govern anesthesia practice, including who may provide anesthesia, under what supervision or independence, and the regulatory requirements that shape practice authority across different settings and jurisdictions.",
+        "branches": [
+          {
+            "id": "4.1.1",
+            "title": "Federal Regulatory Framework",
+            "definition": "The nationwide rules established by federal agencies that healthcare providers and institutions must follow, including Medicare Conditions of Participation, CMS reimbursement rules, and baseline requirements for anesthesia services.",
+            "lens": "Understanding the federal legal foundation that governs anesthesia practice nationwide",
+            "topic_domains": [
+              {
+                "id": "4.1.1-1",
+                "title": "Medicare Conditions of Participation for Anesthesia Services",
+                "definition": "The federal regulations under 42 CFR 482.52 that hospitals must meet to participate in Medicare, including requirements for anesthesia service organization, qualified personnel, supervision structures, and mandatory documentation timeframes for pre-anesthesia and post-anesthesia evaluations."
+              },
+              {
+                "id": "4.1.1-2",
+                "title": "Medicare Anesthesia Reimbursement Regulations",
+                "definition": "Federal rules under 42 CFR 410.69 governing Medicare Part B payment for anesthesia services, including requirements for state authorization, distinctions between practice modes (medical direction, supervision, independent), and the regulatory basis for anesthesia billing."
+              },
+              {
+                "id": "4.1.1-3",
+                "title": "CMS Documentation and Evaluation Requirements",
+                "definition": "Federal mandates for anesthesia documentation including pre-anesthesia evaluation timing, intraoperative record requirements, and post-anesthesia evaluation within 48 hours, as enforced through Conditions of Participation compliance."
+              },
+              {
+                "id": "4.1.1-4",
+                "title": "HIPAA Privacy and Security Requirements in Anesthesia",
+                "definition": "The Health Insurance Portability and Accountability Act provisions governing patient health information privacy and security as applied to anesthesia practice, including record handling, handoff communication, and confidentiality obligations."
+              },
+              {
+                "id": "4.1.1-5",
+                "title": "Federal Quality and Safety Reporting Requirements",
+                "definition": "CMS quality programs, value-based purchasing metrics, and federal reporting requirements that include anesthesia-related measures such as surgical safety checklist adherence and post-operative pain management outcomes."
+              }
+            ]
+          },
+          {
+            "id": "4.1.2",
+            "title": "CMS Supervision Rules and Opt-Out Mechanisms",
+            "definition": "The federal Medicare supervision requirements for CRNAs, the opt-out process allowing states to exempt from these requirements, and how these rules interact with state law and facility policy.",
+            "lens": "Understanding how federal supervision policy shapes CRNA practice authority",
+            "topic_domains": [
+              {
+                "id": "4.1.2-1",
+                "title": "Medicare CRNA Supervision Requirement",
+                "definition": "The federal rule requiring CRNAs to be supervised by a physician (operating practitioner or anesthesiologist) for Medicare cases unless exempted, including the regulatory basis, enforcement mechanisms, and implications for facility compliance."
+              },
+              {
+                "id": "4.1.2-2",
+                "title": "State Opt-Out Process and Requirements",
+                "definition": "The CMS rule allowing state governors to petition for opt-out of the CRNA supervision requirement, including the required consultations with state medical and nursing boards, attestation requirements, and the legal process for obtaining exemption."
+              },
+              {
+                "id": "4.1.2-3",
+                "title": "Opt-Out State Landscape and Variations",
+                "definition": "The current status of the 25+ states that have exercised opt-out authority, patterns in opt-out adoption, the relationship between opt-out status and state practice authority laws, and implications for CRNA practice in different jurisdictions."
+              },
+              {
+                "id": "4.1.2-4",
+                "title": "Immediate Availability and Supervision Standards",
+                "definition": "The CMS definition of 'immediate availability' for supervising physicians, practical interpretations of physical presence requirements, and how supervision standards apply in different facility contexts and emergency situations."
+              },
+              {
+                "id": "4.1.2-5",
+                "title": "COVID-19 Waivers and Supervision Policy Evolution",
+                "definition": "The temporary nationwide waiver of CRNA supervision during the COVID-19 public health emergency, its impact on access and outcomes, and ongoing policy discussions about permanent modification of federal supervision requirements."
+              }
+            ]
+          },
+          {
+            "id": "4.1.3",
+            "title": "State Practice Authority and Supervision Law",
+            "definition": "State-level statutes, Nurse Practice Acts, and board regulations that define CRNA scope of practice, supervision requirements, collaboration mandates, and prescriptive authority across different jurisdictions.",
+            "lens": "Understanding the state-by-state legal landscape that determines practice authority",
+            "topic_domains": [
+              {
+                "id": "4.1.3-1",
+                "title": "Nurse Practice Acts and CRNA Provisions",
+                "definition": "State Nurse Practice Act provisions that define CRNA scope of practice, including explicit authorizations for anesthesia administration, medication ordering, and procedural authority, and how NPAs vary in granting independent versus supervised practice."
+              },
+              {
+                "id": "4.1.3-2",
+                "title": "State Supervision, Collaboration, and Direction Requirements",
+                "definition": "The spectrum of state oversight requirements from full practice authority to mandatory physician supervision, including definitions of supervision versus collaboration versus direction, and the practical implications of each model."
+              },
+              {
+                "id": "4.1.3-3",
+                "title": "State Prescriptive Authority for CRNAs",
+                "definition": "State laws governing CRNA authority to prescribe medications including controlled substances, requirements for separate prescriptive authority licenses, collaboration agreement mandates, and limitations on perioperative versus outpatient prescribing."
+              },
+              {
+                "id": "4.1.3-4",
+                "title": "State Board of Nursing Regulations and Interpretations",
+                "definition": "Board of Nursing rules, advisory opinions, and regulatory interpretations that clarify CRNA scope within the statutory framework, including how boards enforce practice boundaries and respond to scope-of-practice questions."
+              },
+              {
+                "id": "4.1.3-5",
+                "title": "APRN Consensus Model and Compact Implementation",
+                "definition": "The NCSBN APRN Consensus Model's influence on state CRNA regulations, the developing APRN Compact for multistate licensure, and how interstate practice frameworks may harmonize scope-of-practice variations."
+              },
+              {
+                "id": "4.1.3-6",
+                "title": "Setting-Specific Practice Authority Variations",
+                "definition": "How state laws create different practice authority requirements by setting—hospitals versus ambulatory surgery centers versus office-based practices versus dental offices—and the rationale for setting-specific regulations."
+              }
+            ]
+          },
+          {
+            "id": "4.1.4",
+            "title": "Federal Healthcare Facility Regulations",
+            "definition": "Regulations governing anesthesia practice in federal facilities including Veterans Health Administration hospitals, military treatment facilities, and Indian Health Service, where federal rules may preempt state restrictions.",
+            "lens": "Understanding practice authority in federal healthcare systems",
+            "topic_domains": [
+              {
+                "id": "4.1.4-1",
+                "title": "VA Full Practice Authority Policy",
+                "definition": "The Veterans Health Administration policy granting CRNAs full practice authority within VA facilities regardless of state law, including the regulatory basis, implementation history, and how federal preemption operates in this context."
+              },
+              {
+                "id": "4.1.4-2",
+                "title": "Military Treatment Facility Practice Standards",
+                "definition": "Department of Defense regulations governing CRNA practice in military hospitals and clinics, the relationship between military credentialing and state licensure, and practice authority for uniformed and civilian CRNAs."
+              },
+              {
+                "id": "4.1.4-3",
+                "title": "Indian Health Service Practice Regulations",
+                "definition": "IHS regulations for anesthesia services in tribal and federal Indian health facilities, practice authority standards, and how federal Indian health law interacts with state practice restrictions."
+              },
+              {
+                "id": "4.1.4-4",
+                "title": "Federal Preemption Doctrine in Healthcare",
+                "definition": "The legal doctrine by which federal regulations supersede conflicting state laws in federal facilities, its application to CRNA practice authority, and the boundaries of federal preemption in different healthcare contexts."
+              }
+            ]
+          },
+          {
+            "id": "4.1.5",
+            "title": "Occupational and Environmental Regulatory Standards",
+            "definition": "OSHA workplace safety requirements, FDA drug and device regulations, and environmental standards affecting anesthesia practice, including waste anesthetic gas exposure limits and equipment safety mandates.",
+            "lens": "Understanding the safety and environmental regulations that shape the anesthesia workplace",
+            "topic_domains": [
+              {
+                "id": "4.1.5-1",
+                "title": "OSHA Waste Anesthetic Gas Exposure Standards",
+                "definition": "OSHA guidelines and NIOSH recommended exposure limits for waste anesthetic gases including nitrous oxide and volatile agents, requirements for scavenging systems and OR ventilation, and employer obligations for monitoring and protection."
+              },
+              {
+                "id": "4.1.5-2",
+                "title": "OSHA Bloodborne Pathogen and Sharps Safety Requirements",
+                "definition": "Federal occupational safety regulations requiring exposure control plans, safety-engineered sharps devices, Hepatitis B vaccination programs, and post-exposure protocols relevant to anesthesia providers handling invasive lines and airways."
+              },
+              {
+                "id": "4.1.5-3",
+                "title": "FDA Anesthetic Drug Approval and Labeling Requirements",
+                "definition": "FDA regulatory authority over anesthetic agents, the drug approval process for safety and efficacy, labeling requirements and usage guidelines, and how FDA safety alerts and drug shortages impact anesthesia practice."
+              },
+              {
+                "id": "4.1.5-4",
+                "title": "FDA Medical Device Regulations for Anesthesia Equipment",
+                "definition": "FDA oversight of anesthesia machines, monitors, infusion pumps, and related equipment, including premarket approval requirements, adverse event reporting obligations, and safety recall processes."
+              },
+              {
+                "id": "4.1.5-5",
+                "title": "Environmental Regulations for Anesthetic Emissions",
+                "definition": "EPA and environmental regulations addressing the greenhouse gas impact of volatile anesthetic agents, emerging requirements for emissions reduction, and the intersection of environmental compliance with clinical practice decisions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4.2",
+        "title": "Professional Liability and Patient Protection",
+        "definition": "Legal obligations to patients including informed consent requirements, patient rights protections, and the malpractice and liability frameworks that govern accountability when anesthesia care falls below accepted standards.",
+        "branches": [
+          {
+            "id": "4.2.1",
+            "title": "Informed Consent Doctrine and Requirements",
+            "definition": "The legal and ethical requirements for obtaining patient consent before anesthesia, including disclosure standards, documentation requirements, exceptions for emergencies, and special considerations for minors and incapacitated patients.",
+            "lens": "Understanding the legal framework for respecting patient autonomy in anesthesia decisions",
+            "topic_domains": [
+              {
+                "id": "4.2.1-1",
+                "title": "Legal Foundations of Informed Consent",
+                "definition": "The common law and statutory basis for informed consent requirements, including the distinction between professional standard and reasonable patient standard for disclosure, and the legal consequences of proceeding without consent (battery vs. negligence)."
+              },
+              {
+                "id": "4.2.1-2",
+                "title": "Disclosure Requirements for Anesthesia Consent",
+                "definition": "Legal standards for what must be disclosed before anesthesia—nature and purpose of anesthesia type, material risks, expected benefits, and reasonable alternatives—and how courts determine what constitutes adequate disclosure."
+              },
+              {
+                "id": "4.2.1-3",
+                "title": "Anesthesia-Specific Consent Processes",
+                "definition": "Requirements for separate anesthesia consent versus inclusion in surgical consent, CMS guidance on anesthesia consent documentation, who may obtain consent (anesthesiologist vs. CRNA), and institutional policy variations."
+              },
+              {
+                "id": "4.2.1-4",
+                "title": "Exceptions to Consent Requirements",
+                "definition": "Legal doctrines permitting treatment without explicit consent, including emergency/implied consent for unconscious patients, therapeutic privilege, and waiver by patient, with application to urgent anesthesia scenarios."
+              },
+              {
+                "id": "4.2.1-5",
+                "title": "Consent for Special Populations",
+                "definition": "Legal requirements for obtaining consent for minors (parental consent, mature minor doctrine), incapacitated adults (surrogate decision-makers, healthcare proxies), and patients lacking decision-making capacity."
+              },
+              {
+                "id": "4.2.1-6",
+                "title": "Consent Documentation and Evidentiary Standards",
+                "definition": "Legal requirements for consent form content and signatures, the role of documentation as evidence of consent, timing requirements (before sedative premedication), and electronic consent processes."
+              }
+            ]
+          },
+          {
+            "id": "4.2.2",
+            "title": "Patient Rights and Autonomy Protections",
+            "definition": "Federal and state laws protecting patient rights in healthcare settings, including the right to information, privacy, refusal of treatment, advanced directives, and the Patient Bill of Rights under Medicare Conditions of Participation.",
+            "lens": "Understanding the legal protections that safeguard patient dignity and autonomy",
+            "topic_domains": [
+              {
+                "id": "4.2.2-1",
+                "title": "Medicare Patient Rights Requirements",
+                "definition": "The patient rights enumerated in 42 CFR 482.13 that hospitals must protect, including rights to participate in care decisions, privacy, freedom from abuse or unnecessary restraints, and confidentiality of medical records."
+              },
+              {
+                "id": "4.2.2-2",
+                "title": "Right to Refuse Treatment and Withdraw Consent",
+                "definition": "Legal protections for competent patients' right to refuse anesthesia or specific interventions (such as blood transfusion), the obligation to honor withdrawal of consent, and accommodating patient preferences within safe limits."
+              },
+              {
+                "id": "4.2.2-3",
+                "title": "Advanced Directives and Perioperative DNR Orders",
+                "definition": "Legal requirements for respecting living wills, healthcare powers of attorney, and DNR orders in the surgical setting, including required reconsideration discussions and documentation of any temporary modifications."
+              },
+              {
+                "id": "4.2.2-4",
+                "title": "Patient Right to Provider Identification and Information",
+                "definition": "Legal requirements for healthcare providers to identify themselves and their roles, state badge laws requiring credential display, and the patient's right to know who is providing their anesthesia care."
+              },
+              {
+                "id": "4.2.2-5",
+                "title": "Consent for Sensitive Examinations Under Anesthesia",
+                "definition": "Recent state laws requiring explicit consent for pelvic or other sensitive examinations on anesthetized patients, HHS guidance on protecting patients from unauthorized procedures, and institutional policy requirements."
+              },
+              {
+                "id": "4.2.2-6",
+                "title": "Patient Rights in Research and Quality Improvement",
+                "definition": "Common Rule requirements for informed consent in clinical trials involving anesthesia, IRB oversight, patient right to refuse research participation, and the distinction between research and quality improvement activities."
+              }
+            ]
+          },
+          {
+            "id": "4.2.3",
+            "title": "Malpractice Law and Standard of Care",
+            "definition": "The elements of medical malpractice claims in anesthesia—duty, breach, causation, and damages—and how standard of care is established through clinical guidelines, expert testimony, and professional consensus.",
+            "lens": "Understanding the legal framework for negligence claims in anesthesia practice",
+            "topic_domains": [
+              {
+                "id": "4.2.3-1",
+                "title": "Elements of Anesthesia Malpractice Claims",
+                "definition": "The four legal elements plaintiffs must prove—duty (provider-patient relationship), breach (deviation from standard), causation (breach caused harm), and damages (compensable injury)—with application to common anesthesia scenarios."
+              },
+              {
+                "id": "4.2.3-2",
+                "title": "Standard of Care Determination in Anesthesia",
+                "definition": "How standard of care is legally defined as the conduct of a reasonably prudent provider, the role of ASA standards and practice guidelines in establishing benchmarks, and how expert testimony shapes standard of care determinations."
+              },
+              {
+                "id": "4.2.3-3",
+                "title": "Common Bases for Anesthesia Malpractice Claims",
+                "definition": "The most frequent allegations in anesthesia malpractice—airway management failures, medication errors, awareness under anesthesia, positioning injuries, regional anesthesia complications—and the legal elements specific to each."
+              },
+              {
+                "id": "4.2.3-4",
+                "title": "Expert Witness Requirements and Testimony",
+                "definition": "Legal standards for qualifying expert witnesses in anesthesia cases, the role of experts in establishing standard of care and breach, requirements that experts practice in same or similar specialty, and credibility considerations."
+              },
+              {
+                "id": "4.2.3-5",
+                "title": "Causation Challenges in Anesthesia Cases",
+                "definition": "Legal standards for proving causation (but-for and proximate cause), challenges in anesthesia cases where multiple factors contribute to injury, loss of chance doctrine, and how defendants challenge causation."
+              },
+              {
+                "id": "4.2.3-6",
+                "title": "Damages in Anesthesia Malpractice",
+                "definition": "Categories of recoverable damages—economic (medical expenses, lost income), non-economic (pain, suffering), and punitive (rare, for egregious conduct)—and state tort reform caps affecting anesthesia case valuations."
+              }
+            ]
+          },
+          {
+            "id": "4.2.4",
+            "title": "Vicarious Liability and Team Accountability",
+            "definition": "Legal doctrines governing shared liability in anesthesia care teams, including respondeat superior, captain of the ship doctrine, and how supervision relationships affect liability allocation between CRNAs, anesthesiologists, surgeons, and institutions.",
+            "lens": "Understanding how liability is distributed in team-based anesthesia care",
+            "topic_domains": [
+              {
+                "id": "4.2.4-1",
+                "title": "Respondeat Superior and Employer Liability",
+                "definition": "The legal doctrine holding employers vicariously liable for employee negligence in the course of employment, application to hospital-employed CRNAs and anesthesiologists, and how employment relationships create institutional liability."
+              },
+              {
+                "id": "4.2.4-2",
+                "title": "Captain of the Ship Doctrine",
+                "definition": "The historical doctrine holding surgeons liable for OR team negligence including anesthesia errors, its declining application in modern courts, and jurisdictions where it still influences liability allocation."
+              },
+              {
+                "id": "4.2.4-3",
+                "title": "Liability in Medical Direction and Supervision",
+                "definition": "How supervision relationships affect liability when anesthesiologists medically direct CRNAs, whether supervision creates automatic vicarious liability, and how courts allocate fault between supervising and supervised providers."
+              },
+              {
+                "id": "4.2.4-4",
+                "title": "Individual CRNA Liability and Accountability",
+                "definition": "State laws establishing that CRNAs bear personal legal responsibility for their professional conduct regardless of supervision, how CRNA individual liability interacts with employer and supervisor liability, and litigation strategies involving CRNAs."
+              },
+              {
+                "id": "4.2.4-5",
+                "title": "Corporate Negligence and Institutional Liability",
+                "definition": "Hospital direct liability for negligent credentialing, failure to ensure competent staff, inadequate equipment or protocols, and how corporate negligence doctrine creates institutional accountability separate from vicarious liability."
+              }
+            ]
+          },
+          {
+            "id": "4.2.5",
+            "title": "Malpractice Insurance and Risk Management",
+            "definition": "Professional liability insurance requirements, coverage structures, the National Practitioner Data Bank reporting obligations, and institutional risk management strategies for preventing and responding to malpractice claims.",
+            "lens": "Understanding the systems that manage and mitigate malpractice risk",
+            "topic_domains": [
+              {
+                "id": "4.2.5-1",
+                "title": "Professional Liability Insurance Structures",
+                "definition": "Types of malpractice coverage (occurrence vs. claims-made policies), coverage limits and policy terms, tail coverage requirements, and state mandates or institutional requirements for anesthesia provider coverage."
+              },
+              {
+                "id": "4.2.5-2",
+                "title": "National Practitioner Data Bank Reporting",
+                "definition": "Federal requirements for reporting malpractice payments and adverse actions to the NPDB, what triggers mandatory reporting, how NPDB queries are used in credentialing, and the career implications of NPDB entries."
+              },
+              {
+                "id": "4.2.5-3",
+                "title": "Tort Reform and Malpractice Caps",
+                "definition": "State tort reform measures affecting anesthesia malpractice including caps on non-economic damages, pre-litigation panels, shortened statutes of limitation, and how these reforms influence case valuations and litigation strategies."
+              },
+              {
+                "id": "4.2.5-4",
+                "title": "Statute of Limitations and Repose",
+                "definition": "Time limits for filing malpractice claims, how statutes of limitation are calculated (from injury vs. discovery), extensions for minors, and statutes of repose that create absolute cutoffs regardless of discovery."
+              },
+              {
+                "id": "4.2.5-5",
+                "title": "Risk Management and Claims Prevention",
+                "definition": "Institutional risk management strategies including incident reporting systems, root cause analysis, documentation best practices, disclosure and apology programs, and how proactive risk management reduces malpractice exposure."
+              },
+              {
+                "id": "4.2.5-6",
+                "title": "Criminal Liability for Gross Negligence",
+                "definition": "The rare circumstances where anesthesia errors can result in criminal prosecution (manslaughter, criminally negligent homicide), the standard for criminal vs. civil liability, and implications of cases like RaDonda Vaught for anesthesia practice."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4.3",
+        "title": "Controlled Substances and Drug Regulation",
+        "definition": "The legal and regulatory controls over medications with abuse potential used in anesthesia practice, including DEA requirements, prescribing authority, diversion prevention, and accountability for controlled drug handling.",
+        "branches": [
+          {
+            "id": "4.3.1",
+            "title": "Controlled Substances Act and Drug Scheduling",
+            "definition": "The federal Controlled Substances Act framework, drug scheduling classifications (I-V), and how these classifications affect the procurement, storage, prescribing, and administration of anesthetic agents.",
+            "lens": "Understanding the foundational federal law governing controlled substances",
+            "topic_domains": [
+              {
+                "id": "4.3.1-1",
+                "title": "Controlled Substances Act Framework",
+                "definition": "The federal Controlled Substances Act (Title 21 U.S. Code) as the foundational law regulating manufacture, possession, and use of drugs with abuse potential, including its structure, enforcement mechanisms, and application to healthcare settings."
+              },
+              {
+                "id": "4.3.1-2",
+                "title": "Drug Scheduling Classifications and Criteria",
+                "definition": "The five-schedule classification system (I-V) based on medical use and abuse potential, criteria for each schedule, and how scheduling determines the level of regulatory control over procurement, storage, prescribing, and record-keeping."
+              },
+              {
+                "id": "4.3.1-3",
+                "title": "Schedule II Anesthetic Agents and Requirements",
+                "definition": "The specific regulatory requirements for Schedule II drugs commonly used in anesthesia (fentanyl, morphine, hydromorphone, sufentanil), including no-refill rules, written prescription requirements, and enhanced security and documentation mandates."
+              },
+              {
+                "id": "4.3.1-4",
+                "title": "Schedule III-V Anesthetic Agents and Requirements",
+                "definition": "Regulatory requirements for lower-schedule drugs used in anesthesia including ketamine (III), benzodiazepines like midazolam (IV), and how the reduced restrictions for these schedules affect clinical use and documentation."
+              },
+              {
+                "id": "4.3.1-5",
+                "title": "Scheduling Changes and Emerging Substances",
+                "definition": "The DEA scheduling process for new substances, recent and proposed scheduling changes affecting anesthesia practice, and implications of substances like ketamine for off-label uses such as depression treatment."
+              }
+            ]
+          },
+          {
+            "id": "4.3.2",
+            "title": "DEA Registration and Practitioner Requirements",
+            "definition": "DEA registration requirements for individual practitioners and institutions, mid-level practitioner classifications for CRNAs, state-by-state DEA authority variations, and the MATE Act training requirements.",
+            "lens": "Understanding the licensing requirements for handling controlled substances",
+            "topic_domains": [
+              {
+                "id": "4.3.2-1",
+                "title": "DEA Registration for Individual Practitioners",
+                "definition": "Requirements for anesthesiologists and CRNAs to obtain individual DEA registration numbers, the application process, registration categories, and requirements for separate registrations by state or practice location."
+              },
+              {
+                "id": "4.3.2-2",
+                "title": "Mid-Level Practitioner DEA Classification",
+                "definition": "DEA's classification of CRNAs as mid-level practitioners, the state-by-state authority tables determining what mid-levels can prescribe, and how DEA defers to state scope-of-practice laws for CRNA controlled substance authority."
+              },
+              {
+                "id": "4.3.2-3",
+                "title": "Institutional DEA Registration and Authority",
+                "definition": "Hospital and facility DEA registrations that permit controlled substance use within the institution, how CRNAs without individual DEA numbers operate under institutional registration, and the compliance requirements for institutional registrants."
+              },
+              {
+                "id": "4.3.2-4",
+                "title": "MATE Act Training Requirements",
+                "definition": "The Medication Access and Training Expansion (MATE) Act mandate for 8 hours of training on opioid prescribing and substance use disorders for DEA registrants, compliance timelines, acceptable training programs, and renewal implications."
+              },
+              {
+                "id": "4.3.2-5",
+                "title": "DEA Registration Renewal and Maintenance",
+                "definition": "DEA registration renewal cycles, requirements for maintaining active registration, address and practice changes, and consequences of registration lapse or failure to comply with continuing requirements."
+              }
+            ]
+          },
+          {
+            "id": "4.3.3",
+            "title": "Prescriptive Authority and Monitoring Programs",
+            "definition": "State laws governing CRNA prescriptive authority for controlled substances, Prescription Drug Monitoring Program (PDMP) requirements, and the distinction between administering and prescribing controlled drugs.",
+            "lens": "Understanding the legal authority and oversight for prescribing controlled substances",
+            "topic_domains": [
+              {
+                "id": "4.3.3-1",
+                "title": "State CRNA Prescriptive Authority Laws",
+                "definition": "State-by-state variations in CRNA authority to prescribe controlled substances, requirements for collaboration agreements or physician oversight, limitations on schedules or quantities, and the trend toward expanded prescriptive authority."
+              },
+              {
+                "id": "4.3.3-2",
+                "title": "Administering vs. Prescribing Controlled Substances",
+                "definition": "The legal distinction between administering controlled substances in clinical practice (under institutional DEA or physician orders) and prescribing for patient self-administration, and the different regulatory requirements for each."
+              },
+              {
+                "id": "4.3.3-3",
+                "title": "Prescription Drug Monitoring Program Requirements",
+                "definition": "State PDMP databases that track controlled substance dispensing, mandatory query requirements before prescribing, interstate data sharing through PMPInterConnect, and how PDMPs are used to identify potential misuse or diversion."
+              },
+              {
+                "id": "4.3.3-4",
+                "title": "Electronic Prescribing for Controlled Substances",
+                "definition": "Federal and state mandates for electronic prescribing of controlled substances (EPCS), DEA requirements for EPCS systems, compliance timelines, and how e-prescribing reduces forgery and improves accountability."
+              },
+              {
+                "id": "4.3.3-5",
+                "title": "Opioid Prescribing Limitations and Requirements",
+                "definition": "State laws limiting initial opioid prescription quantities, required patient counseling and naloxone co-prescribing, opioid treatment agreements for chronic therapy, and how these requirements affect perioperative prescribing."
+              }
+            ]
+          },
+          {
+            "id": "4.3.4",
+            "title": "Diversion Prevention and Security Requirements",
+            "definition": "Legal requirements for controlled substance security, storage protocols, chain of custody documentation, waste witnessing procedures, and institutional systems for detecting and preventing drug diversion.",
+            "lens": "Understanding the legal safeguards against controlled substance theft and misuse",
+            "topic_domains": [
+              {
+                "id": "4.3.4-1",
+                "title": "Controlled Substance Storage and Security Requirements",
+                "definition": "DEA regulations requiring secure storage of controlled substances, double-lock requirements, automated dispensing cabinet (Pyxis, Omnicell) compliance, access control systems, and physical security standards for OR drug storage."
+              },
+              {
+                "id": "4.3.4-2",
+                "title": "Chain of Custody Documentation",
+                "definition": "Legal requirements for documenting the complete chain of custody from pharmacy to patient, including dispensing records, administration documentation, return and waste procedures, and how gaps in chain of custody indicate potential diversion."
+              },
+              {
+                "id": "4.3.4-3",
+                "title": "Controlled Substance Waste Procedures",
+                "definition": "Legal requirements for disposing of unused controlled substance portions, witness signature requirements, approved waste methods and devices, documentation standards, and how waste procedures serve as diversion controls."
+              },
+              {
+                "id": "4.3.4-4",
+                "title": "Diversion Detection and Monitoring Systems",
+                "definition": "Institutional systems for detecting potential diversion including automated dispensing analytics, random drug counts, usage pattern monitoring, comparison of documented administration vs. patient records, and behavioral indicators."
+              },
+              {
+                "id": "4.3.4-5",
+                "title": "Provider Impairment and Substance Use Disorders",
+                "definition": "The intersection of diversion prevention and provider substance use disorders, institutional fitness-for-duty policies, state peer assistance programs that allow confidential treatment, and the legal framework balancing patient safety with provider rehabilitation."
+              }
+            ]
+          },
+          {
+            "id": "4.3.5",
+            "title": "Record-Keeping, Reporting, and Enforcement",
+            "definition": "Documentation requirements for controlled substance transactions, DEA reporting obligations for losses or thefts, state controlled substance act compliance, and enforcement mechanisms including inspections and penalties.",
+            "lens": "Understanding the accountability and enforcement systems for controlled substances",
+            "topic_domains": [
+              {
+                "id": "4.3.5-1",
+                "title": "Controlled Substance Record-Keeping Requirements",
+                "definition": "Federal requirements to maintain complete records of all controlled substance transactions for at least two years, state requirements that may extend retention periods, what must be documented, and how anesthesia records fulfill documentation requirements."
+              },
+              {
+                "id": "4.3.5-2",
+                "title": "DEA Form 222 and Ordering Requirements",
+                "definition": "Requirements for ordering Schedule I and II substances using DEA Form 222 or electronic equivalents (CSOS), institutional ordering processes, and record retention requirements for controlled substance procurement."
+              },
+              {
+                "id": "4.3.5-3",
+                "title": "Loss and Theft Reporting Obligations",
+                "definition": "DEA Form 106 requirements for reporting significant losses or thefts of controlled substances, what constitutes 'significant,' timing requirements for reporting, investigation obligations, and consequences of failing to report."
+              },
+              {
+                "id": "4.3.5-4",
+                "title": "State Controlled Substance Act Compliance",
+                "definition": "State laws that parallel or exceed federal CSA requirements, state-specific scheduling differences, state controlled substance practitioner licenses, and how providers must comply with both federal and state requirements."
+              },
+              {
+                "id": "4.3.5-5",
+                "title": "DEA Inspections and Enforcement Actions",
+                "definition": "DEA authority to inspect healthcare facilities and audit controlled substance records, common inspection findings, enforcement actions including registration revocation, civil monetary penalties, and referral for criminal prosecution."
+              },
+              {
+                "id": "4.3.5-6",
+                "title": "Criminal Penalties for Controlled Substance Violations",
+                "definition": "Criminal liability for CSA violations including unlawful distribution, diversion for personal use, and falsification of records, potential penalties including imprisonment and fines, and how criminal prosecution differs from administrative enforcement."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4.4",
+        "title": "Healthcare Compliance, Fraud Prevention, and Institutional Governance",
+        "definition": "The organizational and legal structures ensuring anesthesia practice adheres to billing regulations, fraud and abuse laws, credentialing requirements, and accreditation standards, including the compliance infrastructure that maintains accountability.",
+        "branches": [
+          {
+            "id": "4.4.1",
+            "title": "Healthcare Fraud and Abuse Laws",
+            "definition": "Federal fraud and abuse statutes including the False Claims Act, Anti-Kickback Statute, and Stark Law, and how these laws apply to anesthesia billing practices, financial arrangements, and referral relationships.",
+            "lens": "Understanding the legal prohibitions against healthcare fraud in anesthesia",
+            "topic_domains": [
+              {
+                "id": "4.4.1-1",
+                "title": "False Claims Act Framework and Liability",
+                "definition": "The federal False Claims Act prohibiting knowingly submitting false claims to government healthcare programs, liability standards (knowing, reckless, deliberate ignorance), triple damages and per-claim penalties, and how FCA applies to anesthesia billing violations."
+              },
+              {
+                "id": "4.4.1-2",
+                "title": "Anti-Kickback Statute and Safe Harbors",
+                "definition": "The federal criminal statute prohibiting remuneration to induce referrals for services paid by federal programs, elements of violation, regulatory safe harbors that protect legitimate arrangements, and how AKS applies to anesthesia group structures and employment."
+              },
+              {
+                "id": "4.4.1-3",
+                "title": "Stark Law and Physician Self-Referral Prohibitions",
+                "definition": "Federal law prohibiting physician self-referral for designated health services, exceptions applicable to anesthesia practice, the relationship between Stark violations and FCA liability, and how Stark intersects with anesthesia financial arrangements."
+              },
+              {
+                "id": "4.4.1-4",
+                "title": "Qui Tam Actions and Whistleblower Provisions",
+                "definition": "The False Claims Act qui tam provisions allowing private citizens to file lawsuits on behalf of the government, relator share of recovery (15-30%), anti-retaliation protections, and how whistleblower cases have exposed anesthesia billing fraud."
+              },
+              {
+                "id": "4.4.1-5",
+                "title": "State Fraud and Abuse Laws",
+                "definition": "State false claims acts and anti-kickback statutes that parallel or exceed federal law, state Medicaid fraud enforcement, and how providers must comply with both federal and state fraud prohibitions in anesthesia practice."
+              },
+              {
+                "id": "4.4.1-6",
+                "title": "Civil Monetary Penalties and Exclusion",
+                "definition": "OIG authority to impose civil monetary penalties for fraud violations, exclusion from federal healthcare programs, the impact of exclusion on employment (facilities cannot bill for excluded provider services), and reinstatement processes."
+              }
+            ]
+          },
+          {
+            "id": "4.4.2",
+            "title": "Anesthesia Billing Compliance and Documentation",
+            "definition": "Legal requirements for accurate anesthesia billing, including time reporting, modifier usage (AA, QZ, QK, QX), medical direction documentation, medical necessity requirements, and the TEFRA seven-step criteria.",
+            "lens": "Understanding the compliance requirements for legitimate anesthesia billing",
+            "topic_domains": [
+              {
+                "id": "4.4.2-1",
+                "title": "Anesthesia Time Reporting Requirements",
+                "definition": "Legal requirements for accurate anesthesia time documentation including start/stop time definitions, continuous presence requirements, rounding conventions, and how time misrepresentation constitutes false claims."
+              },
+              {
+                "id": "4.4.2-2",
+                "title": "Anesthesia Billing Modifiers and Compliance",
+                "definition": "Correct use of anesthesia modifiers (AA, QZ, QK, QX, AD) to denote who provided services and under what practice mode, how modifier selection affects payment, and legal liability for modifier misrepresentation."
+              },
+              {
+                "id": "4.4.2-3",
+                "title": "Medical Direction Documentation and TEFRA Requirements",
+                "definition": "The seven TEFRA criteria for anesthesiologist medical direction of CRNAs, documentation requirements to substantiate each element, concurrent case limitations, and compliance with the 'immediately available' standard."
+              },
+              {
+                "id": "4.4.2-4",
+                "title": "Medical Necessity and Procedure Documentation",
+                "definition": "Requirements that anesthesia services be medically necessary and appropriately documented, proper procedure coding, documentation of anesthesia type selection rationale, and avoiding upcoding or unbundling violations."
+              },
+              {
+                "id": "4.4.2-5",
+                "title": "Overpayment Identification and 60-Day Refund Rule",
+                "definition": "Legal obligation to identify and return Medicare/Medicaid overpayments within 60 days of identification, what constitutes 'identification,' voluntary disclosure protocols, and consequences of retention as false claims."
+              },
+              {
+                "id": "4.4.2-6",
+                "title": "OIG Guidance and Compliance Program Elements",
+                "definition": "OIG compliance program guidance for hospitals and physician practices, the seven elements of an effective compliance program as applied to anesthesia billing, and how following guidance demonstrates good faith."
+              }
+            ]
+          },
+          {
+            "id": "4.4.3",
+            "title": "Institutional Credentialing and Privileging Requirements",
+            "definition": "Legal and accreditation requirements for hospital credentialing of anesthesia providers, including medical staff bylaws, privilege delineation, NPDB queries, FPPE/OPPE processes, and fair hearing rights under HCQIA.",
+            "lens": "Understanding the legal framework for authorizing providers to practice within institutions",
+            "topic_domains": [
+              {
+                "id": "4.4.3-1",
+                "title": "Medical Staff Bylaws and Governance Structure",
+                "definition": "Legal requirements for hospital medical staff organization, bylaws governing credentialing and privileging, how CRNAs are incorporated into medical staff or allied health structures, and the governance authority over anesthesia services."
+              },
+              {
+                "id": "4.4.3-2",
+                "title": "Initial Credentialing and Primary Source Verification",
+                "definition": "Legal and accreditation requirements for verifying provider credentials before granting privileges, primary source verification of licensure, education, training, and certifications, and the credentialing timeline and process."
+              },
+              {
+                "id": "4.4.3-3",
+                "title": "Privilege Delineation for Anesthesia Providers",
+                "definition": "The process of defining specific clinical privileges for anesthesiologists, CRNAs, and AAs, how privilege categories align with training and competence, and institutional authority to grant or restrict specific procedures."
+              },
+              {
+                "id": "4.4.3-4",
+                "title": "FPPE, OPPE, and Ongoing Professional Practice Evaluation",
+                "definition": "Accreditation requirements for Focused Professional Practice Evaluation (new privileges or concerns) and Ongoing Professional Practice Evaluation (continuous monitoring), how these processes identify competence issues, and documentation requirements."
+              },
+              {
+                "id": "4.4.3-5",
+                "title": "NPDB Queries and Reporting Requirements",
+                "definition": "Legal requirements to query the National Practitioner Data Bank at credentialing and periodically, what information NPDB contains (malpractice, adverse actions), mandatory reporting triggers, and using NPDB in credentialing decisions."
+              },
+              {
+                "id": "4.4.3-6",
+                "title": "Fair Hearing Rights and HCQIA Protections",
+                "definition": "Healthcare Quality Improvement Act provisions granting peer review immunity and requiring fair hearing procedures before adverse credentialing actions, due process requirements, and how HCQIA balances quality review with provider rights."
+              },
+              {
+                "id": "4.4.3-7",
+                "title": "Credentialing for Multiple Sites and Telemedicine",
+                "definition": "Credentialing requirements when providers practice at multiple facilities, credentialing by proxy, telemedicine credentialing standards for remote pre-anesthesia assessments, and CMS requirements for deemed status."
+              }
+            ]
+          },
+          {
+            "id": "4.4.4",
+            "title": "Accreditation Standards and Survey Compliance",
+            "definition": "Joint Commission, DNV, and other accreditation body requirements for anesthesia services, CMS deemed status, survey processes, and how accreditation standards incorporate and enforce regulatory requirements.",
+            "lens": "Understanding the accreditation framework that validates institutional compliance",
+            "topic_domains": [
+              {
+                "id": "4.4.4-1",
+                "title": "Joint Commission Anesthesia Service Standards",
+                "definition": "The Joint Commission standards specifically governing anesthesia services including leadership, qualifications, pre-anesthesia assessment, anesthesia care, and post-anesthesia evaluation requirements, and how these translate CMS CoPs into operational standards."
+              },
+              {
+                "id": "4.4.4-2",
+                "title": "CMS Deemed Status and Accreditation Authority",
+                "definition": "How Joint Commission and other accreditors receive 'deemed status' authority from CMS, meaning their accreditation satisfies Medicare Conditions of Participation, and the relationship between accreditation surveys and CMS compliance."
+              },
+              {
+                "id": "4.4.4-3",
+                "title": "Survey Process and Tracer Methodology",
+                "definition": "How accreditation surveys evaluate anesthesia services including patient tracer methodology, document review, staff interviews, and observation, and what surveyors specifically examine in anesthesia departments."
+              },
+              {
+                "id": "4.4.4-4",
+                "title": "Deficiency Findings and Corrective Action Requirements",
+                "definition": "How survey findings are categorized by severity, requirements for corrective action plans, timelines for demonstrating compliance, and consequences of failing to correct deficiencies including conditional accreditation or loss of deemed status."
+              },
+              {
+                "id": "4.4.4-5",
+                "title": "Ambulatory Surgery and Office-Based Accreditation",
+                "definition": "Accreditation requirements specific to ambulatory surgery centers (ASCs) and office-based anesthesia, AAAHC and AAAASF standards, state requirements for office-based procedure accreditation, and how standards differ from hospital settings."
+              }
+            ]
+          },
+          {
+            "id": "4.4.5",
+            "title": "Compliance Programs and Enforcement Infrastructure",
+            "definition": "The seven elements of effective compliance programs, internal auditing and monitoring systems, incident reporting mechanisms, whistleblower protections, and external enforcement actions by OIG, DOJ, CMS, and state agencies.",
+            "lens": "Understanding the systems that detect, prevent, and respond to compliance violations",
+            "topic_domains": [
+              {
+                "id": "4.4.5-1",
+                "title": "Seven Elements of Effective Compliance Programs",
+                "definition": "OIG-recommended compliance program elements: written policies, compliance officer designation, training and education, communication lines (hotlines), auditing and monitoring, enforcement through discipline, and prompt corrective action—applied to anesthesia practice."
+              },
+              {
+                "id": "4.4.5-2",
+                "title": "Internal Auditing and Monitoring Systems",
+                "definition": "Compliance auditing methodologies for anesthesia services including chart audits, billing reviews, credential verification, controlled substance monitoring, and how internal audits identify issues before external enforcement."
+              },
+              {
+                "id": "4.4.5-3",
+                "title": "Incident Reporting and Just Culture",
+                "definition": "Institutional incident reporting systems for safety events and compliance concerns, the just culture framework distinguishing human error from reckless behavior, and how incident data feeds quality improvement and compliance monitoring."
+              },
+              {
+                "id": "4.4.5-4",
+                "title": "Whistleblower Protections and Reporting Channels",
+                "definition": "Legal protections for employees who report compliance violations including False Claims Act anti-retaliation provisions, compliance hotlines and anonymous reporting mechanisms, and institutional obligations to investigate reports without retaliation."
+              },
+              {
+                "id": "4.4.5-5",
+                "title": "External Enforcement Agencies and Actions",
+                "definition": "The roles of OIG, DOJ, CMS, state survey agencies, and state licensing boards in enforcing compliance, types of enforcement actions from warning letters to criminal prosecution, and how agencies coordinate on healthcare fraud cases."
+              },
+              {
+                "id": "4.4.5-6",
+                "title": "Corporate Integrity Agreements and Settlement Terms",
+                "definition": "Requirements imposed on providers who settle fraud cases including Corporate Integrity Agreements (CIAs), independent review organization monitoring, enhanced compliance obligations, and consequences of violating settlement terms."
+              },
+              {
+                "id": "4.4.5-7",
+                "title": "Peer Review Privilege and Quality Improvement Protections",
+                "definition": "Legal protections for peer review and quality improvement activities including state peer review privilege statutes, Patient Safety Organization protections, and how these privileges encourage candid quality review while limiting discoverability."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4.5",
+        "title": "Bioethics, Professional Standards, and Employment Law",
+        "definition": "The ethical frameworks and professional codes governing anesthesia provider conduct, and the employment and labor laws that protect anesthesia professionals as workers, including anti-discrimination protections and workplace safety requirements.",
+        "branches": [
+          {
+            "id": "4.5.1",
+            "title": "Bioethics Principles in Anesthesia Practice",
+            "definition": "The four foundational bioethics principles—autonomy, beneficence, non-maleficence, and justice—and their application to anesthesia-specific ethical challenges including perioperative DNR orders, resource allocation, and end-of-life care.",
+            "lens": "Understanding the ethical framework that guides clinical decision-making",
+            "topic_domains": [
+              {
+                "id": "4.5.1-1",
+                "title": "Autonomy and Respect for Patient Self-Determination",
+                "definition": "The ethical principle that patients have the right to make informed decisions about their care, its application to anesthesia consent discussions, honoring refusals and preferences, and balancing autonomy with safety when patient choices conflict with medical judgment."
+              },
+              {
+                "id": "4.5.1-2",
+                "title": "Beneficence and the Duty to Promote Patient Welfare",
+                "definition": "The ethical obligation to act in the patient's best interest, how beneficence guides anesthesia technique selection, pain management decisions, and advocacy for patients who cannot speak for themselves during surgery."
+              },
+              {
+                "id": "4.5.1-3",
+                "title": "Non-Maleficence and the Obligation to Avoid Harm",
+                "definition": "The ethical duty to 'first, do no harm,' its application to vigilance in monitoring, risk-benefit analysis for anesthesia approaches, and the ethical weight of complications like awareness, positioning injuries, or medication errors."
+              },
+              {
+                "id": "4.5.1-4",
+                "title": "Justice and Equitable Resource Allocation",
+                "definition": "The ethical principle of fairness in healthcare distribution, how justice applies to OR scheduling priorities, equitable treatment regardless of patient demographics, and anesthesia resource allocation during crises or shortages."
+              },
+              {
+                "id": "4.5.1-5",
+                "title": "Perioperative DNR and End-of-Life Ethics",
+                "definition": "Ethical frameworks for managing do-not-resuscitate orders in the surgical setting, required reconsideration discussions, balancing patient wishes with surgical necessities, and documenting modified or suspended directives."
+              },
+              {
+                "id": "4.5.1-6",
+                "title": "Ethics of High-Risk Cases and Surgical Futility",
+                "definition": "Ethical considerations when anesthesia risk is extremely high, the concept of surgical futility, shared decision-making with patients and families, and the provider's ethical right to decline participation in cases deemed inappropriate."
+              }
+            ]
+          },
+          {
+            "id": "4.5.2",
+            "title": "Professional Codes of Conduct",
+            "definition": "The AANA Code of Ethics, ASA Guidelines for Ethical Practice, ANA Code of Ethics, and how these professional standards establish expectations for patient care, competence, integrity, and collegial relationships.",
+            "lens": "Understanding the professional standards that define ethical anesthesia practice",
+            "topic_domains": [
+              {
+                "id": "4.5.2-1",
+                "title": "AANA Code of Ethics for Nurse Anesthetists",
+                "definition": "The American Association of Nurse Anesthesiology Code of Ethics provisions covering patient responsibility, competence, professional responsibility, societal obligations, business practices, and research ethics, and how the Code guides CRNA conduct."
+              },
+              {
+                "id": "4.5.2-2",
+                "title": "ASA Guidelines for Ethical Practice",
+                "definition": "American Society of Anesthesiologists ethical guidelines addressing patient welfare, informed consent, maintaining competence, ethical billing, and positions on controversial issues like physician participation in executions."
+              },
+              {
+                "id": "4.5.2-3",
+                "title": "ANA Code of Ethics and Nursing Standards",
+                "definition": "The American Nurses Association Code of Ethics provisions applicable to CRNAs as advanced practice nurses, including the primary commitment to patients, advocacy obligations, and professional integrity standards."
+              },
+              {
+                "id": "4.5.2-4",
+                "title": "Professional Boundaries and Dual Relationships",
+                "definition": "Ethical standards prohibiting exploitation of the provider-patient relationship, maintaining appropriate boundaries, avoiding conflicts of interest, and managing situations where personal and professional relationships intersect."
+              },
+              {
+                "id": "4.5.2-5",
+                "title": "Veracity, Fidelity, and Professional Integrity",
+                "definition": "Ethical obligations for truthfulness in patient communication and documentation, keeping commitments to patients and colleagues, maintaining integrity in all professional dealings, and the ethical duty of honest error disclosure."
+              },
+              {
+                "id": "4.5.2-6",
+                "title": "Business Ethics and Conflict of Interest",
+                "definition": "Ethical standards for business practices including honest endorsements, disclosure of financial relationships, avoiding kickbacks and self-dealing, and ensuring clinical decisions are based on patient welfare rather than financial incentives."
+              }
+            ]
+          },
+          {
+            "id": "4.5.3",
+            "title": "Impairment, Reporting, and Professional Accountability",
+            "definition": "Ethical and legal obligations regarding impaired colleagues, mandatory reporting requirements, state peer assistance programs, fitness-for-duty protocols, and the duty to protect patients from incompetent or unsafe practitioners.",
+            "lens": "Understanding the accountability systems for professional conduct",
+            "topic_domains": [
+              {
+                "id": "4.5.3-1",
+                "title": "Ethical Duty to Report Impaired Colleagues",
+                "definition": "Professional code provisions requiring action when colleagues appear impaired or incompetent, the ethical basis for peer reporting, overcoming barriers to reporting, and balancing collegial loyalty with patient protection."
+              },
+              {
+                "id": "4.5.3-2",
+                "title": "Mandatory Reporting Laws and Requirements",
+                "definition": "State laws requiring healthcare workers to report impaired or incompetent colleagues to licensing boards, what triggers mandatory reporting, employer reporting obligations, and legal protections for good-faith reporters."
+              },
+              {
+                "id": "4.5.3-3",
+                "title": "State Peer Assistance Programs",
+                "definition": "Alternative-to-discipline programs allowing providers with substance use disorders to enter confidential treatment and monitoring, eligibility requirements, program structure, return-to-practice conditions, and program success rates."
+              },
+              {
+                "id": "4.5.3-4",
+                "title": "Fitness-for-Duty Evaluation and Protocols",
+                "definition": "Institutional protocols for assessing provider fitness when impairment is suspected, drug testing policies, fitness-for-duty examination processes, administrative leave procedures, and documentation requirements."
+              },
+              {
+                "id": "4.5.3-5",
+                "title": "Licensing Board Discipline for Ethical Violations",
+                "definition": "How state nursing and medical boards investigate and discipline ethical violations, types of sanctions (reprimand, probation, suspension, revocation), factors affecting discipline severity, and the relationship between ethics codes and unprofessional conduct statutes."
+              }
+            ]
+          },
+          {
+            "id": "4.5.4",
+            "title": "Employment Law and Anti-Discrimination Protections",
+            "definition": "Federal and state employment laws protecting anesthesia providers, including Title VII, ADA, ADEA, sexual harassment prohibitions, FMLA, and the legal framework for employment contracts and non-compete clauses.",
+            "lens": "Understanding the legal protections for anesthesia professionals as employees",
+            "topic_domains": [
+              {
+                "id": "4.5.4-1",
+                "title": "Title VII and Workplace Discrimination Protections",
+                "definition": "Federal Civil Rights Act protections against employment discrimination based on race, color, religion, sex, and national origin as applied to anesthesia professionals, EEOC complaint processes, and employer obligations."
+              },
+              {
+                "id": "4.5.4-2",
+                "title": "Americans with Disabilities Act and Reasonable Accommodation",
+                "definition": "ADA protections for qualified individuals with disabilities, what constitutes reasonable accommodation in anesthesia practice, the interactive process for determining accommodations, and limitations for safety-sensitive positions."
+              },
+              {
+                "id": "4.5.4-3",
+                "title": "Sexual Harassment and Hostile Work Environment",
+                "definition": "Legal prohibitions against quid pro quo and hostile environment sexual harassment in healthcare settings, employer obligations for prevention and response, reporting mechanisms, and remedies for harassment victims."
+              },
+              {
+                "id": "4.5.4-4",
+                "title": "Family and Medical Leave Act Entitlements",
+                "definition": "FMLA provisions for up to 12 weeks unpaid leave for qualifying medical and family reasons, eligibility requirements, employer obligations to maintain position, and protections against retaliation for leave use."
+              },
+              {
+                "id": "4.5.4-5",
+                "title": "Employment Contracts and At-Will Employment",
+                "definition": "The at-will employment doctrine and its exceptions, employment contract terms for anesthesia providers, what provisions to expect in CRNA employment agreements, and how contracts modify at-will status."
+              },
+              {
+                "id": "4.5.4-6",
+                "title": "Non-Compete Clauses and Restrictive Covenants",
+                "definition": "Legal framework for non-compete agreements restricting post-employment practice, state variations in enforceability, reasonableness standards (geography, duration, scope), recent trends toward prohibition, and negotiation strategies."
+              },
+              {
+                "id": "4.5.4-7",
+                "title": "Independent Contractor Classification and Misclassification",
+                "definition": "Legal tests for distinguishing employees from independent contractors, tax and benefit implications, misclassification risks and penalties, and how gig economy trends affect anesthesia locum tenens arrangements."
+              }
+            ]
+          },
+          {
+            "id": "4.5.5",
+            "title": "Labor Relations and Workplace Protections",
+            "definition": "The National Labor Relations Act, collective bargaining rights, wage and hour regulations under FLSA, OSHA workplace safety requirements, and whistleblower protections for reporting safety or compliance concerns.",
+            "lens": "Understanding the legal framework for workplace rights and organizing",
+            "topic_domains": [
+              {
+                "id": "4.5.5-1",
+                "title": "National Labor Relations Act and Organizing Rights",
+                "definition": "NLRA protections for employee rights to organize, join unions, and engage in concerted activity, application to CRNA unionization efforts, employer unfair labor practices, and NLRB enforcement processes."
+              },
+              {
+                "id": "4.5.5-2",
+                "title": "Collective Bargaining in Healthcare Settings",
+                "definition": "The collective bargaining process for healthcare workers, typical contract provisions for anesthesia providers (wages, scheduling, call pay), grievance and arbitration procedures, and how union contracts modify employment terms."
+              },
+              {
+                "id": "4.5.5-3",
+                "title": "Fair Labor Standards Act and Wage Protections",
+                "definition": "FLSA minimum wage and overtime requirements, the professional exemption analysis for CRNAs, exempt versus non-exempt classification, state wage and hour laws that exceed federal standards, and enforcement mechanisms."
+              },
+              {
+                "id": "4.5.5-4",
+                "title": "OSHA Workplace Safety Requirements",
+                "definition": "Occupational Safety and Health Act obligations for healthcare employers, OSHA standards applicable to anesthesia (bloodborne pathogens, waste gases, ergonomics), the General Duty Clause, and employee rights to report hazards."
+              },
+              {
+                "id": "4.5.5-5",
+                "title": "Whistleblower Protections and Anti-Retaliation Laws",
+                "definition": "Legal protections for employees who report safety violations, compliance concerns, or illegal activity, federal and state whistleblower statutes, protected reporting channels, and remedies for retaliation."
+              },
+              {
+                "id": "4.5.5-6",
+                "title": "Workers' Compensation and Occupational Injury",
+                "definition": "State workers' compensation systems providing benefits for work-related injuries, common occupational injuries in anesthesia (needlesticks, back injuries, exposure incidents), the exclusive remedy doctrine, and return-to-work processes."
+              },
+              {
+                "id": "4.5.5-7",
+                "title": "Work Hours, Fatigue, and Safe Staffing",
+                "definition": "State laws limiting mandatory overtime for nurses, emerging guidelines on anesthesia provider duty hours, the relationship between fatigue and patient safety, and institutional policies addressing safe scheduling practices."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "statistics": {
+    "sub_pillars": 5,
+    "branches": 25,
+    "topic_domains": 142
   }
 }

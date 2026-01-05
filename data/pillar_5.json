@@ -1,7 +1,7 @@
 {
   "metadata": {
     "pillar_id": "5",
-    "status": "sub_pillars_complete",
+    "status": "branches_complete",
     "created": "2026-01-04",
     "last_updated": "2026-01-05"
   },
@@ -32,31 +32,182 @@
         "id": "5.1",
         "title": "Billing, Reimbursement, and Revenue Cycle",
         "definition": "The technical mechanics of how anesthesia services generate revenue – from billing unit calculations and CPT coding to payer dynamics, revenue cycle management, and regulatory frameworks like the No Surprises Act. This sub-pillar covers the foundational 'money in' systems that convert clinical work into collectible revenue.",
-        "branches": []
+        "branches": [
+          {
+            "id": "5.1.1",
+            "title": "Anesthesia Billing Unit System",
+            "definition": "The fundamental calculation methodology for anesthesia charges, including base units from the ASA Relative Value Guide, time unit calculations, modifying units for patient acuity and emergencies, and conversion factors that translate units into dollars.",
+            "lens": "Understanding how anesthesia services are quantified for billing purposes",
+            "topic_domains": []
+          },
+          {
+            "id": "5.1.2",
+            "title": "Anesthesia CPT Coding and Modifiers",
+            "definition": "The anesthesia-specific CPT code structure (00100-01999), code selection methodology, and the critical modifiers (AA, QZ, QK, QX, physical status, emergency) that determine how claims are processed and reimbursed.",
+            "lens": "Mastering the coding language that drives anesthesia reimbursement",
+            "topic_domains": []
+          },
+          {
+            "id": "5.1.3",
+            "title": "Payer Landscape and Reimbursement Variation",
+            "definition": "How different payers (Medicare, Medicaid, commercial insurers, workers compensation, self-pay) reimburse anesthesia services, including rate structures, policy variations, and the strategic implications of payer mix.",
+            "lens": "Navigating the diverse payer ecosystem and its financial impact",
+            "topic_domains": []
+          },
+          {
+            "id": "5.1.4",
+            "title": "Revenue Cycle Management",
+            "definition": "The end-to-end process of converting anesthesia services into collected revenue, including front-end verification, charge capture, claims submission, denial management, collections, and key performance metrics.",
+            "lens": "Optimizing the operational systems that maximize revenue capture",
+            "topic_domains": []
+          },
+          {
+            "id": "5.1.5",
+            "title": "Regulatory Frameworks and Payment Model Evolution",
+            "definition": "How regulatory changes like the No Surprises Act, Independent Dispute Resolution processes, and emerging alternative payment models (bundled payments, value-based care) are reshaping anesthesia reimbursement.",
+            "lens": "Adapting to the evolving regulatory and payment landscape",
+            "topic_domains": []
+          }
+        ]
       },
       {
         "id": "5.2",
         "title": "Compensation Models and Contract Economics",
         "definition": "How individual anesthesia providers are paid and the contractual arrangements governing employment, independent contractor, and locum tenens work. This sub-pillar covers W2 salary structures, 1099 rate mechanics, per diem and call compensation, employment contract anatomy, and the strategies and tactics of rate negotiation.",
-        "branches": []
+        "branches": [
+          {
+            "id": "5.2.1",
+            "title": "W2 Employment Compensation Structures",
+            "definition": "How employed anesthesia providers are compensated, including base salary models, production-based incentives, benefits valuation, and the differences between hospital employment and anesthesia group employment.",
+            "lens": "Understanding the full economics of employed positions",
+            "topic_domains": []
+          },
+          {
+            "id": "5.2.2",
+            "title": "Independent Contractor and 1099 Economics",
+            "definition": "The financial mechanics of 1099 independent contractor work, including rate structures, negotiation factors, what's included versus excluded, and the true economic comparison between 1099 and W2 arrangements.",
+            "lens": "Evaluating and optimizing independent contractor compensation",
+            "topic_domains": []
+          },
+          {
+            "id": "5.2.3",
+            "title": "Locum Tenens, Per Diem, and Variable Compensation",
+            "definition": "The economics of temporary and variable work arrangements, including agency rate structures, compensation packages, per diem scheduling economics, call pay structures, and academic/teaching compensation.",
+            "lens": "Maximizing value from flexible work arrangements",
+            "topic_domains": []
+          },
+          {
+            "id": "5.2.4",
+            "title": "Employment and Contractor Contract Anatomy",
+            "definition": "The essential terms, structures, and potential pitfalls of anesthesia employment contracts and independent contractor agreements, including non-competes, termination provisions, tail coverage, and red flags.",
+            "lens": "Analyzing contracts for financial and professional protection",
+            "topic_domains": []
+          },
+          {
+            "id": "5.2.5",
+            "title": "Rate Negotiation Strategies and Tactics",
+            "definition": "The methods and approaches for negotiating compensation, including market research, preparation frameworks, negotiation tactics, and handling common scenarios from initial offers to annual raises.",
+            "lens": "Securing optimal compensation through effective negotiation",
+            "topic_domains": []
+          }
+        ]
       },
       {
         "id": "5.3",
         "title": "Business Entities, Practice Models, and Organizational Economics",
         "definition": "How anesthesia practices are structured as business entities and the economic dynamics of different practice models. This sub-pillar covers entity formation (PC, PLLC, S-Corp), hospital-employed economics, private group structures, private equity and MSO arrangements, CRNA-owned practices, ACT model economics, and facility subsidies and stipends.",
-        "branches": []
+        "branches": [
+          {
+            "id": "5.3.1",
+            "title": "Professional Entity Structures and Formation",
+            "definition": "The legal and tax structures available for anesthesia practices, including Professional Corporations, PLLCs, S-Corp elections, sole proprietorship considerations, multi-state entity requirements, and ongoing maintenance obligations.",
+            "lens": "Selecting and maintaining the optimal business entity structure",
+            "topic_domains": []
+          },
+          {
+            "id": "5.3.2",
+            "title": "Hospital-Employed Model Economics",
+            "definition": "The financial dynamics of hospital-employed anesthesia departments, including revenue and cost structures, subsidy relationships, productivity expectations, and the advantages and disadvantages of this model.",
+            "lens": "Understanding the economics of hospital employment",
+            "topic_domains": []
+          },
+          {
+            "id": "5.3.3",
+            "title": "Private Anesthesia Group Economics",
+            "definition": "The business mechanics of private practice anesthesia groups, including revenue sources, expense structures, profit distribution models, partnership economics, buy-in/buy-out arrangements, and governance.",
+            "lens": "Navigating the economics of private group practice",
+            "topic_domains": []
+          },
+          {
+            "id": "5.3.4",
+            "title": "Private Equity and MSO Economics",
+            "definition": "How private equity investment and management services organizations operate in anesthesia, including acquisition models, MSO fee structures, financial impact on providers, transparency issues, and recent trends and regulatory scrutiny.",
+            "lens": "Understanding the PE/MSO landscape and its implications",
+            "topic_domains": []
+          },
+          {
+            "id": "5.3.5",
+            "title": "Alternative Practice Models and Facility Economics",
+            "definition": "The economics of non-traditional practice structures including CRNA-owned practices, Anesthesia Care Team model economics, and facility-specific considerations for ASCs, rural hospitals, and academic medical centers.",
+            "lens": "Evaluating diverse practice model opportunities",
+            "topic_domains": []
+          },
+          {
+            "id": "5.3.6",
+            "title": "Subsidies, Stipends, and Facility Support",
+            "definition": "How hospitals financially support anesthesia services through subsidies, call stipends, coverage payments, administrative stipends, recruitment incentives, and pass-through arrangements, including fair market value requirements.",
+            "lens": "Structuring and negotiating facility financial support",
+            "topic_domains": []
+          }
+        ]
       },
       {
         "id": "5.4",
         "title": "Financial Planning, Tax Strategy, and Market Intelligence",
         "definition": "Strategic financial optimization for anesthesia professionals and organizations, including tax planning, wealth building, and market analysis. This sub-pillar covers W2 vs 1099 tax comparison, entity-level tax strategies, multi-state taxation, retirement planning, agency economics, compensation benchmarking, supply-demand dynamics, and financial decision frameworks.",
-        "branches": []
+        "branches": [
+          {
+            "id": "5.4.1",
+            "title": "Tax Planning and Employment Model Tax Economics",
+            "definition": "The tax implications of different employment models, including W2 vs 1099 taxation, self-employment tax strategies, S-Corp salary/distribution optimization, entity-level tax planning, and multi-state tax considerations for locums work.",
+            "lens": "Minimizing tax burden across employment structures",
+            "topic_domains": []
+          },
+          {
+            "id": "5.4.2",
+            "title": "Financial Planning and Wealth Building",
+            "definition": "Personal financial optimization for anesthesia professionals, including cash flow management for variable income, insurance needs, retirement plan strategies, student loan approaches, asset protection, and long-term wealth building.",
+            "lens": "Building financial security and long-term wealth",
+            "topic_domains": []
+          },
+          {
+            "id": "5.4.3",
+            "title": "Agency and Intermediary Economics",
+            "definition": "How staffing agencies, vendor management systems, and management services organizations operate financially, including agency revenue models, markup structures, direct contracting alternatives, and evaluating intermediary value.",
+            "lens": "Understanding and navigating intermediary economics",
+            "topic_domains": []
+          },
+          {
+            "id": "5.4.4",
+            "title": "Compensation Benchmarking and Market Dynamics",
+            "definition": "How to assess compensation competitiveness using survey data, geographic variations, supply-demand dynamics, economic cycle impacts, and total compensation package evaluation frameworks.",
+            "lens": "Using market intelligence for compensation decisions",
+            "topic_domains": []
+          },
+          {
+            "id": "5.4.5",
+            "title": "Financial Analysis and Decision Frameworks",
+            "definition": "Tools and methodologies for financial decision-making, including hourly equivalency calculations, total compensation modeling, contract value assessment, practice profitability analysis, and career financial trade-off frameworks.",
+            "lens": "Applying analytical rigor to financial decisions",
+            "topic_domains": []
+          }
+        ]
       }
     ]
   },
   "statistics": {
     "sub_pillars": 4,
-    "branches": 0,
+    "branches": 21,
     "topic_domains": 0
   }
 }

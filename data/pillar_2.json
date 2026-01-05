@@ -1,20 +1,64 @@
 {
   "metadata": {
     "pillar_id": "2",
-    "status": "not_started",
+    "status": "sub_pillars_complete",
     "created": "2026-01-04",
-    "last_updated": "2026-01-04"
+    "last_updated": "2026-01-05",
+    "notes": "Sub-Pillars defined. Branches and Topic Domains pending."
   },
   "pillar": {
     "id": "2",
     "title": "People, Roles, Training and Credentialing",
-    "definition": "Definitions of anesthesia roles (CRNA, MDA, AA, SRNA), their training pathways, scopes of practice, credentialing, authority boundaries, and interprofessional dynamics (including CRNA-MDA relationships).",
+    "definition": "Definitions of anesthesia roles (CRNA, MDA, AA, SRNA), their training pathways, scopes of practice, credentialing, authority boundaries, and interprofessional dynamics. This pillar establishes who anesthesia providers are, what their roles permit, and how they are authorized to practice.",
     "inclusion_tests": [
-      "Is this about who the provider is, what their role permits, and how they are authorized to practice?"
+      "Is this about who the provider is and what role they hold?",
+      "Is this about what a role permits (scope of practice)?",
+      "Is this about how providers are trained and educated for their role?",
+      "Is this about how authorization to practice is granted (certification, licensure, credentialing)?",
+      "Is this about formal role definitions and boundaries?",
+      "Is this about how team models are structurally defined?"
     ],
     "exclusion_tests": [
-      "Career transitions, workforce shortages, burnout, economics, OR operations."
+      "Career transitions, job changes, W2→1099 pathways → Pillar 7",
+      "Workforce shortages, labor market dynamics, compensation trends → Pillar 7",
+      "Navigating team politics, organizational behavior, leadership development → Pillar 7",
+      "Burnout, wellbeing, OR culture, lived experience → Pillar 8",
+      "Compensation mechanics, billing, contracts, subsidies → Pillar 5",
+      "Legal statutes, CMS regulations, malpractice liability → Pillar 4",
+      "OR operations, equipment, IT systems, workflows → Pillar 3",
+      "Education pedagogy, research methods, evidence generation → Pillar 6",
+      "Clinical bedside decisions, patient care, physiology → Pillar 1"
     ],
-    "sub_pillars": []
+    "sub_pillars": [
+      {
+        "id": "2.1",
+        "title": "Provider Role Taxonomy and Definitions",
+        "definition": "All anesthesia provider types—their formal definitions, core competencies, scope boundaries, and classification frameworks. This sub-pillar catalogs CRNAs, physician anesthesiologists, anesthesiologist assistants, and students/trainees, establishing what each role is, what it permits, and how roles differ in authority and practice scope.",
+        "branches": []
+      },
+      {
+        "id": "2.2",
+        "title": "Training and Education Pathways",
+        "definition": "The educational and experiential pathways that prepare individuals for each anesthesia provider role. This sub-pillar covers prerequisites, program structures, degree requirements, clinical hour minimums, and accreditation standards that gate entry into the profession and validate training quality.",
+        "branches": []
+      },
+      {
+        "id": "2.3",
+        "title": "Certification, Licensure and Credentialing",
+        "definition": "The formal authorization systems that validate provider competence and permit practice. This sub-pillar covers national certification examinations (NBCRNA, ABA, NCCAA), continuing certification requirements, state licensure categories and processes, and institutional credentialing mechanics that grant privileges.",
+        "branches": []
+      },
+      {
+        "id": "2.4",
+        "title": "Team Model Definitions and Role Boundaries",
+        "definition": "The structural configurations in which anesthesia providers are organized and how role boundaries interact. This sub-pillar defines practice models (ACT, independent CRNA, supervision structures), role interaction frameworks, and the formal boundaries that determine how providers are configured together—not how to navigate them, but what they are.",
+        "branches": []
+      }
+    ]
+  },
+  "statistics": {
+    "sub_pillars": 4,
+    "branches": 0,
+    "topic_domains": 0
   }
 }

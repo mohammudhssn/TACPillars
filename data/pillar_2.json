@@ -1,10 +1,10 @@
 {
   "metadata": {
     "pillar_id": "2",
-    "status": "branches_complete",
+    "status": "complete",
     "created": "2026-01-04",
     "last_updated": "2026-01-05",
-    "notes": "Sub-Pillars and Branches defined. Topic Domains pending."
+    "notes": "Complete with all Sub-Pillars, Branches, and Topic Domains."
   },
   "pillar": {
     "id": "2",
@@ -40,35 +40,175 @@
             "title": "Role Classification and Taxonomy Frameworks",
             "definition": "Classification systems for anesthesia providers, including provider categories (independent vs dependent), professional designations (APRN, APP), and how roles are formally categorized within healthcare systems.",
             "lens": "How the profession organizes and categorizes its provider types",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.1.1-1",
+                "title": "Anesthesia Provider Type Classifications",
+                "definition": "The major categories of anesthesia providers (CRNA, physician anesthesiologist, AA) and how they are formally classified within healthcare systems. Includes professional designations, regulatory categories, and the taxonomy used by credentialing bodies and payers."
+              },
+              {
+                "id": "2.1.1-2",
+                "title": "Independent vs Dependent Provider Designations",
+                "definition": "The distinction between providers authorized for autonomous practice (CRNAs in FPA states, anesthesiologists) and those requiring supervision (AAs, trainees). Covers how these classifications affect practice authority, billing, and employment structures."
+              },
+              {
+                "id": "2.1.1-3",
+                "title": "APRN and Advanced Practice Provider Frameworks",
+                "definition": "How CRNAs fit within the broader APRN (Advanced Practice Registered Nurse) classification alongside NPs, CNMs, and CNSs. Includes the APP (Advanced Practice Provider) designation used in healthcare systems and how it shapes institutional policies."
+              },
+              {
+                "id": "2.1.1-4",
+                "title": "Historical Evolution of Anesthesia Role Titles",
+                "definition": "The evolution of professional titles and designations—from 'nurse anesthetist' to 'CRNA' to 'nurse anesthesiologist,' and the emergence of the AA role in the 1960s. Covers the professional and political context of naming conventions."
+              },
+              {
+                "id": "2.1.1-5",
+                "title": "International Anesthesia Provider Role Comparisons",
+                "definition": "How anesthesia provider roles are structured globally across IFNA's 49 member countries. Includes nurse anesthetist recognition in 107 countries, physician-only models, and emerging roles like UK Anaesthesia Associates."
+              }
+            ]
           },
           {
             "id": "2.1.2",
             "title": "CRNA Role: Definition, Competencies and Scope",
             "definition": "The formal definition of the Certified Registered Nurse Anesthetist role, including core clinical and non-clinical competencies, scope of practice boundaries, and what the role permits across settings and populations.",
             "lens": "What the CRNA role is and what it authorizes",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.1.2-1",
+                "title": "Formal CRNA Role Definition and Professional Identity",
+                "definition": "The official definition of the Certified Registered Nurse Anesthetist as established by AANA, including the APRN classification, professional identity as advanced practice nurses, and the foundational principles that distinguish the role."
+              },
+              {
+                "id": "2.1.2-2",
+                "title": "CRNA Core Clinical Competencies",
+                "definition": "The clinical skills and knowledge areas that define CRNA practice—preoperative assessment, anesthetic planning, airway management, regional anesthesia, pharmacology, monitoring, resuscitation, and postoperative pain management."
+              },
+              {
+                "id": "2.1.2-3",
+                "title": "CRNA Non-Clinical Professional Competencies",
+                "definition": "Professional competencies beyond direct patient care that CRNAs are expected to perform. Includes patient advocacy, leadership, education and mentorship, quality improvement, research participation, and administrative functions."
+              },
+              {
+                "id": "2.1.2-4",
+                "title": "CRNA Scope of Practice Boundaries",
+                "definition": "What CRNAs are authorized to do under their scope—all anesthesia types, invasive procedures (arterial lines, central lines, blocks), prescribing authority—and the boundaries that define the outer limits of CRNA practice."
+              },
+              {
+                "id": "2.1.2-5",
+                "title": "CRNA Clinical Domains and Practice Settings",
+                "definition": "The clinical areas where CRNAs practice—general surgery, obstetrics, trauma, pediatrics, pain management, ambulatory, critical care—and settings including hospitals, ASCs, office-based, military, VA, and rural facilities."
+              },
+              {
+                "id": "2.1.2-6",
+                "title": "CRNA Population-Specific Practice Authority",
+                "definition": "How CRNA scope applies across patient populations—pediatric, geriatric, obstetric, trauma, high-acuity surgical—and the specialized competencies required for each population within the CRNA's authorized practice."
+              }
+            ]
           },
           {
             "id": "2.1.3",
             "title": "Physician Anesthesiologist Role: Definition and Practice Model",
             "definition": "The formal definition of the physician anesthesiologist (MD/DO) role, including training-based competencies, subspecialization pathways, and the scope of perioperative physician practice.",
             "lens": "What the anesthesiologist role is and what it authorizes",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.1.3-1",
+                "title": "Physician Anesthesiologist Role Definition",
+                "definition": "The formal definition of the physician anesthesiologist (MD/DO) as a perioperative medicine specialist. Includes their training pathway through medical school and residency, board certification requirements, and professional identity within medicine."
+              },
+              {
+                "id": "2.1.3-2",
+                "title": "Anesthesiologist Core Competencies and Scope",
+                "definition": "The clinical competencies derived from medical school and residency training—advanced physiology, pharmacology, critical care medicine, complex resuscitation—and the full scope of anesthesiologist practice across all settings."
+              },
+              {
+                "id": "2.1.3-3",
+                "title": "Perioperative Physician Role and Responsibilities",
+                "definition": "The anesthesiologist's expanded role as perioperative physician—preoperative optimization, intraoperative management, postoperative care coordination—and how this extends beyond the OR to ICU, pain clinics, and medical consultation."
+              },
+              {
+                "id": "2.1.3-4",
+                "title": "Anesthesiologist Subspecialization Pathways",
+                "definition": "Fellowship-trained subspecialties available to anesthesiologists—cardiac, pediatric, obstetric, neuroanesthesia, regional/acute pain, chronic pain medicine, critical care. Covers how subspecialization affects scope, practice focus, and career trajectory."
+              },
+              {
+                "id": "2.1.3-5",
+                "title": "Anesthesiologist Team Leadership Role",
+                "definition": "The physician anesthesiologist's defined role as team leader in ACT models, including formal responsibilities for medical direction, case oversight, policy development, quality assurance, and departmental administration."
+              }
+            ]
           },
           {
             "id": "2.1.4",
             "title": "Anesthesiologist Assistant Role: Definition and Scope",
             "definition": "The formal definition of the Anesthesiologist Assistant (AA/CAA) role, including competencies, dependent practice requirements, and the boundaries of practice under physician direction.",
             "lens": "What the AA role is and how it differs from independent providers",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.1.4-1",
+                "title": "Anesthesiologist Assistant Role Definition",
+                "definition": "The formal definition of the Certified Anesthesiologist Assistant (CAA) as a master's-level anesthesia provider who works exclusively under physician anesthesiologist direction. Includes professional identity, AAAA representation, and NCCAA governance."
+              },
+              {
+                "id": "2.1.4-2",
+                "title": "AA Training-Based Competencies",
+                "definition": "The clinical competencies developed through AA education—anesthesia administration, airway management, monitoring, line placement, emergency response—and how these competencies compare to and differ from other anesthesia provider types."
+              },
+              {
+                "id": "2.1.4-3",
+                "title": "AA Dependent Practice Structure",
+                "definition": "The structural requirement that AAs practice only under the direction of an anesthesiologist, including how this fundamentally differs from CRNA practice authority and why independent AA practice does not exist in any jurisdiction."
+              },
+              {
+                "id": "2.1.4-4",
+                "title": "AA Scope of Practice Under Direction",
+                "definition": "What AAs are authorized to perform when working with a supervising anesthesiologist—anesthesia types, procedures, clinical decisions—and how scope is bounded by the directing physician's orders and institutional policies."
+              },
+              {
+                "id": "2.1.4-5",
+                "title": "AA Practice Authorization by Jurisdiction",
+                "definition": "The 24 jurisdictions where AAs are currently authorized to practice, including recent additions (Tennessee, Virginia, Washington), pending legislation (California), and the geographic limitations affecting AA employment options."
+              }
+            ]
           },
           {
             "id": "2.1.5",
             "title": "Student and Trainee Role Definitions",
             "definition": "The provisional roles of those in training—SRNAs, anesthesiology residents and fellows, and AA students—including their limited scope, supervision requirements, and progressive autonomy structures.",
             "lens": "How trainee roles are defined and bounded during education",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.1.5-1",
+                "title": "Student Registered Nurse Anesthetist (SRNA) Role Definition",
+                "definition": "The definition of the SRNA role as a registered nurse enrolled in a COA-accredited program. Includes their limited scope, mandatory supervision requirements, clinical participation boundaries, and progression toward certification eligibility."
+              },
+              {
+                "id": "2.1.5-2",
+                "title": "Anesthesiology Resident Role and Progressive Autonomy",
+                "definition": "The role of anesthesiology residents across training years (CA-1 through CA-3), including their progressive autonomy structure, milestone-based advancement, and how clinical responsibility increases with demonstrated competence."
+              },
+              {
+                "id": "2.1.5-3",
+                "title": "Anesthesiology Fellow Role Definition",
+                "definition": "The role of fellowship trainees who have completed residency and pursue subspecialty training in cardiac, pediatric, pain, critical care, or other subspecialties. Covers their advanced scope within the fellowship domain and attending relationship."
+              },
+              {
+                "id": "2.1.5-4",
+                "title": "AA Student Role and Training Status",
+                "definition": "The role of students in CAAHEP-accredited AA programs, including their supervised clinical experiences across 2,000+ hours, limited scope during training, and educational pathway to NCCAA certification eligibility."
+              },
+              {
+                "id": "2.1.5-5",
+                "title": "Trainee Supervision Requirements and Ratios",
+                "definition": "The supervision structures mandated for all anesthesia trainees—COA's 2:1 SRNA-to-instructor ratio, ACGME attending availability requirements, progressive independence frameworks—and how these requirements protect patient safety."
+              },
+              {
+                "id": "2.1.5-6",
+                "title": "Provisional Credentials and Trainee Practice Authority",
+                "definition": "The temporary permits, trainee privileges, and provisional credentials that authorize students and residents to participate in patient care under supervision. Includes state-issued permits for SRNAs and hospital trainee privilege categories."
+              }
+            ]
           }
         ]
       },
@@ -82,28 +222,167 @@
             "title": "Entry Requirements and Prerequisites",
             "definition": "The educational and experiential prerequisites required before entering each anesthesia training pathway, including degree requirements, clinical experience (e.g., ICU hours for CRNAs), and admission criteria.",
             "lens": "What it takes to begin each training pathway",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.2.1-1",
+                "title": "CRNA Program Entry Requirements",
+                "definition": "The prerequisites for entering a nurse anesthesia program—BSN or equivalent, active RN license, minimum 1 year critical care experience (often 2+), CCRN certification preference, GPA thresholds, and program-specific admission criteria."
+              },
+              {
+                "id": "2.2.1-2",
+                "title": "Critical Care Experience Requirements for CRNA Admission",
+                "definition": "The ICU experience mandate for CRNA program eligibility—types of acceptable units (SICU, MICU, CVICU, neuro ICU), minimum hours/years required, expected competencies, and how programs evaluate critical care readiness."
+              },
+              {
+                "id": "2.2.1-3",
+                "title": "Physician Anesthesiologist Pathway Prerequisites",
+                "definition": "The prerequisites for becoming an anesthesiologist—undergraduate premedical coursework, MCAT examination, medical school admission requirements, and the competitive residency match process for anesthesiology training slots."
+              },
+              {
+                "id": "2.2.1-4",
+                "title": "Anesthesiologist Assistant Program Entry Requirements",
+                "definition": "The prerequisites for AA program admission—bachelor's degree with science coursework, healthcare observation hours, GRE scores (where required), and competitive admission factors for CAAHEP-accredited master's programs."
+              },
+              {
+                "id": "2.2.1-5",
+                "title": "Comparative Entry Pathway Analysis",
+                "definition": "Side-by-side comparison of entry requirements across all anesthesia provider pathways—time investment, educational cost, prior clinical experience needed—and how these differences shape workforce composition and career decisions."
+              },
+              {
+                "id": "2.2.1-6",
+                "title": "International and Alternative Entry Pathways",
+                "definition": "Non-traditional routes into anesthesia practice—internationally trained providers seeking U.S. credentials, military training pathways, second-career transitions, and credential equivalency processes for foreign-educated providers."
+              }
+            ]
           },
           {
             "id": "2.2.2",
             "title": "Program Structures and Degree Pathways",
             "definition": "The architecture of anesthesia education programs—program length, degree types (DNP, DNAP, MD, Master's), curriculum structure, and how didactic and clinical components are organized.",
             "lens": "How training programs are structured and what degrees they confer",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.2.2-1",
+                "title": "CRNA Program Structure and Doctoral Requirements",
+                "definition": "The architecture of nurse anesthesia programs—24-36 month duration, DNP or DNAP degree requirement (100% doctoral since 2025), and integration of didactic coursework, simulation, and clinical rotations within the program framework."
+              },
+              {
+                "id": "2.2.2-2",
+                "title": "CRNA Degree Types: DNP vs DNAP",
+                "definition": "The two doctoral pathways in nurse anesthesia education—Doctor of Nursing Practice (DNP) and Doctor of Nurse Anesthesia Practice (DNAP). Covers curricular differences, scholarly project requirements, and how programs select which to offer."
+              },
+              {
+                "id": "2.2.2-3",
+                "title": "Physician Anesthesiologist Training Structure",
+                "definition": "The structure of anesthesiologist training—4-year medical school, 1-year internship, 3-year clinical anesthesia residency (CA-1 through CA-3). Includes integrated vs categorical pathway variations and total timeline to independent practice."
+              },
+              {
+                "id": "2.2.2-4",
+                "title": "Anesthesiology Fellowship Program Structures",
+                "definition": "The architecture of post-residency fellowship training—1-2 year subspecialty programs in cardiac, pediatric, pain, critical care, regional, obstetric, neuroanesthesia. Covers curriculum structure and subspecialty certification pathways."
+              },
+              {
+                "id": "2.2.2-5",
+                "title": "Anesthesiologist Assistant Program Structure",
+                "definition": "The structure of AA education—24-28 month master's programs, didactic and clinical phase organization, degree types (MS, MMS in Anesthesia), and how programs prepare graduates for team-based practice under physician direction."
+              },
+              {
+                "id": "2.2.2-6",
+                "title": "Didactic and Clinical Component Integration",
+                "definition": "How anesthesia programs across all pathways structure the relationship between classroom/simulation learning and hands-on clinical training. Includes front-loaded vs integrated models and competency-based progression frameworks."
+              },
+              {
+                "id": "2.2.2-7",
+                "title": "Distance and Hybrid Education Models",
+                "definition": "The role of online and hybrid instruction in anesthesia education—COA guidelines for distance didactics, simulation center requirements, clinical site arrangements for geographically distributed students, and quality assurance considerations."
+              }
+            ]
           },
           {
             "id": "2.2.3",
             "title": "Clinical Training Requirements",
             "definition": "Minimum clinical hours, case volumes, rotation requirements, and hands-on training standards mandated for each provider pathway, including simulation and specialty exposure requirements.",
             "lens": "The clinical experience required to complete training",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.2.3-1",
+                "title": "CRNA Clinical Hour and Case Minimums",
+                "definition": "COA-mandated minimums for CRNA students—2,000+ clinical hours, case number requirements across anesthesia types, and how programs ensure students achieve breadth and depth of clinical experience before graduation."
+              },
+              {
+                "id": "2.2.3-2",
+                "title": "CRNA Specialty Rotation Requirements",
+                "definition": "Required clinical rotations for CRNA students—obstetric, pediatric, cardiac, trauma, regional, ambulatory, pain management—and minimum case numbers in each specialty area mandated by COA accreditation standards."
+              },
+              {
+                "id": "2.2.3-3",
+                "title": "Anesthesiology Residency Case Requirements",
+                "definition": "ACGME and ABA case minimums for anesthesiology residents—required cases by type (general, regional, OB, pediatric, cardiac), logged procedure numbers, and how case volume requirements ensure competency across the full scope."
+              },
+              {
+                "id": "2.2.3-4",
+                "title": "Anesthesiology Resident Rotation Structure",
+                "definition": "The rotation framework for anesthesia residents—core OR rotations, subspecialty months, ICU requirements, pain clinic rotations—and how the three clinical anesthesia years build progressive competence toward independence."
+              },
+              {
+                "id": "2.2.3-5",
+                "title": "AA Student Clinical Training Requirements",
+                "definition": "Clinical training mandates for AA students—2,000-2,700 hours, case variety requirements, specialty exposure minimums—and how programs ensure graduates are prepared for team-based practice under physician direction."
+              },
+              {
+                "id": "2.2.3-6",
+                "title": "Simulation Training Standards and Requirements",
+                "definition": "The role of simulation in anesthesia education across all pathways—required simulation hours, high-fidelity training for rare events, crisis resource management, and how simulation supplements and enhances clinical experience."
+              },
+              {
+                "id": "2.2.3-7",
+                "title": "Procedural Competency Documentation",
+                "definition": "How anesthesia programs document and verify procedural competency—electronic case logging systems, direct observation assessments, milestone evaluations, and the evidence required to certify a graduate's readiness for practice."
+              }
+            ]
           },
           {
             "id": "2.2.4",
             "title": "Program Accreditation and Educational Standards",
             "definition": "The accrediting bodies (COA, ACGME, CAAHEP) that validate training programs, their standards for faculty, curriculum, outcomes, and the accreditation process that gates program legitimacy.",
             "lens": "How training programs are validated and held to standards",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.2.4-1",
+                "title": "COA Accreditation for Nurse Anesthesia Programs",
+                "definition": "The Council on Accreditation's role in validating CRNA programs—accreditation standards, required program elements, self-study and site visit processes, and the cycle from initial approval to continuing accreditation."
+              },
+              {
+                "id": "2.2.4-2",
+                "title": "COA Standards for Faculty and Resources",
+                "definition": "COA requirements for program faculty—doctoral preparation, faculty-to-student ratios, clinical preceptor qualifications—and institutional resource requirements including simulation facilities, library access, and administrative support."
+              },
+              {
+                "id": "2.2.4-3",
+                "title": "COA Outcome Thresholds and Program Monitoring",
+                "definition": "The outcome metrics COA uses to evaluate program quality—NBCRNA exam pass rates (80% minimum threshold), graduation rates, employment rates—and consequences of failing standards including probation and accreditation withdrawal."
+              },
+              {
+                "id": "2.2.4-4",
+                "title": "ACGME Accreditation for Anesthesiology Residencies",
+                "definition": "The Accreditation Council for Graduate Medical Education's oversight of anesthesiology training—program requirements, six core competencies, milestone framework, site visits, and annual program evaluation processes."
+              },
+              {
+                "id": "2.2.4-5",
+                "title": "CAAHEP Accreditation for AA Programs",
+                "definition": "The Commission on Accreditation of Allied Health Education Programs' role in validating AA training through the ARC-AA review committee—standards for curriculum, faculty qualifications, clinical experiences, and graduate outcomes."
+              },
+              {
+                "id": "2.2.4-6",
+                "title": "Accreditation Cycles and Review Processes",
+                "definition": "How accreditation functions across all pathways—initial vs continuing accreditation, self-study requirements, site visit protocols, review committee decisions, and timelines from provisional status to full accreditation."
+              },
+              {
+                "id": "2.2.4-7",
+                "title": "New Program Development and Approval",
+                "definition": "The process for establishing new anesthesia training programs—feasibility requirements, letter of intent, provisional accreditation, first-class milestones, and the pathway to full accreditation for new CRNA, residency, or AA programs."
+              }
+            ]
           }
         ]
       },
@@ -117,28 +396,177 @@
             "title": "National Certification Systems",
             "definition": "The initial certification examinations and requirements for each provider type—NBCRNA NCE for CRNAs, ABA exams (BASIC, ADVANCED, APPLIED) for anesthesiologists, and NCCAA certification for AAs.",
             "lens": "How providers demonstrate competence for initial certification",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.3.1-1",
+                "title": "NBCRNA National Certification Examination (NCE)",
+                "definition": "The NBCRNA's certification exam for CRNA candidates—exam structure (minimum 100 scored questions), content domains, adaptive testing methodology, scoring standards, pass rates (typically >90%), and what successful completion authorizes."
+              },
+              {
+                "id": "2.3.1-2",
+                "title": "NCE Eligibility and Application Process",
+                "definition": "Requirements to sit for the NBCRNA exam—COA-accredited program completion, clinical case documentation, application submission, scheduling procedures, testing center protocols, and the timeline from graduation to certification."
+              },
+              {
+                "id": "2.3.1-3",
+                "title": "ABA Initial Certification Pathway",
+                "definition": "The American Board of Anesthesiology's three-part certification process—BASIC exam (end of CA-1), ADVANCED exam (post-residency), APPLIED exam (standardized oral and OSCE components)—and the timeline to achieving board-certified status."
+              },
+              {
+                "id": "2.3.1-4",
+                "title": "ABA Examination Structure and Content",
+                "definition": "The structure of ABA certification exams—content domains for each stage, question formats, passing standards, score reporting, and how BASIC, ADVANCED, and APPLIED components assess progressively complex competencies."
+              },
+              {
+                "id": "2.3.1-5",
+                "title": "ABA Subspecialty Certification Examinations",
+                "definition": "Additional certification exams for fellowship-trained anesthesiologists—pain medicine, critical care medicine, pediatric anesthesiology, hospice/palliative medicine—including eligibility requirements and exam administration."
+              },
+              {
+                "id": "2.3.1-6",
+                "title": "NCCAA Certification for Anesthesiologist Assistants",
+                "definition": "The National Commission for Certification of Anesthesiologist Assistants' certification process—eligibility from CAAHEP-accredited programs, exam structure developed with NBME, passing standards, and what certification authorizes for AA practice."
+              },
+              {
+                "id": "2.3.1-7",
+                "title": "Certification Exam Preparation and Success Factors",
+                "definition": "Resources and strategies for certification exam success across all pathways—commercial review courses, question banks, study timelines, historical pass rate data, and factors associated with first-attempt success."
+              }
+            ]
           },
           {
             "id": "2.3.2",
             "title": "Continuing Certification and Recertification",
             "definition": "Ongoing certification maintenance programs—NBCRNA's CPC/MAC transition, ABA's MOCA, and NCCAA recertification—including credit requirements, assessments, and the shift toward longitudinal competency verification.",
             "lens": "How providers maintain certification throughout their careers",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.3.2-1",
+                "title": "NBCRNA Continued Professional Certification (CPC) Program",
+                "definition": "The NBCRNA recertification framework through 2025—4-year cycles, 60 Class A credits (approved CE with assessment), 40 Class B credits (professional activities), four Core Modules, CPC Assessment, and two-year check-in requirements."
+              },
+              {
+                "id": "2.3.2-2",
+                "title": "NBCRNA Maintaining Anesthesia Certification (MAC) Program",
+                "definition": "The new NBCRNA recertification model launching 2026—MAC Ed (60 Class A credits), MAC Dev (40 Class B credits), MAC Check (13 quarterly knowledge assessments per cycle), $445 simplified fee, and transition timeline from CPC."
+              },
+              {
+                "id": "2.3.2-3",
+                "title": "ABA Maintenance of Certification in Anesthesiology (MOCA)",
+                "definition": "The ABA's continuing certification program—MOCA 2.0 components, MOCA Minute quarterly knowledge questions, CME requirements, practice improvement activities, patient safety modules, and attestation requirements."
+              },
+              {
+                "id": "2.3.2-4",
+                "title": "NCCAA Recertification Requirements",
+                "definition": "Continuing certification requirements for AAs—6-year recertification cycle, 40 hours CME required biennially, Continued Demonstration of Qualifications (CDQ) examination, and processes for maintaining active CAA status."
+              },
+              {
+                "id": "2.3.2-5",
+                "title": "Continuing Education Credit Categories and Requirements",
+                "definition": "The types of CE credits required for recertification—Class A vs Class B distinctions for CRNAs, AMA PRA Category 1 for physicians, approved activity types, documentation standards, and credit verification processes."
+              },
+              {
+                "id": "2.3.2-6",
+                "title": "Longitudinal Assessment and Competency Verification Trends",
+                "definition": "The shift across certification bodies from periodic high-stakes exams to continuous assessment models—MOCA Minute, MAC Check quarterly assessments—and how longitudinal approaches aim to verify ongoing competency."
+              }
+            ]
           },
           {
             "id": "2.3.3",
             "title": "State Licensure Systems and Categories",
             "definition": "State-level authorization to practice, including APRN licensure for CRNAs, medical licensure for anesthesiologists, and state-specific AA licensure, as well as DEA registration and prescriptive authority categories.",
             "lens": "How state governments authorize providers to practice",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.3.3-1",
+                "title": "CRNA State Licensure as APRN",
+                "definition": "How CRNAs are licensed at the state level—APRN licensure through state boards of nursing, application requirements, renewal cycles, the relationship between national NBCRNA certification and state APRN licensure, and license verification."
+              },
+              {
+                "id": "2.3.3-2",
+                "title": "Full Practice Authority and Opt-Out States",
+                "definition": "The 25 states plus Guam that have opted out of Medicare supervision requirements and the 23 states granting full independent practice authority. Covers what these designations mean for CRNA practice autonomy and employment."
+              },
+              {
+                "id": "2.3.3-3",
+                "title": "Transition-to-Practice Requirements",
+                "definition": "States requiring supervised practice periods before full independence—Massachusetts, West Virginia, Vermont, Colorado. Includes required supervised hours, acceptable supervision structures, and pathway to unrestricted practice."
+              },
+              {
+                "id": "2.3.3-4",
+                "title": "APRN Compact Status and Multistate Licensure",
+                "definition": "The APRN Compact's current status (4 of 7 required states enacted, not yet active), how multistate licensure would function for CRNAs once implemented, current barriers to activation, and projected implementation timeline."
+              },
+              {
+                "id": "2.3.3-5",
+                "title": "Physician Medical Licensure Systems",
+                "definition": "How anesthesiologists are licensed to practice—state medical board processes, USMLE/COMLEX score requirements, license application and renewal procedures, and Interstate Medical Licensure Compact participation for expedited multistate licensing."
+              },
+              {
+                "id": "2.3.3-6",
+                "title": "AA State Licensure and Practice Authorization",
+                "definition": "How AAs are licensed in the 24 jurisdictions permitting practice—oversight by state medical or specialty boards, license requirements tied to NCCAA certification, and the absence of practice authority in non-authorized states."
+              },
+              {
+                "id": "2.3.3-7",
+                "title": "DEA Registration and Controlled Substance Authority",
+                "definition": "Drug Enforcement Administration registration requirements for anesthesia providers—DEA number application process, state-level variations in prescriptive authority for controlled substances, and how medication handling is legally authorized."
+              },
+              {
+                "id": "2.3.3-8",
+                "title": "Prescriptive Authority Categories and Limitations",
+                "definition": "The scope of prescriptive authority for each provider type—CRNA prescribing rights by state (Schedule II-V variations), anesthesiologist prescribing scope, AA medication administration authority, and how prescriptive authority varies by jurisdiction."
+              }
+            ]
           },
           {
             "id": "2.3.4",
             "title": "Institutional Credentialing and Privilege Delineation",
             "definition": "Hospital and facility-level processes that grant specific practice privileges, including primary source verification, privilege categories, NPDB queries, and the credentialing committee process.",
             "lens": "How institutions authorize specific providers to practice within their walls",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.3.4-1",
+                "title": "Hospital Credentialing Process Overview",
+                "definition": "How hospitals and facilities grant providers permission to practice—application submission, document collection, verification processes, committee review stages, privilege approval, and the distinction between credentialing and privileging."
+              },
+              {
+                "id": "2.3.4-2",
+                "title": "Primary Source Verification Requirements",
+                "definition": "Mandatory verification of provider credentials from original sources—education verification, license confirmation, certification status, work history, malpractice claims history—and standards required by Joint Commission and CMS Conditions of Participation."
+              },
+              {
+                "id": "2.3.4-3",
+                "title": "CRNA Core Privilege Categories",
+                "definition": "Specific privileges typically granted to CRNAs—airway management, general and regional anesthesia, procedural sedation, arterial and central line placement, pain management procedures—based on AANA guidelines and institutional privilege delineation structures."
+              },
+              {
+                "id": "2.3.4-4",
+                "title": "National Practitioner Data Bank (NPDB) Queries and Reporting",
+                "definition": "The role of NPDB in credentialing—mandatory queries during initial application, reportable actions (malpractice payments, privilege restrictions, license actions), and how NPDB history affects credentialing decisions and employment."
+              },
+              {
+                "id": "2.3.4-5",
+                "title": "Ongoing Professional Practice Evaluation (OPPE)",
+                "definition": "Continuous monitoring of provider performance after initial credentialing—metrics tracked (outcomes, complications, peer feedback), review frequency, triggers for focused review, and how OPPE data informs reappointment decisions."
+              },
+              {
+                "id": "2.3.4-6",
+                "title": "Focused Professional Practice Evaluation (FPPE)",
+                "definition": "Enhanced monitoring required for new providers or new privileges—direct observation periods, chart review, mentor oversight, performance benchmarks, duration requirements, and criteria for successfully completing FPPE."
+              },
+              {
+                "id": "2.3.4-7",
+                "title": "Temporary and Locum Tenens Privileging",
+                "definition": "Expedited credentialing processes for temporary providers—locum tenens privilege categories, disaster and emergency credentialing provisions, time-limited privileges, and requirements for short-term practice authorization at facilities."
+              },
+              {
+                "id": "2.3.4-8",
+                "title": "Reappointment and Privilege Renewal Cycles",
+                "definition": "The periodic recredentialing process—typical 2-3 year cycles, documentation required for reappointment, integration of OPPE performance data, privilege modification at renewal, and criteria for privilege expansion or restriction."
+              }
+            ]
           }
         ]
       },
@@ -152,21 +580,114 @@
             "title": "Practice Model Definitions",
             "definition": "Formal definitions of anesthesia delivery models—Anesthesia Care Team (ACT), independent CRNA practice, all-physician models, and hybrid configurations—as structural frameworks, not operational guidance.",
             "lens": "What each practice model is and how it is formally defined",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.4.1-1",
+                "title": "Anesthesia Care Team (ACT) Model Definition",
+                "definition": "The formal definition of the Anesthesia Care Team model as established by ASA—physician anesthesiologist-led teams incorporating CRNAs and/or AAs, the structural framework of team-based care, and how ACT is distinguished from other practice models."
+              },
+              {
+                "id": "2.4.1-2",
+                "title": "Independent CRNA Practice Model",
+                "definition": "The structural definition of independent CRNA practice—CRNAs as sole anesthesia providers without required anesthesiologist involvement, settings where this model operates (rural, military, VA), and formal recognition by CMS (QZ modifier) and state regulations."
+              },
+              {
+                "id": "2.4.1-3",
+                "title": "All-Physician Anesthesia Model",
+                "definition": "The practice model where only physician anesthesiologists provide anesthesia care—structural characteristics, typical settings (certain academic centers, small single-room ASCs), cost implications, and how it differs from team-based delivery models."
+              },
+              {
+                "id": "2.4.1-4",
+                "title": "Hybrid and Mixed Practice Model Configurations",
+                "definition": "Practice arrangements that blend elements of ACT and independent models—CRNAs working independently for some cases while physicians direct others, flexible staffing configurations based on case complexity, and how hybrid structures operate."
+              },
+              {
+                "id": "2.4.1-5",
+                "title": "Setting-Specific Practice Model Variations",
+                "definition": "How practice models vary by healthcare setting—rural hospitals (often independent CRNA), academic medical centers (ACT or all-physician), ambulatory surgery centers, office-based anesthesia, military, and VA—and structural factors determining model selection."
+              },
+              {
+                "id": "2.4.1-6",
+                "title": "International Practice Model Comparisons",
+                "definition": "How anesthesia delivery is structured globally—physician-only models in some countries (Japan), nurse anesthetist-led models in others, emerging roles like UK Anaesthesia Associates, and how international configurations compare to U.S. practice models."
+              }
+            ]
           },
           {
             "id": "2.4.2",
             "title": "Supervision and Direction Frameworks",
             "definition": "The structural definitions of medical direction (1:4 ratio, seven required elements) versus medical supervision, and how these frameworks define the relationship between supervising physicians and non-physician providers.",
             "lens": "How supervision and direction are formally defined as role relationships",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.4.2-1",
+                "title": "Medical Direction Definition and Requirements",
+                "definition": "The formal definition of medical direction—the seven required activities an anesthesiologist must perform, the 1:4 concurrent case maximum, documentation requirements, and how medical direction is structurally distinguished from supervision."
+              },
+              {
+                "id": "2.4.2-2",
+                "title": "The Seven Medical Direction Elements",
+                "definition": "The specific activities required for medical direction status under CMS guidelines—pre-anesthetic evaluation, anesthesia plan prescription, participation in induction and emergence, monitoring during the case, immediate availability, post-anesthesia evaluation, and documentation requirements."
+              },
+              {
+                "id": "2.4.2-3",
+                "title": "Medical Supervision Definition and Structure",
+                "definition": "The formal definition of medical supervision as distinct from direction—applicable when an anesthesiologist oversees more than four concurrent cases or does not meet all seven direction elements, and what this classification means for the provider relationship."
+              },
+              {
+                "id": "2.4.2-4",
+                "title": "Supervision Ratio Standards and Variations",
+                "definition": "The 1:4 medical direction ratio standard established by CMS, state and facility variations in permitted supervision ratios, how ratios affect staffing configurations, and the regulatory and safety basis for ratio requirements."
+              },
+              {
+                "id": "2.4.2-5",
+                "title": "CMS Billing Modifiers as Practice Model Indicators",
+                "definition": "How CMS billing modifiers formally define practice relationships—QZ (CRNA without medical direction), QX (CRNA with medical direction), QK (physician directing 2-4 cases), QY (physician directing 1 case), AD (supervision)—and what each indicates structurally."
+              },
+              {
+                "id": "2.4.2-6",
+                "title": "Collaborative Practice Agreements and State Requirements",
+                "definition": "State-mandated collaborative or supervisory agreements between CRNAs and physicians—required elements, states still requiring them, how agreements formally structure the provider relationship, and the distinction from opt-out and FPA states."
+              }
+            ]
           },
           {
             "id": "2.4.3",
             "title": "Role Boundary Definitions and Scope Interactions",
             "definition": "Where provider scopes overlap, how boundaries are formally delineated, and the structural relationship between CRNA, anesthesiologist, and AA roles when working in shared environments.",
             "lens": "How role boundaries are defined when providers work together",
-            "topic_domains": []
+            "topic_domains": [
+              {
+                "id": "2.4.3-1",
+                "title": "Scope Overlap Between Provider Types",
+                "definition": "Where CRNA, anesthesiologist, and AA scopes overlap in clinical practice—procedures all can perform, shared competencies across roles, and how substantial scope overlap affects team configuration and task allocation decisions."
+              },
+              {
+                "id": "2.4.3-2",
+                "title": "Role Differentiation Within Team Models",
+                "definition": "How roles are formally differentiated when providers work together—task allocation principles in ACT, which functions are assigned to which provider type, and the structural basis for role assignments within team-based anesthesia care."
+              },
+              {
+                "id": "2.4.3-3",
+                "title": "Formal Handoff and Transfer of Care Structures",
+                "definition": "The formal structures for transferring patient care responsibility between anesthesia providers—handoff protocols, required documentation, responsibility transfer points, and how care continuity is maintained during provider transitions."
+              },
+              {
+                "id": "2.4.3-4",
+                "title": "Scope Boundary Disputes and Resolution Mechanisms",
+                "definition": "How conflicts over role boundaries are formally addressed—institutional privilege delineation processes, medical staff bylaws provisions, credentialing committee roles, and organizational mechanisms for clarifying scope ambiguities."
+              },
+              {
+                "id": "2.4.3-5",
+                "title": "CRNA-Anesthesiologist Structural Role Relationships",
+                "definition": "The formal structural relationship between CRNAs and anesthesiologists across practice models—how collaboration is defined in policy, reporting structures in different configurations, and the organizational (not interpersonal) framework for working together."
+              },
+              {
+                "id": "2.4.3-6",
+                "title": "AA Role Integration Within Physician-Led Teams",
+                "definition": "How the AA role is formally integrated into anesthesia care teams—the mandatory anesthesiologist relationship, task allocation between AA and directing physician, and how AA scope is structurally bounded by the team configuration."
+              }
+            ]
           }
         ]
       }
@@ -175,6 +696,6 @@
   "statistics": {
     "sub_pillars": 4,
     "branches": 16,
-    "topic_domains": 0
+    "topic_domains": 101
   }
 }
